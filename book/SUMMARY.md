@@ -2,7 +2,7 @@
 
 ### Wstęp
 
-* [wstęp](README.md)
+* [Wstęp](README.md)
 
 ### Część I
 
