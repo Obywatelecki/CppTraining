@@ -12,10 +12,6 @@ Zakładam, że odbiorca wie, czym jest program komputerowy i o co w ogóle chodz
 
 Ten kurs bazuje na moich doświadczeniach i przemyśleniach. Nie oczekuję, że czytelnik zawsze i w pełni się z nimi zgodzi. Jeśli jest to dla Ciebie problem - zrezygnuj z dalszego czytania. Choć prawdopodobnie będziesz żalować.
 
-### Windows?
-
-Od czegoś trzeba zacząć. Kurs będzie prowadzony w oparciu o narzędzia działające pod kontrolą systemu operacyjnego Windows. Nie będzie żadnych odniesień "a jak to zrobić pod Linuksem?" (to nie jest kurs używania komputera).
-
 ## Licencja
 
 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">"Długi Kurs Języka C++"</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jbanaszczyk" property="cc:attributionName" rel="cc:attributionURL">Jacek Banaszczyk</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
