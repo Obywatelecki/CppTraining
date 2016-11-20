@@ -2,7 +2,7 @@
 
 ## Trochę historii
 
-Pierwsza wersja języka C++ powstała w 1983 jako rozszerzenie, do dziś bardzo popularnego języka C.Początkowo język funkcjonował jako "C z klasami". Dziś lista rozszerzeń w stosunku do C jest bardzo długa, trudno C++ traktować jako trochę lepsze C. 
+Pierwsza wersja języka C++ powstała w 1983 jako rozszerzenie do dziś bardzo popularnego języka C. Początkowo język funkcjonował jako "C z klasami". Dziś lista rozszerzeń w stosunku do C jest bardzo długa, trudno C++ traktować jako trochę lepsze C. 
 
 ### C++98, C++03, TR1, C++11, C++14, C++17, ...
 
