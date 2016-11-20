@@ -42,9 +42,17 @@ Niniejszy kurs opiera się na wersji języka **C++14**, być może będzie coś 
 
 Od programisty C++ oczekuje sie też umiejętności pisania w C, C++ jest nadzbiorem C, wobec tego język C będzie podmiotem tego kursu. Na zakończenie.
 
-## Osoby
+## Osoby i autorytety
 
-* 
+Warto spojrzeć na publikacje:
+
+* [Bjarne Stroustrup](http://www.stroustrup.com/): Autor języka. Z jego strony domowej: "zaprojektowałem i zaimplementowałem język C++, napisałem kilka książek, [...]". 
+* [Scott Mayers](http://www.aristeia.com/): niestety już emeryt.
+* [Herb Sutter](http://www.gotw.ca/): aktualnie pracuje w Microsofcie, odpowiada za rozwój Visual Studio
+* Andrei Alexandrescu: autorzy kompilatorów traktują jego bibliotekę [Loki](http://loki-lib.sourceforge.net/) jako sprawdzian kompatybilności z językiem (czyli "jeśli kompilator prawidłowo skompiluje Loki, to może aspirować do bycia kompilatorem")
+* Banda Czworga (Erich Gamma, Richard Helm, Ralph Johnson oraz John Vlissides) - autorzy  "Inżynieria oprogramowania: Wzorce projektowe".
+* [StackOverflow](https://stackoverflow.com/): absolutnie najważniejsze forum wymiany wiedzy.
+* [boost](http://www.boost.org/): społeczność i kolekcja bibliotek. To oni implementują większość nowości w C++, to nad czym głosuje ISO w nowych wersjach C++ jest zazwyczaj już zaimplementowane przez boost. Będzie o tym cały rozdział.
 
 
 
@@ -52,7 +60,7 @@ Od programisty C++ oczekuje sie też umiejętności pisania w C, C++ jest nadzbi
 
 
 
-Autorem języka jest [Bjarne Stroustrup](http://www.stroustrup.com/). Z jego strony domowej: "zaprojektowałem i zaimplementowałem język C++, napisałem kilka książek, [...]".
+
 
 
 
