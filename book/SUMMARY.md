@@ -1,14 +1,14 @@
 # Podsumowanie
 
-### Wstêp
+### WstÄ™p
 
 * [Introduction](README.md)
 
-### Czêœæ I
+### CzÄ™Å›Ä‡ I
 
 * [We love feedback](chapter-001/language.md)
 
-### Czêœæ II
+### CzÄ™Å›Ä‡ II
 
 * [We love feedback](chapter-002/sth.md)
 
