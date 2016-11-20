@@ -1,5 +1,13 @@
 # Długi Kurs Języka C++
 
+## Dla kogo?
+
+Zakładam, że odbiorca wie, czym jest program komputerowy o co w ogóle chodzi z programowaniem. Wymagane są elemtarne umiejętności posługiwania się komputerem. Nie jest wymagana żadna wiedza wiedza za zakresu proramowania. Przyda się za to umiejętność logicznego myślenia.
+
+### Windows?
+
+Od czegoś trzeba zacząć. Kurs będzie prowadzony w oparciu o narzędzia działające pod kontrolą systemu operacyjnego Windows. Nie będzie żadnych odnieiseń "a jak to zrobić pod Linuksem?" (to nie jest kurs używania komputera).
+
 ## Licencja
 
 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">"Długi Kurs Języka C++"</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jbanaszczyk" property="cc:attributionName" rel="cc:attributionURL">Jacek Banaszczyk</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
