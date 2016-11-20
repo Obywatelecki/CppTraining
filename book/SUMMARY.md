@@ -2,11 +2,11 @@
 
 ### Wstęp
 
-* [Introduction](README.md)
+* [wstęp](README.md)
 
 ### Część I
 
-* [We love feedback](chapter-001/language.md)
+* [Czym jest język C++](chapter-001/language.md)
 
 ### Część II
 
