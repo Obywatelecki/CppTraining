@@ -1,5 +1,9 @@
 # Długi Kurs Języka C++
 
+## Cel i motywacja
+
+Kurs powstaje jako materiał pomocniczy do wykładu "Jak szybko nauczyć sie programować?". Wykład ma przygotować do pracy zawodowej osoby nie mające do tej pory nic wspólnego z wytwarzaniem oprogramowania.
+
 ## Dla kogo?
 
 Zakładam, że odbiorca wie, czym jest program komputerowy o co w ogóle chodzi z programowaniem. Wymagane są elemtarne umiejętności posługiwania się komputerem. Nie jest wymagana żadna wiedza wiedza za zakresu proramowania. Przyda się za to umiejętność logicznego myślenia.
