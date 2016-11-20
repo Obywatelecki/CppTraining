@@ -1,4 +1,4 @@
-# Długi Kurs C++
+# Długi Kurs Języka C++
 
 
 ## Licencja
