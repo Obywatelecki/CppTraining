@@ -8,9 +8,13 @@ Kurs powstaje jako materiał pomocniczy do wykładu "Jak szybko nauczyć sie pro
 
 Zakładam, że odbiorca wie, czym jest program komputerowy i o co w ogóle chodzi z programowaniem. Wymagane są elemtarne umiejętności posługiwania się komputerem. Nie jest wymagana żadna wiedza z zakresu programowania. Przyda się za to umiejętność logicznego myślenia.
 
+## Zastrzeżenie
+
+Ten kurs bazuje na moich doświadczeniach i przemyśleniach. Nie oczekuję, że czytelnik zawsze i w pełni się z nimi zgodzi. Jeśli jest to dla Ciebie problem - zrezygnuj z dalszego czytania. Choć prawdopodobnie będziesz żalować.
+
 ### Windows?
 
-Od czegoś trzeba zacząć. Kurs będzie prowadzony w oparciu o narzędzia działające pod kontrolą systemu operacyjnego Windows. Nie będzie żadnych odnieiseń "a jak to zrobić pod Linuksem?" (to nie jest kurs używania komputera).
+Od czegoś trzeba zacząć. Kurs będzie prowadzony w oparciu o narzędzia działające pod kontrolą systemu operacyjnego Windows. Nie będzie żadnych odniesień "a jak to zrobić pod Linuksem?" (to nie jest kurs używania komputera).
 
 ## Licencja
 
