@@ -10,7 +10,7 @@
 
 ### Część II
 
-* [We love feedback](chapter-002/sth.md)
+* [Coś tu będzie](chapter-002/sth.md)
 
 
 ----
