@@ -6,7 +6,7 @@ Kurs powstaje jako materiał pomocniczy do wykładu "Jak szybko nauczyć sie pro
 
 ## Dla kogo?
 
-Zakładam, że odbiorca wie, czym jest program komputerowy i o co w ogóle chodzi z programowaniem. Wymagane są elemtarne umiejętności posługiwania się komputerem. Nie jest wymagana żadna wiedza z zakresu programowania. Przyda się za to umiejętność logicznego myślenia.
+Zakładam, że odbiorca wie, czym jest program komputerowy i o co w ogóle chodzi z programowaniem. Wymagane są elemtarne umiejętności posługiwania się komputerem. Nie jest wymagana żadna wiedza z zakresu programowania, przyda się za to umiejętność logicznego myślenia.
 
 ## Zastrzeżenie
 
