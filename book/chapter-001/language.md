@@ -60,21 +60,8 @@ Warto spojrzeć na publikacje:
 
 * [Bjarne Stroustrup](http://www.stroustrup.com/): Autor języka. Z jego strony domowej: "zaprojektowałem i zaimplementowałem język C++, napisałem kilka książek, [...]". 
 * [Scott Mayers](http://www.aristeia.com/): niestety już emeryt.
-* [Herb Sutter](http://www.gotw.ca/): aktualnie pracuje w Microsofcie, odpowiada za rozwój Visual Studio
+* [Herb Sutter](http://www.gotw.ca/): pracuje w Microsofcie, współodpowiada za rozwój Visual Studio (C++ i CLI)
 * Andrei Alexandrescu: autorzy kompilatorów traktują jego bibliotekę [Loki](http://loki-lib.sourceforge.net/) jako sprawdzian kompatybilności z językiem (czyli "jeśli kompilator prawidłowo skompiluje Loki, to może aspirować do bycia kompilatorem")
 * Banda Czworga (Gang Of Four, GoF) - Erich Gamma, Richard Helm, Ralph Johnson oraz John Vlissides: autorzy "Inżynieria oprogramowania: Wzorce projektowe".
 * [StackOverflow](https://stackoverflow.com/): absolutnie najważniejsze, wiarygodne forum wymiany wiedzy.
-* [boost](http://www.boost.org/): społeczność i kolekcja bibliotek. To oni implementują większość nowości w C++, to nad czym głosuje ISO w nowych wersjach C++ jest zazwyczaj już zaimplementowane przez boost. Będzie o tym cały rozdział.
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [boost](http://www.boost.org/): społeczność i kolekcja bibliotek. To oni implementują większość nowości w C++; to nad czym głosuje ISO w nowych wersjach C++ jest zazwyczaj już zaimplementowane przez boost. Będzie o tym cały rozdział.
