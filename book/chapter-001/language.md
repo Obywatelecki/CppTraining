@@ -1,5 +1,17 @@
 # Język C++
 
+## Paradygmaty C++
+
+Do tego rozdziału warto będzie wrócic co jakiś czas.
+
+Wiki określa język C++ jako język o wielu paradygmatach. Paradygmat to styl programowania. Będzie mowa o obiektowości. Typ danych w C++ są konkretne i niezmienne, a zarazem C++ umożliwia programowanie generyczne - algorytmy mogą być uniezależnione od typów danych na których operują. C++ oddaje bardzo sprawne i elastyczne abstrakcje danych - tablice, listy, stosy i inne kontenery, na których można operować niezależnie od tego, co mają w środku. A jeśli klasy, interfejsy, kontenery w konkretnym zastosowaniu są niepotrzebne, a ważna jest wydajność mozliwość napisania programu który operuje blisko krzemu - to C++ sprawdzi się znakomicie jako trochę lepszy asembler.
+
+Połączenie wielu paradygmatów w jednym języku daje programiście do ręki bardzo wszechstronne narzędzie.
+
+Język C++ jest wyposażony w mechanizmy bardzo silne i niespotykane w innych językach: destruktory i dziedziczenie po wielu klasach jednocześnie. Dziedziczenie wielokrotne powoduje u wielu programistów silny ból głowy.
+
+Cechą wzmacniającą uniwersalność jest fakt, że kompilatory potrafą wyprodukować "program" naturalny (ang: native) dla docelowej platformy, taki który na platformie uruchamia się bezpośrednio, nie wymagający żadnych maszyn wirtualnych ani innych dodatków. Wiele kompilatorów wspiera także kompilację skrośną - na przykład na komputerze z systemem Windows i procesorem Intela można wyprodukować program działającyna pod Linuxem z procesorem ARM. Albo jakoś inaczej.
+
 ## Trochę historii
 
 Pierwsza wersja języka C++ powstała w 1983 jako rozszerzenie do dziś bardzo popularnego języka C. Początkowo język funkcjonował jako "C z klasami". Dziś lista rozszerzeń w stosunku do C jest bardzo długa, trudno C++ traktować jako "trochę lepsze C", to jest inny język.
