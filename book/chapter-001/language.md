@@ -46,7 +46,7 @@ Propozycja wersji C++17 została określona na konferencji w Oulu (czerwiec 2016
 
 ### C99, C11
 
-Język C też jest normalizowany przez ISO, rozwija się znacznie wolniej, aktualny standard powstał w 2011 i niewiele różni się od oryginału z roku 1978 (sprzed prawie 40 lat). Widziałem gdzieś porównanie sposobu kodowania sprzed 25 kat i współcześnie (ówczesna wersja Linuxa i jedno z pierwszych wydań Worda): bardzo niewiele uległo zmianie (nie potrafię odtworzyć źródeł informacji).
+Język C też jest normalizowany przez ISO, rozwija się znacznie wolniej, aktualny standard powstał w 2011 i niewiele różni się od oryginału z roku 1978 (sprzed prawie 40 lat). Widziałem gdzieś porównanie sposobu kodowania 25 lat temu i współcześnie (ówczesna wersja Linuxa i jedno z pierwszych wydań Worda): bardzo niewiele uległo zmianie (nie potrafię odtworzyć źródeł informacji).
 
 ## Która wersja?
 
