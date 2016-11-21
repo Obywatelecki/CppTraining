@@ -16,7 +16,7 @@ Za przykład konserwatywności języka niech posłuży sprawa [trigraphów](http
 
 Gramatyka, semantyka oraz biblioteka standardowa języka C++ jest podmiotem standaryzacji [ISO](http://www.iso.org)  oraz [IEC](http://www.iec.ch/). W ramach ISO standardem języka C++ opiekuje się komitet [WG21](https://isocpp.org/std/the-committee). 
 
-Pierwsza norma opisująca język C++ została opublikowana w 1998, dziś określamy go mianem C++98. Niedługo potem została zestandaryzowana wersja C++03. Nie wnosiła wiele nowego, naprawiała tylo błędy wersji C++98.
+Pierwsza norma opisująca język C++ została opublikowana w 1998, dziś określamy go mianem C++98. Niedługo potem powstał standard C++03. Nie wnosił wiele nowego, naprawiał tylko błędy wersji C++98.
 
 #### TR, TS
 
