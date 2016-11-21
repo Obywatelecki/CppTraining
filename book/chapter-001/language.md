@@ -10,7 +10,7 @@ Połączenie wielu paradygmatów w jednym języku daje programiście do ręki ba
 
 Język C++ jest wyposażony w mechanizmy bardzo silne i niespotykane w innych językach: destruktory i dziedziczenie po wielu klasach jednocześnie. Dziedziczenie wielokrotne powoduje u wielu programistów silny ból głowy.
 
-Cechą wzmacniającą uniwersalność jest fakt, że kompilatory potrafą wyprodukować "program" naturalny (ang: native) dla docelowej platformy, taki który na platformie uruchamia się bezpośrednio, nie wymagający żadnych maszyn wirtualnych ani innych dodatków. Wiele kompilatorów wspiera także kompilację skrośną - na przykład na komputerze z systemem Windows i procesorem Intela można wyprodukować program działającyna pod Linuxem z procesorem ARM. Albo jakoś inaczej.
+Cechą wzmacniającą uniwersalność jest fakt, że kompilatory potrafą wyprodukować "program" naturalny (ang: native) dla docelowej platformy, taki który na platformie uruchamia się bezpośrednio, nie wymagając żadnych maszyn wirtualnych ani innych dodatków. Wiele kompilatorów wspiera także kompilację skrośną - na przykład na komputerze z systemem Windows i procesorem Intela można wyprodukować program działającyna pod Linuxem z procesorem ARM. Albo jakoś inaczej.
 
 ## Trochę historii
 
@@ -62,7 +62,7 @@ Warto spojrzeć na publikacje:
 * [Scott Mayers](http://www.aristeia.com/): niestety już emeryt.
 * [Herb Sutter](http://www.gotw.ca/): aktualnie pracuje w Microsofcie, odpowiada za rozwój Visual Studio
 * Andrei Alexandrescu: autorzy kompilatorów traktują jego bibliotekę [Loki](http://loki-lib.sourceforge.net/) jako sprawdzian kompatybilności z językiem (czyli "jeśli kompilator prawidłowo skompiluje Loki, to może aspirować do bycia kompilatorem")
-* Banda Czworga (Erich Gamma, Richard Helm, Ralph Johnson oraz John Vlissides) - autorzy  "Inżynieria oprogramowania: Wzorce projektowe".
+* Banda Czworga (Gang Of Four, GoF) - Erich Gamma, Richard Helm, Ralph Johnson oraz John Vlissides: autorzy "Inżynieria oprogramowania: Wzorce projektowe".
 * [StackOverflow](https://stackoverflow.com/): absolutnie najważniejsze forum wymiany wiedzy.
 * [boost](http://www.boost.org/): społeczność i kolekcja bibliotek. To oni implementują większość nowości w C++, to nad czym głosuje ISO w nowych wersjach C++ jest zazwyczaj już zaimplementowane przez boost. Będzie o tym cały rozdział.
 
