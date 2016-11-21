@@ -4,7 +4,7 @@
 
 Do tego rozdziału warto będzie wrócic co jakiś czas.
 
-Wiki określa język C++ jako język o wielu paradygmatach. Paradygmat to styl programowania. Będzie mowa o obiektowości. Typ danych w C++ są konkretne i niezmienne, a zarazem C++ umożliwia programowanie generyczne - algorytmy mogą być uniezależnione od typów danych na których operują. C++ oddaje bardzo sprawne i elastyczne abstrakcje danych - tablice, listy, stosy i inne kontenery, na których można operować niezależnie od tego, co mają w środku. A jeśli klasy, interfejsy, kontenery w konkretnym zastosowaniu są niepotrzebne, a ważna jest wydajność mozliwość napisania programu który operuje blisko krzemu - to C++ sprawdzi się znakomicie jako trochę lepszy asembler.
+Wiki określa język C++ jako język o wielu paradygmatach. Paradygmat to styl programowania. Będzie mowa o obiektowości. Typy danych w C++ są konkretne i niezmienne, a zarazem C++ umożliwia programowanie generyczne - algorytmy mogą być uniezależnione od typów danych na których operują. C++ oddaje bardzo sprawne i elastyczne abstrakcje danych - tablice, listy, stosy i inne kontenery, na których można operować niezależnie od tego, co mają w środku. A jeśli klasy, interfejsy, kontenery w konkretnym zastosowaniu są niepotrzebne, a ważna jest wydajnośći  mozliwość napisania programu który operuje blisko krzemu - C++ sprawdzi się znakomicie jako trochę lepszy asembler.
 
 Połączenie wielu paradygmatów w jednym języku daje programiście do ręki bardzo wszechstronne narzędzie.
 
