@@ -36,7 +36,8 @@ Można programy pisać w notepadzie albo VI i kompilować z linii poleceń. Moż
 ### Visual Studio
 
 [Visual Studio](https://www.visualstudio.com/) jest dostępne w kilku edycjach: Express, Community, Standard, Professional, Enterprise, zwiara MSDN albo nie zawiera, ... 
-Edycje Express i Community są darmowe. Express jest bardzo ograniczona funkcjonalnie, ale można ją wykorzystywać do celów komercyjnych, Community ma te same funkcje co Professional (nigdy nie potrzebowałem użyć czegoś więcej), ale nie można nią zarobkować.
+Edycje Express i Community są darmowe. Express jest bardzo ograniczona funkcjonalnie, ale można ją wykorzystywać do celów komercyjnych.
+Community ma te same funkcje co Professional (nigdy nie potrzebowałem nic więcej), ale nie można nią zarobkować.
 Dla  wykonania ćwiczeń z tego kursu najlepszym wyborem jest wersja Community.
 
 Dygresja o numerach wersji: Microsoft prowadzi [dwie numeracje wersji](https://pl.wikipedia.org/wiki/Microsoft_Visual_Studio): 
@@ -44,4 +45,18 @@ Dygresja o numerach wersji: Microsoft prowadzi [dwie numeracje wersji](https://p
 * techniczna: realny numer wersji.
 Numeracja zrównała się w roku 2010 - Visual Studio 2010 miało numer wersji 10.
 Aktualna stabilna wersja: Visual Studio 2015, wersja 14.
-W przygotowaniu: Visual Studio 2017, wersja 15. Będzie mieć wsparcie dla C++17 :)
+W przygotowaniu: Visual Studio 2017, wersja 15. Będzie mieć pełne wsparcie dla C++17 :)
+
+---
+
+Do pobrania: https://go.microsoft.com/fwlink/?LinkId=691978&clcid=0x409
+
+Instalacja może potrwać kilka godzin, skonsumuje kilka gigabajtów danych z sieci, spowoduje stratę kilku gigabajtów dysku.
+Standardowa instalacja VS 
+
+
+
+
+
+
+
