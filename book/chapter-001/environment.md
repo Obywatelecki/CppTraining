@@ -2,8 +2,6 @@
 
 ## Komputer
 
-Nauka powinna odbywać się w komfortowych warunkach.
-
 Widziałem komputer służący do kompilacji programów, który miał 512 gigbajtów pamięci i kilka procesorów XEON. Widziałem program (system), który kompilował się na tym potworze kilka godzin. Czasem słaby laptop może nie wystarczyć.
 
 Nie ma potrzeby zaczynać od jakiegoś superkomputera, ale:
