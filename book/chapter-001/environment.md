@@ -21,11 +21,9 @@ Przykładowe [minimalne wymagania](https://www.visualstudio.com/en-us/productinf
 Dostępnych, aktualnych kompilatorów języka C++ jest na rynku ... kilkadziesiąt, może więcej. Różnią się dostępnością (komercyjne, darmowe, darmowe warunkowo), platformą na której działają i platformą dla której tworzą programy.
 
 Spośród kompilatorów działających na komputerach osobistych (Windows, Linux, MacOs), tworzących programy dla komputerów osobistych warto wspomnieć o:
-* Visual C++, wchodzący w skład Visual Studio. Działa pod kontrolą systemu Windows, wspiera C++14 i częściowo C++17, są różne darmowe wersje (dla małych firm - edycja Express, dla społeczności Open Source - edycja Community), znakomity.
-* GCC/G++ - rewelacyjny kompilator i kompilator skrośny
-
-
-
+* Visual C++, wchodzący w skład Visual Studio. Działa pod kontrolą systemu Windows, wspiera C++14 i częściowo C++17, produkt komercyjny, są różne darmowe wersje (dla małych firm - edycja Express, dla społeczności Open Source - edycja Community), znakomity. Przy pomocy Visual C++ jest skompilowany cały system Windows.
+* gcc/g++ - rewelacyjny kompilator i kompilator skrośny, przede wszystkim dla Linuxa, wspiera C++14 i C++17, wprowadza rozszerzenia inspirujące powstawanie kolejnych wersji języka. Przy pomocy gcc jest skompilowany cały system Linux. Wersja gcc dla Windows to MinGW, raczej niszowa. Dostępny na licencji GPL i LGPL (najgorsza możliwa licencja, wymysł diabła, jeszcze o tym będzie).
+* clang - kolejny świetny kompilator, stoi za nim Apple. Konkuruje z gcc (w wielu zastosowaniach można użyć clanga wymiennie z gcc), motywacją napisania clanga była potrzeba stworzenia kompilatora na licencji liberalnej (BSD). Wspiera C++14, C++17 i podobnie jak gcc wprowadza rozszerzenia inspirujące powstawanie kolejnych wersji języka. Wersja dla Windows raczej nie działa, plotka głosi, że Microsoft planuje migrację do clanga (któraś kolejna wersja Windows ma być skompilowana clangiem).
 
 ## Środowisko zintegrowane (IDE)
 
