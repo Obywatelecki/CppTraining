@@ -18,6 +18,12 @@ Przykładowe [minimalne wymagania](https://www.visualstudio.com/en-us/productinf
 
 ## Kompilator
 
+Dostępnych, aktualnych kompilatorów języka C++ jest na rynku ... kilkadziesiąt, może więcej. Różnią się dostępnością (komercyjne, darmowe, darmowe warunkowo), platformą na której działają i platformą dla której tworzą programy.
+
+Spośród kompilatorów działających na komputerach osobistych (Windows, Linux, MacOs), tworzących programy dla komputerów osobistych warto wspomnieć o:
+* Visual C++, wchodzący w skład Visual Studio. Działa pod kontrolą systemu Windows, wspiera C++14 i częściowo C++17, są różne darmowe wersje (dla małych firm - edycja Express, dla społeczności Open Source - edycja Community), znakomity.
+* GCC/G++ - rewelacyjny kompilator i kompilator skrośny
+
 
 
 
