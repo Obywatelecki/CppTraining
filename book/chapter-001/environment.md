@@ -16,6 +16,11 @@ Przykładowe [minimalne wymagania](https://www.visualstudio.com/en-us/productinf
 - DirectX 9-capable video card (1024 x 768)
 - Windows 7
 
+## Kompilator
+
+
+
+
 ## Środowisko zintegrowane (IDE)
 
 Można programy pisać w notepadzie albo VI i kompilować z linii poleceń. Można furmanką pojechać do Paryża, tylko po co? Przemyślane, dobrze skonfigurowane zintegrowane środowisko projektowe znakomicie odciąża programistę, nie trzeba dbać o drobiazgi, zapewnia harmonijną współpracę dobrego edytora, kompilatora, środowiska uruchomieniowego (debuggera czyli odpluskwiacza, będzie o nim więcej) i kilku innych narzędzi. Po to ludzkość wymyśliła komputery, żeby pracowały za nas i żebyśmy mogli skoncentrować się na pracy.
