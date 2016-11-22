@@ -8,7 +8,7 @@ Nie ma potrzeby zaczynać od jakiegoś superkomputera, ale:
 * wydajny dysk znakomicie przyspiesza naukę (w czasie kompilacji nawet małego programu kompilator odczytuje i zapisuje setki plików).
 * kompilator zużywa trochę pamięci, większość kompilatorów dobrze wykorzystuje wiele rdzeni i procesorów, nie ma sensu przesadzać, to nie musi być komputer dla gracza.
 
-Przykładowe [minimalne wymagania](https://www.visualstudio.com/en-us/productinfo/vs2015-sysrequirements-vs) dla Visual Studio (one są napradę minimalne a nie komfortowe):
+Przykładowe [minimalne wymagania](https://www.visualstudio.com/en-us/productinfo/vs2015-sysrequirements-vs) dla Visual Studio (one są naprawdę minimalne a nie komfortowe):
 - 1.6 GHz processor
 - 1 GB of RAM
 - 4 GB of available hard disk space
