@@ -35,7 +35,11 @@ Można programy pisać w notepadzie albo VI i kompilować z linii poleceń. Moż
 
 ### Visual Studio
 
-[Visual Studio](https://www.visualstudio.com/) jest dostępne w kilku edycjach: Express, Community, Standard, Professiona, Enterprise
- 
- 
+[Visual Studio](https://www.visualstudio.com/) jest dostępne w kilku edycjach: Express, Community, Standard, Professional, Enterprise, zwiara MSDN albo nie zawiera, ... 
+Edycje Express i Community są darmowe. Express jest bardzo ograniczona funkcjonalnie, ale można ją wykorzystywać do celów komercyjnych, Community ma te same funkcje co Professional (nigdy nie potrzebowałem użyć czegoś więcej), ale nie można nią zarobkować.
+Dla  wykonania ćwiczeń z tego kursu najlepszym wyborem jest wersja Community.
 
+Dygresja o numerach wersji: Microsoft prowadzi dwie numeracje wersji: 
+- marketingowa: rok wydania.
+- techiczna: realny numer wersji.
+- 
