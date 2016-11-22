@@ -33,6 +33,8 @@ Można programy pisać w notepadzie albo VI i kompilować z linii poleceń. Moż
 - Dla Linux [jest kilka darmowych IDE](https://stackoverflow.com/questions/24109/c-ide-for-linux), żadne mnie nie urzekło. Gdybym miał wybierać skłaniałbym się do [KDevelop](https://www.kdevelop.org/).
 - Godnym zainteresowania środowiskiem, zarówno dla Linuxa, jak i dla Windows jest [Eclipse](https://eclipse.org/). Zaletą jest dobre wsparcie dla moich ulubionych języków (C++, Java i Perl) i fakt, że w wersji dla Windows debugger działa poprawnie (a to nie jest powszechna właściwość). Poważną wadą jest nieintuicyjny interfejs. Aby używać Eclipse i C++ potrzebny jest plugin (albo wersja) CDT.
 
+### Instalujemy Visual Studio
 
+ 
  
 
