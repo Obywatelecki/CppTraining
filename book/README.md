@@ -15,7 +15,7 @@ Ten kurs bazuje na moich doświadczeniach i przemyśleniach. Nie oczekuję, że 
 ## Zastrzeżenie #2
 
 W kilku miejscach kursu można znaleźć odniesienia i przykłady użycia programów i usług. Kryteria którymi sie kierowałem to:
-* licencja powinna być na tyle liberalna, żeby narzędzie można było za darmo wykorzystać w czasie kursu.
+* licencja powinna być na tyle liberalna, żeby narzędzie można było **za darmo** wykorzystać w czasie kursu.
 * narzędzie lub usługa powinno być wystarczająco dobre, niekoniecznie subiektywnie najlepsze.
 W szczególności: nie jest moim celem tworzenie katalogu programów i usług, nie jest moim celem wyliczanie programów o podobnych funkcjonalnościach. Przykład: znam i cenię konkretne środowisko zintegrowane (IDE), to go będę tu używać. Nie będę opisywać różnic między tym a innymi IDE. Tym zajmują się inni.
 
