@@ -30,8 +30,7 @@ Spośród kompilatorów działających na komputerach osobistych (Windows, Linux
 Można programy pisać w notepadzie albo VI i kompilować z linii poleceń. Można furmanką pojechać do Paryża, tylko po co? Przemyślane, dobrze skonfigurowane zintegrowane środowisko projektowe znakomicie odciąża programistę, nie trzeba dbać o drobiazgi, zapewnia harmonijną współpracę dobrego edytora, kompilatora, środowiska uruchomieniowego (debuggera czyli odpluskwiacza, będzie o nim więcej) i kilku innych narzędzi. Po to ludzkość wymyśliła komputery, żeby pracowały za nas i żebyśmy mogli skoncentrować się na pracy.
 
 - Dla Windows nie ma lepszego środowiska niż **Visual Studio**. Wszystkie programy dołączone do niniejszego kursu są przygotoane jako projekty Visual Studio.
-- Dla Linux [jest kilka darmowych IDE](https://stackoverflow.com/questions/24109/c-ide-for-linux), żadne mnie nie urzekło. Gdybym miał wybierać skłaniałbym się do [KDevelop](https://www.kdevelop.org/).
-- Godnym zainteresowania środowiskiem, zarówno dla Linuxa, jak i dla Windows jest [Eclipse](https://eclipse.org/). Zaletą jest dobre wsparcie dla moich ulubionych języków (można używać w jednym projekcie C++, Javę i Perl) i fakt, że w wersji dla Windows debugger działa poprawnie (a to nie jest powszechna właściwość). Poważną wadą jest nieintuicyjny interfejs. Aby używać Eclipse i C++ potrzebny jest plugin (albo wersja) CDT.
+- Godnym zainteresowania darmowym środowiskiem, zarówno dla Linuxa, jak i dla Windows jest [Eclipse](https://eclipse.org/). Zaletą jest dobre wsparcie dla moich ulubionych języków (można używać w jednym projekcie C++, Javę i Perl) i fakt, że w wersji dla Windows debugger działa poprawnie (a to nie jest powszechna właściwość). Poważną wadą jest nieintuicyjny interfejs. Aby używać Eclipse i C++ potrzebny jest plugin (albo wersja) CDT.
 
 ### Visual Studio
 
@@ -41,8 +40,8 @@ Community ma te same funkcje co Professional (nigdy nie potrzebowałem nic więc
 Dla  wykonania ćwiczeń z tego kursu najlepszym wyborem jest wersja Community.
 
 Dygresja o numerach wersji: Microsoft prowadzi [dwie numeracje wersji](https://pl.wikipedia.org/wiki/Microsoft_Visual_Studio): 
-* marketingowa: rok wydania.
-* techniczna: realny numer wersji.
+- marketingowa: rok wydania.
+- techniczna: realny numer wersji.
 Numeracja zrównała się w roku 2010 - Visual Studio 2010 miało numer wersji 10.
 Aktualna stabilna wersja: Visual Studio 2015, wersja 14.
 W przygotowaniu: Visual Studio 2017, wersja 15. Będzie mieć pełne wsparcie dla C++17 :)
