@@ -8,9 +8,16 @@ Kurs powstaje jako materiał pomocniczy do wykładu "Jak szybko nauczyć się pr
 
 Zakładam, że odbiorca wie, czym jest program komputerowy i o co w ogóle chodzi z programowaniem. Wymagane są elementarne umiejętności posługiwania się komputerem. Nie jest wymagana żadna wiedza z zakresu programowania, przyda się za to umiejętność logicznego myślenia.
 
-## Zastrzeżenie
+## Zastrzeżenie #1
 
 Ten kurs bazuje na moich doświadczeniach i przemyśleniach. Nie oczekuję, że czytelnik zawsze i w pełni się z nimi zgodzi. Jeśli jest to problem - zrezygnuj z dalszego czytania. Choć prawdopodobnie będziesz żalować.
+
+## Zastrzeżenie #2
+
+W kilku miejscach kursu można znaleźć odniesienia i przykłady użycia programów i usług. Kryteria którymi sie kierowałem to:
+* licencja powinna być na tyle liberalna, żeby narzędzie można było za darmo wykorzystać w czasie kursu.
+* narzędzie lub usługa powinno być wystarczająco dobre, niekoniecznie subiektywnie najlepsze.
+W szczególności: nie jest moim celem tworzenie katalogu programów i usług, nie jest moim celem wyliczanie programów o podobnych funkcjonalnościach. Przykład: znam i cenię konkretne środowisko zintegrowane (IDE), to go będę tu używać. Nie będę opisywać różnic między tym a innymi IDE. Tym zajmują się inni.
 
 ## Licencja
 
