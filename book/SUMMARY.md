@@ -7,14 +7,11 @@
 ### Część 0
 
 * [Czym jest język C++](chapter-001/language.md)
-* [Środowisko do nauki](chapter-001/environment.md)
 
 
-### Część I
+### Niedokończone
 
-* [Coś tu będzie](chapter-002/sth.md)
-
+[Środowisko do nauki](chapter-001/environment.md)
 
 ----
 
-* [Last part without title]
