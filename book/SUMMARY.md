@@ -11,7 +11,7 @@
 
 ### Niedokończone
 
-[Środowisko do nauki](chapter-001/environment.md)
+* [Środowisko do nauki](chapter-001/environment.md)
 
 ----
 
