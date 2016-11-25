@@ -6,12 +6,12 @@
 
 ### Część 0
 
-* [Czym jest język C++](chapter-001/language.md)
+* [Czym jest język C++](001/language.md)
 
 
 ### Niedokończone
 
-* [Środowisko do nauki](chapter-001/environment.md)
+* [Środowisko do nauki](001/environment.md)
 
 ----
 
