@@ -11,9 +11,9 @@ Nie ma potrzeby zaczynać od jakiegoś superkomputera, ale:
 Przykładowe [minimalne wymagania](https://www.visualstudio.com/en-us/productinfo/vs2015-sysrequirements-vs) dla Visual Studio (one są naprawdę minimalne a nie komfortowe):
 - procesor 1.6 GHz
 - 1 GB pamięci RAM
-- 4 GB of available hard disk space
-- 5400 RPM hard disk drive
-- DirectX 9-capable video card (1024 x 768)
+- 4 GB wolnego miejsca na dysku
+- dysk twardy o prędkości obrotowej 5400 RPM
+- karta graficzna 1024 x 768, zgodna z DirectX
 - Windows 7
 
 ## Kompilator
