@@ -61,3 +61,4 @@ Parametry standardowej instalacji VS nie są dopasowane do projektowania w C++. 
     - **Windows 10 SDK**
 - Common Tools
   - **Github Extension for Visual Studio**
+![](vs_setup.png)
