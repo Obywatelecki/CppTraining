@@ -9,9 +9,9 @@ Wiki określa język C++ jako język o wielu paradygmatach. Paradygmat to styl p
 Połączenie wielu paradygmatów w jednym języku daje programiście do ręki bardzo wszechstronne narzędzie.
 
 Język C++ jest wyposażony w mechanizmy bardzo silne i niespotykane w innych językach:
+- preprocesor kodu źródłowego (to akurat nie jest powód do dumy),
 - destruktory,
-- dziedziczenie po wielu klasach jednocześnie (powoduje u wielu programistów silny ból głowy),
-- preprocesor kodu źródłowego (to akurat nie jest powód do dumy).
+- dziedziczenie po wielu klasach jednocześnie (powoduje u wielu programistów silny ból głowy).
 
 Cechą wzmacniającą uniwersalność jest fakt, że kompilatory potrafią wyprodukować "program" naturalny (ang: native) dla docelowej platformy, taki który na platformie uruchamia się bezpośrednio, nie wymagając żadnych maszyn wirtualnych ani innych dodatków. Wiele kompilatorów wspiera także kompilację skrośną - na przykład na komputerze z systemem Windows i procesorem Intela można wyprodukować program działający pod Linuxem z procesorem ARM. Albo jakoś inaczej.
 
