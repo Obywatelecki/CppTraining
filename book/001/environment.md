@@ -63,4 +63,5 @@ Należy zainstalować:
     - **Windows 10 SDK**
 - Common Tools
   - **Github Extension for Visual Studio**
+ 
 ![VS Setup](images/vs_setup.png)
