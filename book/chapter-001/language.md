@@ -44,9 +44,13 @@ Standard C++11 definiuje w zasadzie całkiem nowy język, a C++14 wprowadza niew
 
 Propozycja wersji C++17 została określona na konferencji w Oulu (czerwiec 2016), do końca marca 2017 pracować będzie komisja balotażowa.
 
+## Język C
+
+Język C powstał około roku 1972, został udokumentowany w 1978. Zaimplementowano w nim jądro (kernel) systemu Unix. Na długie lata został wiodącym językiem tworzenia systemów operacyjnych.
+
 ### C99, C11
 
-Język C też jest normalizowany przez ISO, rozwija się znacznie wolniej, aktualny standard powstał w 2011 i niewiele różni się od oryginału z roku 1978 (sprzed prawie 40 lat). Widziałem gdzieś porównanie sposobu kodowania 25 lat temu i współcześnie (ówczesna wersja Linuxa i jedno z pierwszych wydań Worda): bardzo niewiele uległo zmianie (nie potrafię odtworzyć źródeł informacji).
+Język C też jest normalizowany przez ISO, rozwija się znacznie wolniej, aktualny standard powstał w 2011 i niewiele różni się od opisu z roku 1978 (sprzed prawie 40 lat). Widziałem gdzieś porównanie sposobu kodowania 25 lat temu i współcześnie (ówczesna wersja Linuxa i jedno z pierwszych wydań Worda): bardzo niewiele uległo zmianie (nie potrafię odtworzyć źródeł informacji).
 
 ## Która wersja?
 
