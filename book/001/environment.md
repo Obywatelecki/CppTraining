@@ -51,11 +51,11 @@ W przygotowaniu: Visual Studio 2017, wersja 15. Będzie mieć pełne wsparcie dl
 Do pobrania: https://go.microsoft.com/fwlink/?LinkId=691978&clcid=0x409
 
 Instalacja może potrwać kilka godzin, skonsumuje kilka gigabajtów danych z sieci, spowoduje stratę kilku gigabajtów dysku.
-Parametry standardowej instalacji VS nie są dopasowane do projektowania w C++. 
+Parametry standardowej instalacji VS nie są dopasowane do projektowania w C++.
 
 Należy zainstalować:
-- Programming languages 
-  - Visual C++ 
+- Programming languages
+  - Visual C++
     - **Common Tools for Visual C++ 2015**
 - Windows and Web development
   - Universal Windows App Development Tools
@@ -63,5 +63,5 @@ Należy zainstalować:
     - **Windows 10 SDK**
 - Common Tools
   - **Github Extension for Visual Studio**
- 
-![VS setup](images/vs_setup.png)
+
+![VS setup](_images_)/vs_setup.png)
