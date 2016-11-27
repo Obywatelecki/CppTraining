@@ -6,5 +6,5 @@ Podobny manual [zamieścił Microsoft](https://www.visualstudio.com/vs/support/#
 
 Warto pamiętać, że w Visual Studio łatwo może przywróci defaultowe ustawienia wszystkich opcji:  
 Menu: Tools » Import and Export settings » Reset all settings  
-wart
+Warto
 
