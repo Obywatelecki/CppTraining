@@ -26,7 +26,7 @@ Menu: Tools »
 
 0145 ‘ &lsquo;
 
-0146 ‘ &rsquo;
+0146 ’ &rsquo;
 
 0147 “ &ldquo;
 
