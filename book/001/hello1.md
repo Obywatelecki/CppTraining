@@ -95,3 +95,8 @@ Zakończenie działania programu:
 * Brutalne (po prostu koniec)
 > Skrót: Shift-F5  
 > Menu: Debug » Stop Debugging
+
+---
+
+Kod programu jest dostępny na [Coliru](http://coliru.stacked-crooked.com/a/be1a932a974e7b6f).
+
