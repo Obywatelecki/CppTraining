@@ -35,8 +35,6 @@ Menu: Tools »
 0130 ‚ &sbquo;
 
 0132 „ &sbquo;
-
-
 
 Others ∞ ≈ ≠ ≡ ≤ ≥
 
