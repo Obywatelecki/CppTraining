@@ -6,10 +6,10 @@ Podobny manual [zamieścił Microsoft](https://www.visualstudio.com/vs/support/#
 
 Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto wspomnieć o:
 
-- Przywrócenie defaultowych ustawień wszystkich opcji:
-> Menu: Tools » Import and Export settings » Reset all settings
 - Przywrócenie standardowych ustawień okienek:
 > Menu: Window » Reset Window Layout
+- Przywrócenie defaultowych ustawień wszystkich opcji:
+> Menu: Tools » Import and Export settings » Reset all settings
 
 
 x
