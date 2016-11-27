@@ -33,4 +33,8 @@ Najprostszy projekt w C++ wygląda tak:
 
 ![Projekt VS](_images_/hello1/003.png)
 
-(minimalne wymagania wobec komputera dla VS mówią o karcie graficznej co najmniej 1024×768, GitBook skaluje obrazki do szerokości max. 770px, to wygląda jak wygląda)
+Minimalne wymagania wobec komputera dla VS mówią o karcie graficznej co najmniej 1024×768, GitBook skaluje obrazki do szerokości max. 770px, to wygląda jak wygląda :(
+
+Program robi nic, należy go zastąpić kodem:
+
+
