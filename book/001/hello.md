@@ -18,11 +18,11 @@ Menu: Tools »
 
 0177 ±
 
-0133 …
+0133 … &hellip;
 
-0139 ‹
+0139 ‹ &lsaquo;
 
-0155 ›
+0155 › &rsaquo;
 
 0145 ‘ &lsquo;
 
@@ -39,3 +39,5 @@ Menu: Tools »
 
 
 Others ∞ ≈ ≠ ≡ ≤ ≥
+
+&oline;
