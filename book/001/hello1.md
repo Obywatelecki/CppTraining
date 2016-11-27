@@ -55,7 +55,7 @@ Ten kod:
 
 ---
 
-Stale powtarzaną czynnością (C++) jest [kompilowanie]
+Stale powtarzaną czynnością (C++) jest kompilowanie.
 
 
 
