@@ -84,22 +84,14 @@ i uruchomić program - będzie się wykonywać do końca albo do punktu przerwan
 
 ![Run](_images_/hello1/005.png)
 
+---
 
+Zakończenie działania programu:
 
+* Eleganckie (niech wykona się do końca)
+> Skrót: F5  
+> Menu: Debug » Continue
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Brutalne (po prostu koniec)
+> Skrót: Shift-F5  
+> Menu: Debug » Stop Debugging
