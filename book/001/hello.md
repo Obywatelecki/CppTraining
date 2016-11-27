@@ -8,11 +8,19 @@ Warto pamiętać, że w Visual Studio łatwo może przywróci defaultowe ustawie
 Menu: Tools » 
 
 0171 «
+
 0187 »
+
 0177 ±
+
 0133 …
+
 0139 ‹
+
 0155 ›
-0150 – &ndash;
-0151 — &mdash;
+
+0150 – &ndash; --
+
+0151 — &mdash; ---
+
 Others ∞ ≈ ≠ ≡ ≤ ≥
