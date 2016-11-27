@@ -71,4 +71,35 @@ oraz podsumowanie procesu kompilacji:
 
 ---
 
-Teraz można program uruchomić korzystając z debuggera (potężne narzędzie
+Teraz można program uruchomić korzystając z debuggera. Debugger (odpluskwiacz) to potężne narzędzie, pozwala na kontrolowane wykonanie programu (linia po linii, zaglądając do ciała funkcji, z ustawianieniem punktów przerwania), monitorowaniem stanu (podglądanie i zmiana zawrtości obiektów), lokalnie albo na innym komputerze, z możliwością "podłączenia się" do działającego procesu i dziesiątkami innych funkcji.
+
+W ostatniej linii kodu ```}``` należy ustawić punkt przerwania (czerwony znacznik na marginesie)
+> Skrót: F9  
+> Menu: Debug » Toggle Breakpoint  
+> Menu kontekstowe w Edytorze: Breakpoint » Insert Breakpoint
+
+i uruchomić program - będzie się wykonywać do końca albo do punktu przerwania:
+> Skrót: F5  
+> Menu: Debug » Start Debugging
+
+![Run](_images_/hello1/005.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
