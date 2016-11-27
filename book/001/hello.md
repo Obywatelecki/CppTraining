@@ -37,6 +37,9 @@ Menu: Tools »
 
 ⁄ &frasl;
 
+− &minus;
+
+
 • &bull;
 
 
