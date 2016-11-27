@@ -12,4 +12,4 @@ Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto ws
 > Menu: Tools » Import and Export settings » Reset all settings
 
 
-x
+xy
