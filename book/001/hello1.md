@@ -106,21 +106,13 @@ i uruchomić program - będzie się wykonywać do końca albo do punktu przerwan
 
 Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zdania zostanie wkrótce omówiony, teraz może być czarną magią:
 
- <dl>
-  <dt>```#include "stdafx.h"```</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl> 
 
-
-
-```#include "stdafx.h"```
-```#include <string>```
-```#include <iostream>```
-```<pusta linia>```
-```int main() {```
-```	using namespace std::string_literals;```
-```	std::cout << "Hello World!\n"s;```
-```	return 0;```
-```}```
+* ```#include "stdafx.h"```
+* ```#include <string>```
+* ```#include <iostream>```
+* ```<pusta linia>```
+* ```int main() {```
+* ```	using namespace std::string_literals;```
+* ```	std::cout << "Hello World!\n"s;```
+* ```	return 0;```
+* ```}```
