@@ -16,5 +16,7 @@ Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto ws
 Nowy projekt:
 > Skrót: Ctrl-Shift-N
 > Menu: File » New » Project
+> > Rodzaj projektu: Templates » Wisual C++ » Win32
+> > Szablon projektu: Win32 Console application
 
-
+![New project](_images_/hello1/001.png)
