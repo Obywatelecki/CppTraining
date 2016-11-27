@@ -12,7 +12,7 @@
 
 ### Niedokończone
 
-* [Hello world](001/hello.md)
+* [Hello world](001/hello#1.md)
 
 ----
 
