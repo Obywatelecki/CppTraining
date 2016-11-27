@@ -17,13 +17,13 @@ Nowy projekt:
 > Skrót: Ctrl-Shift-N
 > Menu: File » New » Project
 > > Rodzaj projektu: Templates » Wisual C++ » Win32  
-> > Szablon projektu: Win32 Console application
+> > Szablon projektu: Win32 Console Application
 
 ![New project](_images_/hello1/001.png)
 
 ---
 
-Ten typ projektu nie ma zbyt wielu parametrów, standardowe wartości są bardzo dobre. Można wybrać "Finish" (albo kilkukrotnie "Next")
+Ten typ projektu nie ma zbyt wielu parametrów, standardowe wartości są bardzo dobre. Można wybrać "Finish".
 
 ![Finish](_images_/hello1/002.png)
 
@@ -55,7 +55,7 @@ Ten kod:
 
 ---
 
-Stale powtarzaną czynnością (C++) jest kompilowanie
+Stale powtarzaną czynnością (C++) jest [kompilowanie]
 
 
 
