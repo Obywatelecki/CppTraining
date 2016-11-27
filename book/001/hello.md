@@ -13,10 +13,6 @@ Menu: Tools »
 
 0133 … &hellip;
 
-0139 ‹ &lsaquo;
-
-0155 › &rsaquo;
-
 0145 ‘ &lsquo;
 
 0146 ’ &rsquo;
@@ -29,9 +25,49 @@ Menu: Tools »
 
 0132 „ &bdquo;
 
+0139 ‹ &lsaquo;
+
+0155 › &rsaquo;
+
 
 
 ----
+
+× &times;
+
+⁄ &frasl;
+
+• &bull;
+
+
+← &larr;
+
+↑ &uarr;
+
+→ &rarr;
+
+↓ &darr;
+
+↔ &harr;
+
+↵ &crarr;
+
+⇐ &lArr;
+
+⇑ &uArr;
+
+⇒ &rArr;
+
+⇓ &dArr;
+
+⇔ &hArr;
+
+
+
+
+
+
+
 
 
 
