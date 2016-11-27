@@ -14,7 +14,7 @@ Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto ws
 ---
 
 Nowy projekt:
-> Skrót: Ctrl-Shift-N
+> Skrót: Ctrl-Shift-N  
 > Menu: File » New » Project
 > > Rodzaj projektu: Templates » Wisual C++ » Win32  
 > > Szablon projektu: Win32 Console Application
@@ -56,6 +56,8 @@ Ten kod:
 ---
 
 Stale powtarzaną czynnością (C++) jest kompilowanie.
-
-
+> Skrót: Ctrl-Shift-B  
+> Skrót: F7 (zależnie od ustawień VS)  
+> Menu: Build » Build Solution  
+> Menu kontekstowe w Solution Explorer: Build Solution
 
