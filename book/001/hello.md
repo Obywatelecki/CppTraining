@@ -7,6 +7,11 @@ Podobny manual [zamieścił Microsoft](https://www.visualstudio.com/vs/support/#
 Warto pamiętać, że w Visual Studio łatwo może przywróci defaultowe ustawienia wszystkich opcji:
 Menu: Tools » 
 
+0150 – &ndash;
+
+0151 — &mdash;
+
+
 0171 «
 
 0187 »
@@ -19,8 +24,14 @@ Menu: Tools »
 
 0155 ›
 
-0150 – &ndash; --
+0145 ‘ &lsquo;
 
-0151 — &mdash; ---
+0146 ‘ &rsquo;
+
+0147 “ &ldquo;
+
+0148 “ &rdquo;
+
+
 
 Others ∞ ≈ ≠ ≡ ≤ ≥
