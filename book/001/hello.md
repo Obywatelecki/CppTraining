@@ -34,9 +34,9 @@ Menu: Tools »
 
 0130 ‚ &sbquo;
 
-0132 „ &sbquo;
+0132 „ &rbquo;
 
 Others ∞ ≈ ≠ ≡ ≤ ≥
 
 &oline;
----
+--
