@@ -83,6 +83,3 @@ Menu: Tools »
 
 ⇔ &hArr;
 
-ala&oline;ma
-
-9
