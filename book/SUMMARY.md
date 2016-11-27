@@ -16,3 +16,7 @@
 
 ----
 
+### Notatki na marginesie
+
+* [znaczki różne](999/charmap.md)
+
