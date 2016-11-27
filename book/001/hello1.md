@@ -2,7 +2,7 @@
 
 ## Coliru
 
-Prawie wszystkie kody z kursu dostępne są też na platformie Coliru. Programy można edytować, kompilować, uruchamiać z przeglądarki, nie jest potrzebny lokalnie zainstalowany kompilator. Używa potężnego edytora ace [(spis skrótów klawiaturowych)](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts).
+Prawie wszystkie kody z kursu dostępne są też na platformie Coliru. Programy można edytować, kompilować (gcc albo clang), uruchamiać z przeglądarki, nie jest potrzebny lokalnie zainstalowany kompilator. Coliru używa potężnego edytora ace [(spis skrótów klawiaturowych)](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts).
 
 Kod "Hello world #1" jest dostępny na [Coliru](http://coliru.stacked-crooked.com/a/be1a932a974e7b6f).
 
