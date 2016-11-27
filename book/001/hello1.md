@@ -36,7 +36,7 @@ Najprostszy projekt w C++ wygląda tak:
 Minimalne wymagania wobec komputera dla VS mówią o karcie graficznej co najmniej 1024×768, GitBook skaluje obrazki do szerokości max. 770px, to wygląda jak wygląda :(
 
 Program robi nic, należy go zastąpić kodem:
-```C
+```C++
 #include "stdafx.h"
 #include <iostream>
 
