@@ -11,13 +11,6 @@ Menu: Tools »
 
 0151 — &mdash;
 
-
-0171 «
-
-0187 »
-
-0177 ±
-
 0133 … &hellip;
 
 0139 ‹ &lsaquo;
@@ -36,8 +29,22 @@ Menu: Tools »
 
 0132 „ &bdquo;
 
+
+
+----
+
+
+
+
+0171 «
+
+0187 »
+
+0177 ±
+
+
 Others ∞ ≈ ≠ ≡ ≤ ≥
 
-&oline;
+ala&oline;ma
 
-11
+12
