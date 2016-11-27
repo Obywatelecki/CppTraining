@@ -1,3 +1,3 @@
 ## Kompilowanie
 
-yyyy
+eng: compiling, building, rebuilding, making
