@@ -115,7 +115,10 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 * ```<pusta linia>```
   C++ w zasadzie nie zwraca uwagi na formatowanie. Formatowanie ma sprzyjać czytelności kodu (przez czlowieka). Kompilator (zazwyczaj) puste linie po prostu ignoruje.
 * ```int main() {```
-  
+  Tu jest dużo treści:
+  * Program definiuje funkcję ```main```. Funkcja nie ma argumentów (puste nawiasy ```main()```) i zwraca wynik: liczba całkowita ze ze znakiem ```int```.
+  * Otwierający nawias klamrowy ```{``` oznacza, że w kolejnych liniach będzie deiniowane ciało funkcji.
+  * Przyjęło się (to jest konwencja, a nie definicja języka), że jeżeli program jest uruchamiany przez system operacyjny (Windows, Linux, Unix, etc.), to zaczyna od funkcji main.
 * ```	using namespace std::string_literals;```
 * ```	std::cout << "Hello World!\n"s;```
 * ```	return 0;```
