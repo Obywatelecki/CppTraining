@@ -120,6 +120,8 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
   * Otwierający nawias klamrowy ```{``` oznacza, że w kolejnych liniach będzie deiniowane ciało funkcji.
   * Przyjęło się (to jest konwencja, a nie definicja języka), że jeżeli program jest uruchamiany przez system operacyjny (Windows, Linux, Unix, etc.), to zaczyna od funkcji main.
 * ```	using namespace std::string_literals;```
+   * Formalnie: w ramach funkcji ```main()``` wprowadzamy operator ""s na literałach tekstowych (napisach takich jak "Hello World!\n"). Chodzi o to, aby w kolejnej linii napis "CosTam"s (z 's' na końcu) został potraktowany jako obiekt klasy ```std::string``` a nie jak starożytna tablica znaków, rodem z języka C.
 * ```	std::cout << "Hello World!\n"s;```
+
 * ```	return 0;```
 * ```}```
