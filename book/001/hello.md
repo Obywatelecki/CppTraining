@@ -32,6 +32,10 @@ Menu: Tools »
 
 0148 “ &rdquo;
 
+0130 ‚ &sbquo;
+
+0132 „ &sbquo;
+
 
 
 Others ∞ ≈ ≠ ≡ ≤ ≥
