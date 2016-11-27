@@ -20,3 +20,9 @@ Nowy projekt:
 > > Szablon projektu: Win32 Console application
 
 ![New project](_images_/hello1/001.png)
+
+---
+
+Ten typ projektu nie ma zbyt wiele parametrów, standardowe wartości są bardzo dobre. Można wybrać "Finish" (albo kilkukrotnie "Next")
+
+
