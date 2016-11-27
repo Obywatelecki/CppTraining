@@ -4,7 +4,7 @@
 
 |Keyboard|Result|HTML|
 |:--:|:--:|:--:|
-|0150|–|&ndash;|
+|0150|–|\&ndash;|
 |0151|—|&mdash;|
 |0133|…|&hellip;|
 |0145|‘|&lsquo;|
