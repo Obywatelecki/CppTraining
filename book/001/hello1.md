@@ -19,7 +19,7 @@ Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto ws
 - Przywrócenie standardowych ustawień okienek:
 > Menu: Window » Reset Window Layout
 - Przywrócenie defaultowych ustawień wszystkich opcji:
-> Menu: Tools » Import and Export settings » Reset all settings
+> Menu: Tools » Import and Export Settings » Reset all settings
 
 ## Nowy projekt:
 > Skrót: Ctrl-Shift-N  
