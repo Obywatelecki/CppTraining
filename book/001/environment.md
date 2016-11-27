@@ -64,4 +64,4 @@ Należy zainstalować:
 - Common Tools
   - **Github Extension for Visual Studio**
 
-![VS setup](../images/environment_01.png)
+![VS setup](_images_/environment/001.png)
