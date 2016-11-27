@@ -13,7 +13,7 @@ Przykładowe [minimalne wymagania](https://www.visualstudio.com/en-us/productinf
 - 1 GB pamięci RAM
 - 4 GB wolnego miejsca na dysku
 - dysk twardy o prędkości obrotowej 5400 RPM
-- karta graficzna 1024 x 768, zgodna z DirectX
+- karta graficzna 1024×768, zgodna z DirectX
 - Windows 7
 
 ## Kompilator
