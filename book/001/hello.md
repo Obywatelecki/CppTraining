@@ -11,7 +11,9 @@ Menu: Tools »
 
 0151 — &mdash;
 
+
 0133 … &hellip;
+
 
 0145 ‘ &lsquo;
 
@@ -29,15 +31,31 @@ Menu: Tools »
 
 0155 › &rsaquo;
 
+0171 « &laquo;
 
-
-----
+0187 » &raquo;
 
 × &times;
 
 ⁄ &frasl;
 
 − &minus;
+
+∼ &sim;
+
+≅ &cong;
+
+≈ &asymp;
+
+≠ &ne;
+
+≡ &equiv;
+
+≤ &le;
+
+≥ &ge;
+
+0177 ± &plusmn;
 
 
 • &bull;
@@ -65,25 +83,6 @@ Menu: Tools »
 
 ⇔ &hArr;
 
-
-
-
-
-
-
-
-
-
-
-0171 «
-
-0187 »
-
-0177 ±
-
-
-Others ∞ ≈ ≠ ≡ ≤ ≥
-
 ala&oline;ma
 
-12
+9
