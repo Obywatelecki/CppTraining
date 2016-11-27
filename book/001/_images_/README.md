@@ -1,1 +1,0 @@
-Ilustracje do rozdziału
