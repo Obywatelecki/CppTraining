@@ -55,7 +55,7 @@ Ten kod:
 
 ---
 
-Stale powtarzaną czynnością (C++) jest kompilowanie.
+Stale powtarzaną czynnością (C++) jest kompilowanie (przetworzenie napisanego kodu na kod binarny).
 > Skrót: Ctrl-Shift-B  
 > Skrót: F7 (zależnie od ustawień VS)  
 > Menu: Build » Build Solution  
@@ -68,3 +68,7 @@ oraz podsumowanie procesu kompilacji:
 > ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
 
 ![Build](_images_/hello1/004.png)
+
+---
+
+Teraz można program uruchomić korzystając z debuggera (potężne narzędzie
