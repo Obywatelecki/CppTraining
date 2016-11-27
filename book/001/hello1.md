@@ -26,3 +26,10 @@ Nowy projekt:
 Ten typ projektu nie ma zbyt wiele parametrów, standardowe wartości są bardzo dobre. Można wybrać "Finish" (albo kilkukrotnie "Next")
 
 ![Finish](_images_/hello1/002.png)
+
+---
+
+Najprostszy projekt w C++ wygląda tak:
+
+![Projekt VS](_images_/hello1/003.png)
+
