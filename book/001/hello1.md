@@ -8,7 +8,7 @@ Kod [Hello world #1]((http://coliru.stacked-crooked.com/a/be1a932a974e7b6f) jest
 
 ## Najprostszy program
 
-Stałą praktyką w nauczaniu tworzenia oprogramowania jest demonstracja najprostszego programu w danym języku, tak, aby można było jak najszybciej do teorii dołączyć umiejętności praktyczne.
+Stałą praktyką w nauczaniu tworzenia oprogramowania jest demonstracja najprostszego programu w danym języku tak, aby można było jak najszybciej do teorii dołączyć umiejętności praktyczne.
 
 Podobny manual [zamieścił Microsoft](https://www.visualstudio.com/vs/support/#!articles/816-6458-hello-world-in-c-using-visual-studio-2015).
 
