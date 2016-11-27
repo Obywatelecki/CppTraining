@@ -11,5 +11,10 @@ Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto ws
 - Przywrócenie defaultowych ustawień wszystkich opcji:
 > Menu: Tools » Import and Export settings » Reset all settings
 
+---
 
-xy
+Nowy projekt:
+> Skrót: Ctrl-Shift-N
+> Menu: File » New » Project
+
+
