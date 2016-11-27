@@ -24,7 +24,7 @@ Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto ws
 ## Nowy projekt:
 > Skrót: Ctrl-Shift-N  
 > Menu: File » New » Project
-> > Rodzaj projektu: Templates » Wisual C++ » Win32  
+> > Rodzaj projektu: Templates » Visual C++ » Win32  
 > > Szablon projektu: Win32 Console Application
 
 ![New project](_images_/hello1/001.png)
@@ -35,7 +35,7 @@ Ten typ projektu nie ma zbyt wielu parametrów, standardowe wartości są bardzo
 
 ![Finish](_images_/hello1/002.png)
 
-## Projekt "Hello world"
+## Projekt "Hello world #1"
 
 Najprostszy projekt w w Visual Studio w C++ wygląda tak:
 
