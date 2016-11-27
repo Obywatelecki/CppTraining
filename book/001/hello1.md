@@ -63,8 +63,6 @@ Stale powtarzaną czynnością (C++) jest kompilowanie.
 
 W logu w oknie "Output" powinien się pojawić opis "gdzie powstał program"
 > ConsoleApplication1.vcxproj -> t:\ConsoleApplication1\Debug\ConsoleApplication1.exe
+
 oraz podsumowanie procesu kompilacji:
 > ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
-
-
-
