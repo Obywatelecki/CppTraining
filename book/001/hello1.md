@@ -38,11 +38,24 @@ Minimalne wymagania wobec komputera dla VS mówią o karcie graficznej co najmni
 Program robi nic, należy go zastąpić kodem:
 ```C++
 #include "stdafx.h"
+#include <string>
 #include <iostream>
 
 int main() {
-	std::cout << "Hello World!\n";
+	using namespace std::string_literals;
+	std::cout << "Hello World!\n"s;
 	return 0;
 }
 ```
+Ten kod:
+* Powinien wypisać na konsoli napis "Hello World!" i przejść do nowej linii.
+* Jest napisany w czystym C++.
+* Wymaga kompilatora co najmniej C++14.
+* Dla purystów: tu jest jeden błąd, mało istotny (tak, są sytuacje, kiedy wykonanie programu nie powiedzie się).
+
+---
+
+Stale powtarzaną 
+
+
 
