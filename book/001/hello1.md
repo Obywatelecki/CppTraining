@@ -79,7 +79,7 @@ oraz podsumowanie procesu:
 
 ## Uruchomienie
 
-Program można uruchomić korzystając z debuggera. Debugger (odpluskwiacz) to potężne narzędzie, pozwala na kontrolowane wykonania programu (linia po linii, zaglądając do ciała funkcji, z ustawianieniem punktów przerwania), monitorowaniem stanu (podglądanie i zmiana zawrtości obiektów), lokalnie albo zdalnie na innym komputerze, z możliwością "podłączenia się" do działającego procesu i dziesiątkami innych funkcji.
+Program można uruchomić korzystając z debuggera. Debugger to potężne narzędzie, pozwala na kontrolowane wykonania programu (linia po linii, zaglądając do ciała funkcji, z ustawianieniem punktów przerwania), monitorowaniem stanu (podglądanie i zmiana zawrtości obiektów), lokalnie albo zdalnie na innym komputerze, z możliwością "podłączenia się" do działającego procesu i dziesiątkami innych funkcji.
 
 W ostatniej linii kodu ```}``` należy ustawić punkt przerwania (czerwony znacznik na marginesie)
 > Skrót: F9  
