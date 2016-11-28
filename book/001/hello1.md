@@ -113,7 +113,7 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 * ```#include <iostream>```  
    Włączenie wsparcia dla operacji wejścia/wyjścia na strumieniach - niech nasz program potrafi coś napisać na konsoli.
 * ```<pusta linia>```  
-  C++ w zasadzie nie zwraca uwagi na formatowanie. Formatowanie ma sprzyjać czytelności kodu (przez czlowieka). Kompilator (zazwyczaj) puste linie po prostu ignoruje.
+  C++ w zasadzie nie zwraca uwagi na formatowanie. Formatowanie ma sprzyjać czytelności kodu. Kompilator (zazwyczaj) puste linie po prostu ignoruje.
 * ```int main() {```  
   Tu jest dużo treści:
   * Program definiuje funkcję ```main```. Funkcja nie ma argumentów - puste nawiasy ```main()``` i zwraca wynik: liczba całkowita ze ze znakiem ```int```.
