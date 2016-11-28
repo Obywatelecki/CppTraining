@@ -107,7 +107,7 @@ i uruchomić program - będzie się wykonywać do końca albo do punktu przerwan
 Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zdania zostanie wkrótce omówiony, teraz może być czarną magią:
 
 * ```#include "stdafx.h"```  
-   Wykorzystanie wstępnie kompliowanych nagłówków. Pliki nagłówkowe to jeden z bardziej nieudanych elementów języka, powinien być usprawnioy przez moduły (C++17). Wstępnie kompliowane nagłówki znakomicie przyśpieszają proces kompilacji, zostały wprowadzone w każdym szanującym się kompilatorze, w każdym inaczej. Tu: wersja Visual Studio.
+   Wykorzystanie wstępnie kompliowanych nagłówków. Pliki nagłówkowe to jeden z bardziej nieudanych elementów języka, powinien być usprawniony przez moduły (wprowadzone w C++17). Wstępnie kompliowane nagłówki znakomicie przyśpieszają proces kompilacji, zostały wprowadzone w każdym szanującym się kompilatorze, w każdym inaczej. Tu: wersja Visual Studio.
 * ```#include <string>```  
 
    Włączenie wsparcia dla klasy ```std::string``` - ogólnie o napisach.
