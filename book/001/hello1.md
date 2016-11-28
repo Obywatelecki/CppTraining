@@ -109,9 +109,8 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 * ```#include "stdafx.h"```  
    Wykorzystanie wstępnie kompliowanych nagłówków. Pliki nagłówkowe to jeden z bardziej nieudanych elementów języka, powinien być usprawniony przez moduły (wprowadzone w C++17). Wstępnie kompliowane nagłówki znakomicie przyspieszają proces kompilacji, zostały wprowadzone w każdym szanującym się kompilatorze, w każdym inaczej. Tu: wersja Visual Studio.
 * ```#include <string>```  
-
-   Włączenie wsparcia dla klasy ```std::string``` - ogólnie o napisach.
-* ```#include <iostream>```
+   Włączenie wsparcia dla klasy ```std::string``` - chodzi o to, żeby kompilator rozumiał napisy.
+* ```#include <iostream>```  
    Włączenie wsparcia dla operacji wejścia/wyjścia na strumieniach - niech nasz program potrafi coś napisać na konsoli.
 * ```<pusta linia>```
   C++ w zasadzie nie zwraca uwagi na formatowanie. Formatowanie ma sprzyjać czytelności kodu (przez czlowieka). Kompilator (zazwyczaj) puste linie po prostu ignoruje.
