@@ -63,7 +63,7 @@ Ten kod:
 
 ## Kompilacja
 
-Stale powtarzaną czynnością (C++) jest kompilowanie (przetworzenie napisanego kodu na kod binarny).
+Stale powtarzaną czynnością (Visual Studio) jest budowanie projektu (na razie niech wystarczy: przetworzenie napisanego kodu na kod binarny).
 > Skrót: Ctrl-Shift-B  
 > Skrót: F7 (zależnie od ustawień VS)  
 > Menu: Build » Build Solution  
@@ -109,9 +109,9 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 * ```#include "stdafx.h"```
    Wykorzystanie wstępnie kompliowanych nagłówków. Pliki nagłówkowe to jeden z bardziej nieudanych elementów języka, powinien być usprawnioy przez moduły (C++17). Wstępnie kompliowane nagłówki znakomicie przyśpieszają proces kompilacji, zostały wprowadzone w każdym szanującym się kompilatorze, w każdym inaczej. Tu: wersja Visual Studio.
 * ```#include <string>```
-   Włącznenie wsparcia dla klasy ```std::string``` - ogólnie o napisach.
+   Włączenie wsparcia dla klasy ```std::string``` - ogólnie o napisach.
 * ```#include <iostream>```
-   Włącznenie wsparcia dla operacji wejścia/wyjścia na strumieniach - niech nasz program potrafi coś napisać na konsoli.
+   Włączenie wsparcia dla operacji wejścia/wyjścia na strumieniach - niech nasz program potrafi coś napisać na konsoli.
 * ```<pusta linia>```
   C++ w zasadzie nie zwraca uwagi na formatowanie. Formatowanie ma sprzyjać czytelności kodu (przez czlowieka). Kompilator (zazwyczaj) puste linie po prostu ignoruje.
 * ```int main() {```
