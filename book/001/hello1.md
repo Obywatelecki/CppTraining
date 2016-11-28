@@ -117,10 +117,18 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 * ```int main() {```  
   Tu jest dużo treści:
   * Program definiuje funkcję ```main```. Funkcja nie ma argumentów - puste nawiasy ```main()``` i zwraca wynik: liczba całkowita ze ze znakiem ```int```.
-  * Otwierający nawias klamrowy ```{``` oznacza, że w kolejnych liniach będzie deiniowane ciało funkcji.
+  * Otwierający nawias klamrowy ```{``` oznacza, że w kolejnych liniach będzie definiowana treść funkcji.
   * Przyjęło się (to jest konwencja, a nie definicja języka), że jeżeli program jest uruchamiany przez system operacyjny (Windows, Linux, Unix, etc.), to zaczyna od funkcji main.
-* ```	using namespace std::string_literals;```  
-   * Formalnie: w ramach funkcji ```main()``` wprowadzamy operator ""s na literałach tekstowych (napisach takich jak "Hello World!\n"). Chodzi o to, aby w kolejnej linii napis "CosTam"s (z 's' na końcu) został potraktowany jako obiekt klasy ```std::string``` a nie jak starożytna tablica znaków, rodem z języka C.
-* ```	std::cout << "Hello World!\n"s;```  
-* ```	return 0;```  
+* ```using namespace std::string_literals;```  
+   * Formalnie: w ramach funkcji ```main()``` wprowadzamy operator ```""s``` na literałach tekstowych (literały to wartości zapisane literalnie, na przykład 1500, 3.14 albo "Hello World!\n"). Chodzi o to, aby w kolejnej linii napis "CosTam"s (z 's' na końcu) został potraktowany jako obiekt klasy ```std::string``` a nie jak starożytna tablica znaków, rodem z języka C.
+* ```std::cout << "Hello World!\n"s;```  
+   * Na standardowym strumieniu wyjściowym, zazwyczaj związanym z konsolą (```std::cout```) powinien pojawić się napis "Hello World!\n".
+   * ```"Hello World!\n"s``` jest obiektem klasy ```std::string```
+   * ```"\n"``` jest interpretowany jako znak przejścia do nowej linii.
+   * ```<<``` jest operatorem. Takim jak plus czy minus.
+* ```return 0;```  
+   * ```return``` oznacza zakończenie działania funkcji, w tym wypadku funkcji main().
+   * ```return 0;``` zwraca wynik funkcji ```0``` (literał). Typ wyniku jest zgodny z deklaracją typu funkcji ```int main()```
+   * (konwencja) wartość ```0``` zwrócona systemowi operacyjnymi oznacza "wszystko ok".
 * ```}```  
+   Domknięcie nawiasu klamrowego (linia ```int main() {```). Bo nawiasy muszą się zgadzać.
