@@ -72,7 +72,7 @@ Stale powtarzaną czynnością (Visual Studio) jest budowanie projektu (na razie
 W logu w oknie "Output" powinien się pojawić opis "gdzie powstał program":
 > ConsoleApplication1.vcxproj -> t:\ConsoleApplication1\Debug\ConsoleApplication1.exe
 
-oraz podsumowanie procesu kompilacji:
+oraz podsumowanie procesu:
 > ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
 
 ![Build](_images_/hello1/004.png)
