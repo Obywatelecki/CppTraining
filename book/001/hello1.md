@@ -109,7 +109,7 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 * ```#include "stdafx.h"```  
    Wykorzystanie wstępnie kompliowanych nagłówków. Pliki nagłówkowe to jeden z bardziej nieudanych elementów języka, powinien być usprawnioy przez moduły (C++17). Wstępnie kompliowane nagłówki znakomicie przyśpieszają proces kompilacji, zostały wprowadzone w każdym szanującym się kompilatorze, w każdym inaczej. Tu: wersja Visual Studio.
 * ```#include <string>```  
-* 
+
    Włączenie wsparcia dla klasy ```std::string``` - ogólnie o napisach.
 * ```#include <iostream>```
    Włączenie wsparcia dla operacji wejścia/wyjścia na strumieniach - niech nasz program potrafi coś napisać na konsoli.
