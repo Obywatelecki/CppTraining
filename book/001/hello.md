@@ -230,6 +230,15 @@ int main() {
 }
 ```
 
+### Solution Explorer
+
+Projekt powinien wyglądać tak (z dokładnością do ikon przed nazwami plików):
+![solution](_images_/hello/006.png)
+
+### Kompilacja
+
+Projekt powinien dać się skompilować bez problemu:
+> Skrót: Ctrl-Shift-B
 
 
 
