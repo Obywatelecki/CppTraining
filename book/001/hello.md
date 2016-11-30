@@ -6,6 +6,10 @@ Prawie wszystkie kody z kursu dostępne są też na platformie Coliru. Programy 
 
 Kod [Hello world]((http://coliru.stacked-crooked.com/a/be1a932a974e7b6f) na Coliru.
 
+## GitHub
+
+Treść kursu oraz źródła programów są dostępne na [githubie](https://github.com/jbanaszczyk/CppTraining). Na razie (przed "Wprowadzenie do gita"): należy: kliknąć "Clone or download" » Download ZIP » i otowrzyć w Visual Studio właściwy plik \*.sln.
+
 ## Najprostszy program
 
 Stałą praktyką w nauczaniu tworzenia oprogramowania jest demonstracja najprostszego programu w danym języku tak, aby można było jak najszybciej do teorii dołączyć umiejętności praktyczne.
