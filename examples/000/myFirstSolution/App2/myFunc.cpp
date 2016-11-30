@@ -4,5 +4,5 @@
 
 std::string myFunc() {
 	using namespace std::string_literals;
-	return "Hello World from App1!\n"s;
+	return "Hello World from App1!"s;
 }
