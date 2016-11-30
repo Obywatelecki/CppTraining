@@ -135,7 +135,7 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 
 # Wykonaj to własnoręcznie
 
-Celem ćwiczenia jest pobieżne zaznajomienie się ze w środowiskiem Visual Studio. Podobne koncepty można spotkać w większości IDE:
+Celem ćwiczenia jest pobieżne zaznajomienie się ze środowiskiem Visual Studio. Podobne koncepty można spotkać w większości IDE:
 - skutkiem przetworzenia (kompilacji itd) jednego projektu jest jeden artefakt taki jak:
   - plik wykonywalny (na platformie Windows to plik exe),
   - biblioteka przenaczona do wykorzystania w projekcie (lib),
@@ -150,6 +150,49 @@ Celem ćwiczenia jest pobieżne zaznajomienie się ze w środowiskiem Visual Stu
   - kolor i inne atrybuty tekstu mają związek ze składnią języka,
   - na bieżąco wykrywa proste błędy,
   - podpowiada nazwy identyfikatorów w czasie pisania.   
+
+## Projekt z dwoma programami
+
+Należy założyć nowy, pusty projekt, nazwany myFirstSolution 
+> Rodzaj projektu: Templates » Other Project Types » Visual Studio Solutions
+> Szablon projektu: Blank Solution  
+> Nazwa: myFirstSolution
+
+W *myFirstSolution* należy założyć dwa projekty C++ o nazwach App1 i App2
+> menu kontekstowe Solution Explorera: Add » New Project
+> > Rodzaj projektu: Templates » Visual C++ » Win32
+> > Szablon projektu: Win32 Console Application
+> Nazwa: odpowiednio App1 i App2
+
+W każdym z projektów należy utworzyć nowy plik myFunc.cpp (efektywnie: to będą dwa różne pliki, o takich samych nazwach, w różnych katalogach):
+> menu kontekstowe sekcji "Source Files":
+> > Add » New Item
+> > > Type: Visual C++ » C++ File (.cpp)
+> > > Nazwa: myFunc.cpp
+
+Zawartość pliku myFunc.cpp w projekcie App1
+```C++
+#include "stdafx.h"
+#include <string>
+
+std::string myFunc() {
+	using namespace std::string_literals;
+	return "Hello World from App1!\n"s;
+}
+```
+
+Zawartość pliku myFunc.cpp w projekcie App2 (różni się tylko literałem przy instrukcji ```return```)
+```C++
+#include "stdafx.h"
+#include <string>
+
+std::string myFunc() {
+	using namespace std::string_literals;
+	return "Hello World from App2!\n"s;
+}
+```
+
+
 
 
 
