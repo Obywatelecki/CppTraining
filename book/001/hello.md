@@ -168,7 +168,25 @@ W *myFirstSolution* należy założyć dwa projekty C++ o nazwach App1 i App2
 > > Szablon projektu: Win32 Console Application
 > Nazwa: odpowiednio App1 i App2
 
-W każdym z projektów należy utworzyć nowy plik myFunc.cpp (efektywnie: to będą dwa różne pliki, o takich samych nazwach, w różnych katalogach):
+W każdym z projektów należy utworzyć nowy plik myFunc.h (efektywnie: to będą dwa różne pliki, o takich samych nazwach ale w różnych katalogach):
+> menu kontekstowe sekcji "Header Files":
+> > Add » New Item
+> > > Type: Visual C++ » Header File (.h)
+> > > Nazwa: myFunc.h
+
+Zawartość pliku myFunc.h (w obu projektach taka sama)
+```C++
+#ifndef _MYFUNC_H
+#define _MYFUNC_H
+
+#include <string>
+
+std::string myFunc();
+
+#endif
+```
+
+W każdym z projektów należy utworzyć nowy plik myFunc.cpp (analogicznie: to będą dwa różne pliki, o takich samych nazwach ale w różnych katalogach):
 > menu kontekstowe sekcji "Source Files":
 > > Add » New Item
 > > > Type: Visual C++ » C++ File (.cpp)
@@ -177,34 +195,39 @@ W każdym z projektów należy utworzyć nowy plik myFunc.cpp (efektywnie: to b�
 Zawartość pliku myFunc.cpp w projekcie App1
 ```C++
 #include "stdafx.h"
+#include "myFunc.h"
 #include <string>
 
 std::string myFunc() {
 	using namespace std::string_literals;
-	return "Hello World from App1!\n"s;
+	return "Hello World from App1!"s;
 }
 ```
 
 Zawartość pliku myFunc.cpp w projekcie App2 (różni się tylko literałem przy instrukcji ```return```)
 ```C++
 #include "stdafx.h"
+#include "myFunc.h"
 #include <string>
 
 std::string myFunc() {
 	using namespace std::string_literals;
-	return "Hello World from App2!\n"s;
+	return "Hello World from App2!"s;
 }
 ```
 
-W każdym z projektów należy utworzyć nowy plik myFunc.h:
-> menu kontekstowe sekcji "Header Files":
-> > Add » New Item
-> > > Type: Visual C++ » Header File (.h)
-> > > Nazwa: myFunc.h
-
-Zawartość pliku myFunc.h (w obu projektach taka sama)
+W każdym z projektów plik zawierający funkcję main() (odpowiednio App1.cpp i App2.cpp) powinien być taki sam i zawierać:
 ```C++
-std::string myFunc();
+#include "stdafx.h"
+#include "myFunc.h"
+#include <string>
+#include <iostream>
+
+int main() {
+	using namespace std::string_literals;
+	std::cout << myFunc() << "\n"s;
+	return 0;
+}
 ```
 
 
