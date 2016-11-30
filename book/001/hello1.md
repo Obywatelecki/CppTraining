@@ -1,10 +1,10 @@
-# Hello world #1
+# Hello world
 
 ## Coliru
 
 Prawie wszystkie kody z kursu dostępne są też na platformie Coliru. Programy można edytować, kompilować (gcc albo clang), uruchamiać z przeglądarki, nie jest potrzebny lokalnie zainstalowany kompilator. Coliru używa potężnego edytora ace [(spis skrótów klawiaturowych)](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts).
 
-Kod [Hello world #1]((http://coliru.stacked-crooked.com/a/be1a932a974e7b6f) jest dostępny na Coliru.
+Kod [Hello world]((http://coliru.stacked-crooked.com/a/be1a932a974e7b6f) na Coliru.
 
 ## Najprostszy program
 
