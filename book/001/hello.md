@@ -237,8 +237,12 @@ Projekt powinien wyglądać tak (z dokładnością do ikon przed nazwami plików
 
 ### Kompilacja
 
-Projekt powinien dać się skompilować bez problemu:
+Projekt powinien dać się skompilować bez problemu (ważna jest ostatnia linia: ..., 0 failed, ...):
 > Skrót: Ctrl-Shift-B
+![Build Output](_images_/hello/007.png)
+
+
+
 
 
 
