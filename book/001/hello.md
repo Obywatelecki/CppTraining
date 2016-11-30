@@ -43,7 +43,7 @@ Najprostszy projekt w w Visual Studio w C++ wygląda tak:
 
 Minimalne wymagania wobec komputera dla VS mówią o karcie graficznej co najmniej 1024×768, GitBook skaluje obrazki do szerokości max. 770px, to wygląda jak wygląda :(
 
-Program robi nic, należy go zastąpić kodem:
+Program robi nic, należy go zastąpić kodem (plik ConsoleApplication1.cpp):
 ```C++
 #include "stdafx.h"
 #include <string>
@@ -197,6 +197,11 @@ W każdym z projektów należy utworzyć nowy plik myFunc.h:
 > > Add » New Item
 > > > Type: Visual C++ » Header File (.h)
 > > > Nazwa: myFunc.h
+
+Zawartość pliku myFunc.h (w obu projektach taka sama)
+```C++
+std::string myFunc();
+```
 
 
 
