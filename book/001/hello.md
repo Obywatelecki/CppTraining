@@ -128,7 +128,7 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
    * ```<<``` jest operatorem. Takim jak plus czy minus.
 * ```return 0;```
    * ```return``` oznacza zakończenie działania funkcji, w tym wypadku funkcji main().
-   * ```return 0;``` zwraca wynik funkcji ```0``` (literał). Typ wyniku jest zgodny z deklaracją typu funkcji ```int main()```
+   * ```return 0;``` zwraca wynik funkcji ```0``` (literał). Typ wyniku ```int``` jest zgodny z deklaracją typu funkcji ```int main()```
    * (konwencja) wartość ```0``` zwrócona systemowi operacyjnymi oznacza "wszystko ok".
 * ```}```
    Domknięcie nawiasu klamrowego (z linii ```int main() {```). Bo nawiasy muszą się zgadzać.
