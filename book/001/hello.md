@@ -132,3 +132,40 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
    * (konwencja) wartość ```0``` zwrócona systemowi operacyjnymi oznacza "wszystko ok".
 * ```}```
    Domknięcie nawiasu klamrowego (z linii ```int main() {```). Bo nawiasy muszą się zgadzać.
+
+# Wykonaj to własnoręcznie
+
+Celem ćwiczenia jest pobieżne zaznajomienie się ze w środowiskiem Visual Studio. Podobne koncepty można spotkać w większości IDE:
+- skutkiem przetworzenia (kompilacji itd) jednego projektu jest jeden artefakt taki jak:
+  - plik wykonywalny (na platformie Windows to plik exe),
+  - biblioteka przenaczona do wykorzystania w projekcie (lib),
+  - biblioteka dołączana w czasie wykonania (dll, so) itp,
+- projekty są pogrupowane w rozwiązania (Visual Studio: solution),
+  - można tworzyć bardziej rozbudowane hierarchie projektów (rozwiązanie zawiera projekty, które zawierają projekty, ... - ma to sens w przypadku naprawdę dużych projektów)
+- środowisko ułatwia zarządzanie opcjami wpływającymi na proces budowania projektów (kompilacji itp).
+  - środowisko ułatwia wybór grup opcji - na przykład szybka kompilacja dla celów uruchomieniowych (debug) vs. kompilacja z silną optymalizacją kodu finalnego (release).
+- środowisko dba o to, by zużycie zasobów związane z kompilacją było jak najmniejsze (nie ma potrzeby kompilować plików, które nie uległy zmianie),
+- edytor tekstu zapewnia wsparcie dla programisty:
+  - wspomaga dopasowanie nawiasów, 
+  - kolor i inne atrybuty tekstu mają związek ze składnią języka,
+  - na bieżąco wykrywa proste błędy,
+  - podpowiada nazwy identyfikatorów w czasie pisania.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
