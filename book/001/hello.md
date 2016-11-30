@@ -192,6 +192,12 @@ std::string myFunc() {
 }
 ```
 
+W każdym z projektów należy utworzyć nowy plik myFunc.h:
+> menu kontekstowe sekcji "Header Files":
+> > Add » New Item
+> > > Type: Visual C++ » Header File (.h)
+> > > Nazwa: myFunc.h
+
 
 
 
