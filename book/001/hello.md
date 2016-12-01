@@ -244,7 +244,7 @@ Projekt powinien dać się skompilować bez problemu (ważna jest ostatnia linia
 
 ### Uruchomienie
 
-Skompilowany, program po uruchomieniu:
+Program po uruchomieniu:
 > Skrót: Ctr-F5  
 > Menu: Debug » Start Without Debugging
 ![Console hello](_images_/hello/008.png)
@@ -252,7 +252,8 @@ Skompilowany, program po uruchomieniu:
  ### Przełączanie między projektami
 
 Należy zmienić projekt początkowy (ten który jest uruchamiany poleceniami "Start Debugging" / "Start Without Debugging").
-> Solution Explorer: menu kontekstowe drugiego projektu: Set as StartUp Project  
+> Solution Explorer: menu kontekstowe drugiego projektu: Set as StartUp Project
+
 i uruchomić:
 > Skrót: Ctr-F5
 ![Console hello](_images_/hello/009.png)
