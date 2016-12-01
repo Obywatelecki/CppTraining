@@ -273,7 +273,7 @@ W zasadzie wszystkie kompilatory (nie tylko C++) korzystają ze spostrzeżenia: 
 Należy kilkukrotnie uruchomić "Build project", "Rebuild project" i obserwować działania Visual Studio.  
 Należy modyfikować zawartość plików myFunc.h i App1.cpp (dodając spację na końcu pliku i zapisując plik na dysku), kilkukrotnie uruchomić "Build project", "Rebuild project" i obserwować działania Visual Studio.
 
-* "Build" buduje projekt najmniejszym wysiłkiem - nie kompiluje modułów które nie uległy zmianie.
+* "Build" buduje projekt najmniejszym wysiłkiem - nie kompiluje modułów, które nie uległy zmianie.
 * "Rebuild" bezwarunkowo kompiluje cały projekt.
 
 ## O czym był ten program?
@@ -356,6 +356,10 @@ Obie jednostki kompilacji zawieraja dyrektywę ```#include "myFunc.h"```, któr�
 * W przypadku App1.cpp jest to informacja: "Linker dołączy funkcję ```myFunc```. Chwilowo nie ma żadnego znaczenia jak ta funkcja działa. Ma znaczenie jakie ma parametry i jaki typ wartości zwraca. Teraz **deklaruję**, że funkcja nie będzie mieć parametrów i zwróci wartość typu ```std::string```.
 * myFunc.cpp zawiera definicję funkcji myFunc() (funkcji bez prametrów, o nazwie myFunc). Poprzedzenie definicji (myFunc.cpp) deklaracją (z pliku myFunc.h) nie wnosi wiele nowego, ale pozwala kompilatorowi na sprawdzenie czy zgadza się typ funkcji ```std::string```.
 
+### Inne konstrukcje języka
+
+* ```std::cout << myFunc() << "\n"s;```  
+   Wywołanie funcji ```myFunc()```, obliczenie sekwencji operatorów ```<<``` - będzie opisane szczegółowo.
 
 
 
