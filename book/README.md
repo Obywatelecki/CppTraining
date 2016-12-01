@@ -10,7 +10,9 @@ Zakładam, że odbiorca wie, czym jest program komputerowy i o co w ogóle chodz
 
 ## Zastrzeżenie #1
 
-Ten kurs bazuje na moich doświadczeniach i przemyśleniach. Nie oczekuję, że czytelnik zawsze i w pełni się z nimi zgodzi. Jeśli jest to problem - zrezygnuj z dalszego czytania. Choć prawdopodobnie będziesz żałować.
+Ten kurs bazuje na moich doświadczeniach i przemyśleniach. W wielu miejscach wprowadzam duże uoriszczenia - to nie jest encyklopedia.
+
+Nie oczekuję, że czytelnik zawsze i w pełni się z nimi zgodzi. Jeśli jest to problem - zrezygnuj z dalszego czytania. Choć prawdopodobnie będziesz żałować.
 
 ## Zastrzeżenie #2
 
