@@ -8,11 +8,9 @@
 
 * [Czym jest język C++](001/language.md)
 * [Środowisko do nauki](001/environment.md)
-
+* [Hello world](001/hello.md) (+ cwiczenia)
 
 ### Niedokończone
-
-* [Hello world](001/hello.md)
 
 ----
 
