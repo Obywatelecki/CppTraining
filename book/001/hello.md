@@ -247,11 +247,11 @@ Projekt powinien dać się skompilować bez problemu (ważna jest ostatnia linia
 Skompilowany, program po uruchomieniu:
 > Skrót: Ctr-F5  
 > Menu: Debug » Start Without Debugging
-
 ![Console hello](_images_/hello/008.png)
  
+ ### Przełączanie między projektami
 
-
+Należy zmienić projekt początkowy (ten który jest uruchamiany poleceniami "Start Debugging" / "Start Without Debugging")
 
 
 
