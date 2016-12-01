@@ -4,7 +4,7 @@
 
 * [Wstęp](README.md)
 
-### Część 0
+### Dzień I
 
 * [Czym jest język C++](001/language.md)
 * [Środowisko do nauki](001/environment.md)
@@ -17,4 +17,3 @@
 ### Notatki na marginesie
 
 * [znaczki różne](999/charmap.md)
-
