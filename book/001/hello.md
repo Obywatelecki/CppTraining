@@ -323,11 +323,12 @@ Preprocesor interesuje się wszystkimi liniami kodu zaczynającymi się od znaku
   W przypadku tego konkretnego kodu nie ma żadnego znaczenia, będzie podmiotem dużego rozdziału.
 * ```#include "myFunc.h"```  
   Preprocesor zastępuje linię ```#include "myFunc.h"``` treścią z pliku "myFunc.h".  
-  Tak. Mowa jest o jednym z nowocześniejszych języków programowania i tu takie kwiatki :). Tak, do kompilacji jest kierowany plik mniej więcej taki (uporczywie pomijam ```#include "stdafx.h"```)
+  Tak. Mowa jest o jednym z nowocześniejszych języków programowania i tu takie kwiatki :).  
+  Tak, do kompilacji jest kierowany plik mniej więcej taki (uporczywie pomijam znaczenie dyrektywy ```#include "stdafx.h"```)
 ```C++
 ... zawartość pliku "string" ...    // jest taki plik gdzieś w bibliotekach standardowych
-... zawartość pliku "iostream" ...  // jest taki plik gdzieś w bibliotekach standardowych
 std::string myFunc();               // #include "myFunc.h"
+... zawartość pliku "iostream" ...  // taki plik też gdzieś jest
 
 int main() {
 	using namespace std::string_literals;
