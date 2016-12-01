@@ -296,11 +296,11 @@ Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj z
 
 Linker dopasowuje odpowiednie symbole (np. wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp, a odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej).
 ```
-+-[ libc++ ]---------------+  +-[ App1.obj ]--------------------+  +-[ myFunc.obj ]--------+
-| extern ostream std::cout;|  | std::cout << myFunc() << "\n"s; |  | std::string myFunc(); |
-+----------------------V---+  +-------^-------^-----------------+  +---------------V-------+
-                       |              |      |                                     |
-                       +--------------+      +-------------------------------------+
++-[ libc++ ]---------+   +-[ App1.obj ]--------------------+   +-[ myFunc.obj ]--------+
+| ostream std::cout; |   | std::cout << myFunc() << "\n"s; |   | std::string myFunc(); |
++---------------V----+   +-------^-------^-----------------+   +---------------V-------+
+                |                |       |                                     |
+                +----------------+       +-------------------------------------+
 ```
 
 
