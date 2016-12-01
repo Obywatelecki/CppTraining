@@ -315,7 +315,7 @@ Linker dopasowuje odpowiednie symbole:
 
 ### Preprocesor
 
-Wstępnym przebiegiem kompilatora jest preprocesor tekstu.
+Wstępnym przebiegiem kompilatora jest uruchomienie preprocesora tekstu.
 
 Preprocesor interesuje się wszystkimi liniami kodu zaczynającymi się od znaku hash ```#``` - dyrektywami preprocesora.
 
