@@ -186,7 +186,7 @@ std::string myFunc();
 #endif
 ```
 
-W każdym z projektów należy utworzyć nowy plik myFunc.cpp (analogicznie: to będą dwa różne pliki, o takich samych nazwach ale w różnych katalogach):
+W każdym z projektów należy utworzyć nowy plik myFunc.cpp (analogicznie: to będą dwa różne pliki, o takich samych nazwach, ale w różnych katalogach):
 > menu kontekstowe sekcji "Source Files":
 > > Add » New Item
 > > > Type: Visual C++ » C++ File (.cpp)  
