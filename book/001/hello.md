@@ -28,7 +28,7 @@ Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto ws
 ## Nowy projekt:
 > Skrót: Ctrl-Shift-N
 > Menu: File » New » Project
-> > Rodzaj projektu: Templates » Visual C++ » Win32
+> > Rodzaj projektu: Templates » Visual C++ » Win32  
 > > Szablon projektu: Win32 Console Application
 
 ![New project](_images_/hello/001.png)
@@ -68,9 +68,9 @@ Ten kod:
 ## Kompilacja
 
 Stale powtarzaną czynnością (Visual Studio) jest budowanie projektu (na razie niech wystarczy: przetworzenie napisanego kodu na kod binarny).
-> Skrót: Ctrl-Shift-B
-> Skrót: F7 (zależnie od ustawień VS)
-> Menu: Build » Build Solution
+> Skrót: Ctrl-Shift-B  
+> Skrót: F7 (zależnie od ustawień VS)  
+> Menu: Build » Build Solution  
 > Menu kontekstowe w Solution Explorer: Build Solution
 
 W logu w oknie "Output" powinien się pojawić opis "gdzie powstał program":
@@ -86,12 +86,12 @@ oraz podsumowanie procesu:
 Program można uruchomić korzystając z debuggera. Debugger to potężne narzędzie, pozwala na kontrolowane wykonania programu (linia po linii, zaglądając do ciała funkcji, z ustawianiem punktów przerwania), monitorowaniem stanu (podglądanie i zmiana zwartości obiektów), lokalnie albo zdalnie na innym komputerze, z możliwością "podłączenia się" do działającego procesu i dziesiątkami innych funkcji.
 
 W ostatniej linii kodu ```}``` należy ustawić punkt przerwania (czerwony znacznik na marginesie)
-> Skrót: F9
-> Menu: Debug » Toggle Breakpoint
+> Skrót: F9  
+> Menu: Debug » Toggle Breakpoint  
 > Menu kontekstowe w Edytorze: Breakpoint » Insert Breakpoint
 
 i uruchomić program - będzie się wykonywać do końca albo do punktu przerwania:
-> Skrót: F5
+> Skrót: F5  
 > Menu: Debug » Start Debugging
 
 ![Run](_images_/hello/005.png)
@@ -99,42 +99,42 @@ i uruchomić program - będzie się wykonywać do końca albo do punktu przerwan
 ### Zakończenie działania programu
 
 * Eleganckie (niech wykona się do końca):
-> Skrót: F5
+> Skrót: F5  
 > Menu: Debug » Continue
 
 * Brutalne (po prostu koniec):
-> Skrót: Shift-F5
+> Skrót: Shift-F5  
 > Menu: Debug » Stop Debugging
 
 ## O czym był ten program?
 
 Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zdania zostanie wkrótce omówiony, teraz może być czarną magią:
 
-* ```#include "stdafx.h"```
+* ```#include "stdafx.h"```  
    Wykorzystanie wstępnie kompliowanych nagłówków. Pliki nagłówkowe to jeden z bardziej nieudanych elementów języka, będzie usprawniony przez moduły (wprowadzone w C++17). Wstępnie kompilowane nagłówki (precompiled headers) znakomicie przyspieszają proces kompilacji, zostały wprowadzone w każdym szanującym się kompilatorze, w każdym inaczej. Tu: wersja Visual Studio.
-* ```#include <string>```
+* ```#include <string>```  
    Włączenie wsparcia dla klasy ```std::string``` - chodzi o to, żeby kompilator rozumiał napisy.
-* ```#include <iostream>```
+* ```#include <iostream>```  
    Włączenie wsparcia dla operacji wejścia/wyjścia na strumieniach - niech nasz program potrafi coś napisać na konsoli.
-* ```<pusta linia>```
+* ```<pusta linia>```  
   C++ w zasadzie nie zwraca uwagi na formatowanie. Formatowanie ma sprzyjać czytelności kodu. Kompilator (zazwyczaj) puste linie po prostu ignoruje.
-* ```int main() {```
+* ```int main() {```  
   Tu jest dużo treści:
   * Program definiuje funkcję ```main```. Funkcja nie ma argumentów - puste nawiasy ```main()``` i zwraca wynik: liczba całkowita ze ze znakiem ```int```.
   * Otwierający nawias klamrowy ```{``` oznacza, że w kolejnych liniach będzie definiowana treść funkcji.
   * Przyjęło się (to jest konwencja, a nie definicja języka), że jeżeli program jest uruchamiany przez system operacyjny (Windows, Linux, Unix, etc.), to zaczyna od funkcji main.
-* ```using namespace std::string_literals;```
+* ```using namespace std::string_literals;```  
    * Formalnie: w ramach funkcji ```main()``` wprowadzamy operator ```""s``` na literałach tekstowych (literały to wartości zapisane literalnie, na przykład 1500, 3.14 albo "Hello World!\n"). Chodzi o to, aby w kolejnej linii napis "CosTam"s (z 's' na końcu) został potraktowany jako obiekt klasy ```std::string``` a nie jak starożytna tablica znaków, rodem z języka C.
-* ```std::cout << "Hello World!\n"s;```
+* ```std::cout << "Hello World!\n"s;```  
    * Na standardowym strumieniu wyjściowym, zazwyczaj związanym z konsolą (```std::cout```) powinien pojawić się napis "Hello World!\n".
    * ```"Hello World!\n"s``` jest obiektem klasy ```std::string```
    * ```"\n"``` jest interpretowany jako znak przejścia do nowej linii.
    * ```<<``` jest operatorem. Takim jak plus czy minus.
-* ```return 0;```
+* ```return 0;```  
    * ```return``` oznacza zakończenie działania funkcji, w tym wypadku funkcji main().
    * ```return 0;``` zwraca wynik funkcji ```0``` (literał). Typ wyniku ```int``` jest zgodny z deklaracją typu funkcji ```int main()```
    * (konwencja) wartość ```0``` zwrócona systemowi operacyjnymi oznacza "wszystko ok".
-* ```}```
+* ```}```  
    Domknięcie nawiasu klamrowego (z linii ```int main() {```). Bo nawiasy muszą się zgadzać.
 
 # Wykonaj to własnoręcznie
@@ -158,20 +158,20 @@ Celem ćwiczenia jest pobieżne zaznajomienie się ze środowiskiem Visual Studi
 ## Projekt z dwoma programami
 
 Należy założyć nowy, pusty projekt, nazwany myFirstSolution 
-> Rodzaj projektu: Templates » Other Project Types » Visual Studio Solutions
+> Rodzaj projektu: Templates » Other Project Types » Visual Studio Solutions  
 > Szablon projektu: Blank Solution  
 > Nazwa: myFirstSolution
 
 W *myFirstSolution* należy założyć dwa projekty C++ o nazwach App1 i App2
 > menu kontekstowe Solution Explorera: Add » New Project
-> > Rodzaj projektu: Templates » Visual C++ » Win32
+> > Rodzaj projektu: Templates » Visual C++ » Win32  
 > > Szablon projektu: Win32 Console Application
 > Nazwa: odpowiednio App1 i App2
 
 W każdym z projektów należy utworzyć nowy plik myFunc.h (efektywnie: to będą dwa różne pliki, o takich samych nazwach ale w różnych katalogach):
 > menu kontekstowe sekcji "Header Files":
 > > Add » New Item
-> > > Type: Visual C++ » Header File (.h)
+> > > Type: Visual C++ » Header File (.h)  
 > > > Nazwa: myFunc.h
 
 Zawartość pliku myFunc.h (w obu projektach taka sama)
@@ -189,7 +189,7 @@ std::string myFunc();
 W każdym z projektów należy utworzyć nowy plik myFunc.cpp (analogicznie: to będą dwa różne pliki, o takich samych nazwach ale w różnych katalogach):
 > menu kontekstowe sekcji "Source Files":
 > > Add » New Item
-> > > Type: Visual C++ » C++ File (.cpp)
+> > > Type: Visual C++ » C++ File (.cpp)  
 > > > Nazwa: myFunc.cpp
 
 Zawartość pliku myFunc.cpp w projekcie App1
@@ -238,15 +238,17 @@ Projekt powinien wyglądać tak (z dokładnością do ikon przed nazwami plików
 ### Kompilacja
 
 Projekt powinien dać się skompilować bez problemu (ważna jest ostatnia linia: ..., 0 failed, ...):
-> Skrót: Ctrl-Shift-B
+> Skrót: Ctrl-Shift-B  
 > Menu: ... miliony kliknięć, kilometry myszką, podstawowych skrótów klawiaturowych trzeba się nauczyć.
 ![Build Output](_images_/hello/007.png)
 
 ### Uruchomienie
 
 Skompilowany, program po uruchomieniu:
-> Skrót: Ctr-F5
-> Menu: Debug »  
+> Skrót: Ctr-F5  
+> Menu: Debug » Start Without Debugging
+
+ 
 
 
 
