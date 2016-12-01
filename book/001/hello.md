@@ -111,7 +111,7 @@ i uruchomić program - będzie się wykonywać do końca albo do punktu przerwan
 Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zdania zostanie wkrótce omówiony, teraz może być czarną magią:
 
 * ```#include "stdafx.h"```  
-   Wykorzystanie wstępnie kompliowanych nagłówków. Pliki nagłówkowe to jeden z bardziej nieudanych elementów języka, będzie usprawniony przez moduły (wprowadzone w C++17). Wstępnie kompilowane nagłówki (precompiled headers) znakomicie przyspieszają proces kompilacji, zostały wprowadzone w każdym szanującym się kompilatorze, w każdym inaczej. Tu: wersja Visual Studio.
+   Wykorzystanie wstępnie kompilowanych nagłówków. Pliki nagłówkowe to jeden z bardziej nieudanych elementów języka, będzie usprawniony przez moduły (wprowadzone w C++17). Wstępnie kompilowane nagłówki (precompiled headers) znakomicie przyspieszają proces kompilacji, zostały wprowadzone w każdym szanującym się kompilatorze, w każdym inaczej. Tu: wersja Visual Studio.
 * ```#include <string>```  
    Włączenie wsparcia dla klasy ```std::string``` - chodzi o to, żeby kompilator rozumiał napisy.
 * ```#include <iostream>```  
@@ -142,7 +142,7 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 Celem ćwiczenia jest pobieżne zaznajomienie się ze środowiskiem Visual Studio. Podobne koncepty można spotkać w większości IDE:
 - skutkiem przetworzenia (kompilacji itd) jednego projektu jest jeden artefakt taki jak:
   - plik wykonywalny (na platformie Windows to plik exe),
-  - biblioteka przenaczona do wykorzystania w projekcie (lib),
+  - biblioteka przeznaczona do wykorzystania w projekcie (lib),
   - biblioteka dołączana w czasie wykonania (dll, so) itp,
 - projekty są pogrupowane w rozwiązania (Visual Studio: solution),
   - można tworzyć bardziej rozbudowane hierarchie projektów (rozwiązanie zawiera projekty, które zawierają projekty, ... - ma to sens w przypadku naprawdę dużych projektów)
@@ -257,7 +257,7 @@ i uruchomić:
 
 ### Kolejność budowania projektów
 
-W tym przypadku projekty App1 i App2 są od siebie niezależne, kolejnośc ich budowania nie ma żadnego znaczenia.
+W tym przypadku projekty App1 i App2 są od siebie niezależne, kolejność ich budowania nie ma żadnego znaczenia.
 
 Gdyby projekty od siebie zależały (na przykład App2 zawierałby bibliotekę używaną przez App1):
 > Solution Explorer: menu kontekstowe całego rozwiązania: Project Build Order
@@ -294,7 +294,7 @@ Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacji (ang: com
 +------------+         +------------+
 ```
 
-Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj ze wszystkich jednostek kompilacji, dołożenie pożądanych bibliotek (biblioteka to nic inego, jak wiele plików \*.obj spakowanych w jedną całość) i wygenerowanie pliku wykonywalnego oczekiwanego przez system.
+Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj ze wszystkich jednostek kompilacji, dołożenie pożądanych bibliotek (biblioteka to nic innego, jak wiele plików \*.obj spakowanych w jedną całość) i wygenerowanie pliku wykonywalnego oczekiwanego przez system.
 
 ```C++
 +------------+         +------------+         +------------+
@@ -351,13 +351,13 @@ int main() {
 
 ### Deklaracja funkcji
 
-Obie jednostki kompilacji zawieraja dyrektywę ```#include "myFunc.h"```, którą preprocesor zamienia na ```std::string myFunc();```
+Obie jednostki kompilacji zawierają dyrektywę ```#include "myFunc.h"```, którą preprocesor zamienia na ```std::string myFunc();```
 
 * W przypadku App1.cpp jest to informacja: "Linker dołączy funkcję ```myFunc```. Chwilowo nie ma żadnego znaczenia jak ta funkcja działa. Ma znaczenie jakie ma parametry i jaki typ wartości zwraca. Teraz **deklaruję**, że funkcja nie będzie mieć parametrów i zwróci wartość typu ```std::string```.
-* myFunc.cpp zawiera definicję funkcji myFunc() (funkcji bez prametrów, o nazwie myFunc). Poprzedzenie definicji (myFunc.cpp) deklaracją (z pliku myFunc.h) nie wnosi wiele nowego, ale pozwala kompilatorowi na sprawdzenie czy zgadza się typ funkcji ```std::string```.
+* myFunc.cpp zawiera definicję funkcji myFunc() (funkcji bez parametrów, o nazwie myFunc). Poprzedzenie definicji (myFunc.cpp) deklaracją (z pliku myFunc.h) nie wnosi wiele nowego, ale pozwala kompilatorowi na sprawdzenie czy zgadza się typ funkcji ```std::string```.
 
 ### Inne konstrukcje języka
 
 * ```std::cout << myFunc() << "\n"s;```  
-   Wywołanie funcji ```myFunc()```, obliczenie sekwencji operatorów ```<<``` - będzie opisane szczegółowo.
+   Wywołanie funkcji ```myFunc()```, obliczenie sekwencji operatorów ```<<``` - będzie opisane szczegółowo.
 

@@ -1,8 +1,5 @@
-#ifndef _MYFUNC_H
-#define _MYFUNC_H
+#pragma once
 
 #include <string>
 
 std::string myFunc();
-
-#endif
