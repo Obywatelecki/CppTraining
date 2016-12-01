@@ -267,9 +267,11 @@ Gdyby projekty od siebie zależały (na przykład App2 zawierałby bibliotekę u
 
 ## O czym był ten program?
 
+### Jednostki kompilacji, linkowanie 
+
 Projekty App1 i App2 są takie same, będzie omówiony tylko jeden.
 
-Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacyjne (ang: compilation unit): myFunc.cpp i App1.cpp. Obie są kompilowane, skutkiem ich kompilacji jest plik pośredni z rozszerzeniem \*.obj (gcc: \*.o) (ang: object file). Object file zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
+Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacji (ang: compilation unit): myFunc.cpp i App1.cpp. Obie są kompilowane, skutkiem ich kompilacji jest plik pośredni z rozszerzeniem \*.obj (gcc: \*.o) (ang: object file). Object file zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
 
 ```
 +------------+         +------------+
@@ -281,7 +283,7 @@ Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacyjne (ang: c
 +------------+         +------------+
 ```
 
-Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj ze wszystkich jednostek kompilacyjnych, dołożenie pożądanych bibliotek (biblioteka to nic inego, jak wiele plików \*.obj spakowanych w jedną całość) i wygenerowanie pliku wykonywalnego oczekiwanego przez system.
+Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj ze wszystkich jednostek kompilacji, dołożenie pożądanych bibliotek (biblioteka to nic inego, jak wiele plików \*.obj spakowanych w jedną całość) i wygenerowanie pliku wykonywalnego oczekiwanego przez system.
 
 ```C++
 +------------+         +------------+         +------------+
