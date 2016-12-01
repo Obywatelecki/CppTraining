@@ -273,8 +273,8 @@ W zasadzie wszystkie kompilatory (nie tylko C++) korzystają ze spostrzeżenia: 
 Należy kilkukrotnie uruchomić "Build project", "Rebuild project" i obserwować działania Visual Studio.  
 Należy modyfikować zawartość plików myFunc.h i App1.cpp (dodając spację na końcu pliku i zapisując plik na dysku), kilkukrotnie uruchomić "Build project", "Rebuild project" i obserwować działania Visual Studio.
 
-* Build buduje projekt najmniejszym wysiłkiem - nie kompiluje modułów które nie uległy zmianie.
-* Rebuild bezwarunkowo kompiluje cały projekt.
+* "Build" buduje projekt najmniejszym wysiłkiem - nie kompiluje modułów które nie uległy zmianie.
+* "Rebuild" bezwarunkowo kompiluje cały projekt.
 
 ## O czym był ten program?
 
