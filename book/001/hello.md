@@ -168,7 +168,7 @@ W *myFirstSolution* należy założyć dwa projekty C++ o nazwach App1 i App2
 > > Szablon projektu: Win32 Console Application  
 > Nazwa: odpowiednio App1 i App2
 
-W każdym z projektów należy utworzyć nowy plik myFunc.h (efektywnie: to będą dwa różne pliki, o takich samych nazwach ale w różnych katalogach):
+W każdym z projektów należy utworzyć nowy plik myFunc.h (efektywnie: to będą dwa różne pliki, o takich samych nazwach, ale w różnych katalogach):
 > menu kontekstowe sekcji "Header Files":
 > > Add » New Item
 > > > Type: Visual C++ » Header File (.h)  
