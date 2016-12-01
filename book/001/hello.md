@@ -16,7 +16,7 @@ Stałą praktyką w nauczaniu tworzenia oprogramowania jest demonstracja najpros
 
 Podobny opis [zamieścił Microsoft](https://www.visualstudio.com/vs/support/#!articles/816-6458-hello-world-in-c-using-visual-studio-2015).
 
-## Reset Visual Studio
+## Reset ustawień Visual Studio
 
 Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto wspomnieć o:
 
@@ -314,7 +314,7 @@ Linker dopasowuje odpowiednie symbole:
 
 Wstępnym przebiegiem kompilatora jest uruchomienie preprocesora tekstu.
 
-Preprocesor interesuje się wszystkimi liniami kodu zaczynającymi się od znaku hash ```#``` - dyrektywami preprocesora.
+Preprocesor interesuje się dyrektywami preprocesora - liniami kodu zaczynającymi się od znaku hash ```#```
 
 * ```#pragma once```  
   W przypadku tego konkretnego kodu nie ma żadnego znaczenia, będzie podmiotem dużego rozdziału.
