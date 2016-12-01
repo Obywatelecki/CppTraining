@@ -262,6 +262,20 @@ W tym przypadku projekty App1 i App2 są od siebie niezależne, kolejnośc ich b
 Gdyby projekty od siebie zależały (na przykład App2 zawierałby bibliotekę używaną przez App1):
 > Solution Explorer: menu kontekstowe całego rozwiązania: Project Build Order
 
+## Build, rebuild, compile
+
+Proces budowania jest procesem kosztownym - wymaga przeczytania wielu dziesiątek plików, realizacji skomplikowanych algorytmów, zapisania kilku plików.
+
+W zasadzie wszystkie kompilatory (nie tylko C++) korzystają ze spostrzeżenia: jeśli plik źródłowy nie uległ zmianie, ani nie uległ zmianie żaden z plików, od których zależy wynik kompilacji (biblioteki, pliki dołączone (za chwilę będzie o preprocesorze)), ani opcje kompilacji nie uległy zmianie, to nie ma żadnej potrzeby ponownego kompilowania kodu.
+
+### Build, rebuild
+
+Należy kilkukrotnie uruchomić "Build project", "Rebuild project" i obserwować działania Visual Studio.  
+Należy modyfikować zawartość plików myFunc.h i App1.cpp (dodając spację na końcu pliku i zapisując plik na dysku), kilkukrotnie uruchomić "Build project", "Rebuild project" i obserwować działania Visual Studio.
+
+* Build buduje projekt najmniejszym wysiłkiem - nie kompiluje modułów które nie uległy zmianie.
+* Rebuild bezwarunkowo kompiluje cały projekt.
+
 ## O czym był ten program?
 
 ### Jednostki kompilacji, linkowanie 
