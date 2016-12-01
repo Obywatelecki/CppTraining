@@ -325,12 +325,14 @@ Preprocesor interesuje się wszystkimi liniami kodu zaczynającymi się od znaku
   Preprocesor zastępuje linię ```#include "myFunc.h"``` treścią z pliku "myFunc.h".  
   Tak. Mowa jest o jednym z nowocześniejszych języków programowania i tu takie kwiatki :). Tak, do kompilacji jest kierowany plik mniej więcej taki (uporczywie pomijam ```#include "stdafx.h"```)
 ```C++
-... zawartość pliku "string" ...  // jest taki plik gdzieś w bibliotekach standardowych
-std::string myFunc();             // #include "myFunc.h"
+... zawartość pliku "string" ...    // jest taki plik gdzieś w bibliotekach standardowych
+... zawartość pliku "iostream" ...  // jest taki plik gdzieś w bibliotekach standardowych
+std::string myFunc();               // #include "myFunc.h"
 
-std::string myFunc() {
+int main() {
 	using namespace std::string_literals;
-	return "Hello World from App2"s;
+	std::cout << myFunc() << "\n"s;
+	return 0;
 }
 ```
 
