@@ -165,7 +165,7 @@ Należy założyć nowy, pusty projekt, nazwany myFirstSolution
 W *myFirstSolution* należy założyć dwa projekty C++ o nazwach App1 i App2
 > menu kontekstowe Solution Explorera: Add » New Project
 > > Rodzaj projektu: Templates » Visual C++ » Win32  
-> > Szablon projektu: Win32 Console Application
+> > Szablon projektu: Win32 Console Application  
 > Nazwa: odpowiednio App1 i App2
 
 W każdym z projektów należy utworzyć nowy plik myFunc.h (efektywnie: to będą dwa różne pliki, o takich samych nazwach ale w różnych katalogach):
