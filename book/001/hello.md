@@ -253,9 +253,9 @@ Skompilowany, program po uruchomieniu:
 
 Należy zmienić projekt początkowy (ten który jest uruchamiany poleceniami "Start Debugging" / "Start Without Debugging").
 > Solution Explorer: menu kontekstowe drugiego projektu: Set as StartUp Project  
-i uruchomić
+i uruchomić:
 > Skrót: Ctr-F5
-
+![Console hello](_images_/hello/009.png)
 
 
 
