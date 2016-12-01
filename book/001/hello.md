@@ -295,17 +295,7 @@ Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj z
 +----------------------------------------------------------+
 ```
 
-
-
-
-
-
-
-
-
-
-
-dopasowanie właściwych symboli (np. wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp, a odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej)
+Linker dopasowuje odpowiednie symbole (np. wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp, a odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej).
 
 
 
