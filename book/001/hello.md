@@ -249,7 +249,7 @@ Program po uruchomieniu:
 > Menu: Debug » Start Without Debugging
 ![Console hello](_images_/hello/008.png)
  
- ### Przełączanie między projektami
+ ## Przełączanie między projektami
 
 Należy zmienić projekt początkowy (ten który jest uruchamiany poleceniami "Start Debugging" / "Start Without Debugging").
 > Solution Explorer: menu kontekstowe drugiego projektu: Set as StartUp Project
@@ -258,7 +258,48 @@ i uruchomić:
 > Skrót: Ctr-F5
 ![Console hello](_images_/hello/009.png)
 
+### Kolejność budowania projektów
 
+W tym przypadku projekty App1 i App2 są od siebie niezależne, kolejnośc ich budowania nie ma żadnego znaczenia.
+
+Gdyby projekty od siebie zależały (na przykład App2 zawierałby bibliotekę używaną przez App1):
+> Solution Explorer: menu kontekstowe całego rozwiązania: Project Build Order
+
+## O czym był ten program?
+
+Projekty App1 i App2 są takie same, będzie omówiony tylko jeden.
+
+Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacyjne (ang: compilation unit): myFunc.cpp i App1.cpp. Obie są kompilowane, skutkiem ich kompilacji jest plik pośredni z rozszerzeniem \*.obj (gcc: \*.o) (ang: object file). Object file zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
+
+```
++------------+         +------------+
+|            |         |            |
+| myFunc.cpp |         |  App1.cpp  |
+|            |         |            |
++-----+------+         +-----+------+
+      |                      |
++-----v------+         +-----v------+
+|            |         |            |
+| myFunc.obj |         |  App1.obj  |
+|            |         |            |
++------------+         +------------+
+```
+
+Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj ze wszystkich jednostek kompilacyjnych, dołożenie pożądanych bibliotek (biblioteka to nic inego, jak wiele plików \*.obj spakowanych w jedną całość).
+
+
+
+
+
+
+
+
+
+
+
+
+
+dopasowanie właściwych symboli (np. wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp, a odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej)
 
 
 
