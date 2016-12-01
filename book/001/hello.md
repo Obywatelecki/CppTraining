@@ -251,7 +251,10 @@ Skompilowany, program po uruchomieniu:
  
  ### Przełączanie między projektami
 
-Należy zmienić projekt początkowy (ten który jest uruchamiany poleceniami "Start Debugging" / "Start Without Debugging")
+Należy zmienić projekt początkowy (ten który jest uruchamiany poleceniami "Start Debugging" / "Start Without Debugging").
+> Solution Explorer: menu kontekstowe drugiego projektu: Set as StartUp Project  
+i uruchomić
+> Skrót: Ctr-F5
 
 
 
