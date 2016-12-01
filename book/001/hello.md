@@ -176,14 +176,11 @@ W każdym z projektów należy utworzyć nowy plik myFunc.h (efektywnie: to będ
 
 Zawartość pliku myFunc.h (w obu projektach taka sama)
 ```C++
-#ifndef _MYFUNC_H
-#define _MYFUNC_H
+#pragma once
 
 #include <string>
 
 std::string myFunc();
-
-#endif
 ```
 
 W każdym z projektów należy utworzyć nowy plik myFunc.cpp (analogicznie: to będą dwa różne pliki, o takich samych nazwach, ale w różnych katalogach):
@@ -200,7 +197,7 @@ Zawartość pliku myFunc.cpp w projekcie App1
 
 std::string myFunc() {
 	using namespace std::string_literals;
-	return "Hello World from App1!"s;
+	return "Hello World from App1"s;
 }
 ```
 
@@ -212,7 +209,7 @@ Zawartość pliku myFunc.cpp w projekcie App2 (różni się tylko literałem prz
 
 std::string myFunc() {
 	using namespace std::string_literals;
-	return "Hello World from App2!"s;
+	return "Hello World from App2"s;
 }
 ```
 
@@ -324,7 +321,7 @@ Preprocesor interesuje się wszystkimi liniami kodu zaczynającymi się od znaku
 * ```#include "myFunc.h"```  
   - Preprocesor zastępuje linię ```#include "myFunc.h"``` treścią z pliku "myFunc.h".
   - Tak. Mowa jest o jednym z nowocześniejszych języków programowania i tu takie kwiatki :).
-  - Tak, do kompilacji jest kierowany plik mniej więcej taki (uporczywie pomijam znaczenie dyrektywy ```#include "stdafx.h"```)
+  - Tak, do kompilacji jest kierowany plik mniej więcej taki (uporczywie pomijam działanie dyrektywy ```#include "stdafx.h"```)
 
 ```C++
 ... zawartość pliku "string" ...    // jest taki plik gdzieś w bibliotekach standardowych
