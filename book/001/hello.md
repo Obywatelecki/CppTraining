@@ -248,6 +248,7 @@ Skompilowany, program po uruchomieniu:
 > Skrót: Ctr-F5  
 > Menu: Debug » Start Without Debugging
 
+![Console hello](_images_/hello/008.png)
  
 
 
