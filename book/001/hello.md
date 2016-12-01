@@ -26,7 +26,7 @@ Na wszelki wypadek, gdy eksperymenty z Visual Studio zabrną za daleko, warto ws
 > Menu: Tools » Import and Export Settings » Reset all settings
 
 ## Nowy projekt:
-> Skrót: Ctrl-Shift-N
+> Skrót: Ctrl-Shift-N  
 > Menu: File » New » Project
 > > Rodzaj projektu: Templates » Visual C++ » Win32  
 > > Szablon projektu: Win32 Console Application
