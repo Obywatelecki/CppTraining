@@ -126,7 +126,7 @@ Aby nie pozostawiać niedomówień opiszę tych kilka linii. Temat z każdego zd
 * ```using namespace std::string_literals;```  
    * Formalnie: w ramach funkcji ```main()``` wprowadzamy operator ```""s``` na literałach tekstowych (literały to wartości zapisane literalnie, na przykład 1500, 3.14 albo "Hello World!\n"). Chodzi o to, aby w kolejnej linii napis "CosTam"s (z 's' na końcu) został potraktowany jako obiekt klasy ```std::string``` a nie jak starożytna tablica znaków, rodem z języka C.
 * ```std::cout << "Hello World!\n"s;```  
-   * Na standardowym strumieniu wyjściowym, zazwyczaj związanym z konsolą (```std::cout```) powinien pojawić się napis "Hello World!\n".
+   * Na standardowym strumieniu wyjściowym, zazwyczaj związanym z konsolą ```std::cout``` powinien pojawić się napis "Hello World!\n".
    * ```"Hello World!\n"s``` jest obiektem klasy ```std::string```
    * ```"\n"``` jest interpretowany jako znak przejścia do nowej linii.
    * ```<<``` jest operatorem. Takim jak plus czy minus.
