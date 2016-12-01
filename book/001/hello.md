@@ -67,7 +67,7 @@ Ten kod:
 
 ## Kompilacja
 
-Stale powtarzaną czynnością (Visual Studio) jest budowanie projektu (na razie niech wystarczy: przetworzenie napisanego kodu na kod binarny).
+Stale powtarzaną czynnością jest budowanie projektu (na razie niech wystarczy: przetworzenie napisanego kodu na kod binarny).
 > Skrót: Ctrl-Shift-B  
 > Skrót: F7 (zależnie od ustawień VS)  
 > Menu: Build » Build Solution  
