@@ -298,15 +298,15 @@ Linker dopasowuje odpowiednie symbole:
 * wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp,
 * odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej.
 ```
-+-[ libc++ ]+--------+    +-[ myFunc.obj ]+-------+
-| ostream std::cout; |    | std::string myFunc(){}|
-+--------------v-----+    +-------------v---------+
-               |                        |
-               |       +----------------+
-               |       |
-        +------V-------V------------------+
-        | std::cout << myFunc() << "\n"s; |
-        +---------------------------------+
++-[ libc++ ]+--------+    +-[ myFunc.obj ]+--------+
+| ostream std::cout; |    | std::string myFunc(){} |
++--------------v-----+    +-------------v----------+
+                 |                        |
+                 |       +----------------+
+                 |       |
+          +------V-------V------------------+
+          | std::cout << myFunc() << "\n"s; |
+          +---------------------------------+
 ```
 
 
