@@ -320,7 +320,7 @@ Preprocesor interesuje się dyrektywami preprocesora - liniami kodu zaczynający
   W przypadku tego konkretnego kodu nie ma żadnego znaczenia, będzie podmiotem dużego rozdziału.
 * ```#include "myFunc.h"```  
   - Preprocesor zastępuje linię ```#include "myFunc.h"``` treścią z pliku "myFunc.h".
-  - Tak. Mowa jest o jednym z nowocześniejszych języków programowania i tu takie kwiatki :).
+  - Tak, mowa jest o jednym z nowocześniejszych języków programowania i tu takie kwiatki :).
   - Tak, do kompilacji jest kierowany plik mniej więcej taki (uporczywie pomijam działanie dyrektywy ```#include "stdafx.h"```)
 
 ```C++
@@ -335,7 +335,12 @@ int main() {
 }
 ```
 
+### Deklaracja funkcji
 
+Obie jednostki kompilacji zawieraja dyrektywę ```#include "myFunc.h"```, którą preprocesor zamienia na ```std::string myFunc();```
+
+* W przypadku App1.cpp jest to informacja: "Linker dołączy funkcję ```myFunc```. Chwilowo nie ma żadnego znaczenia jak ta funkcja działa. Ma znaczenie jakie ma parametry i jaki typ wartości zwraca. Teraz **deklaruję**, że funkcja nie będzie mieć parametrów i zwróci wartość typu ```std::string```.
+* myFunc.cpp zawiera definicję funkcji myFunc() (funkcji bez prametrów, o nazwie myFunc). Poprzedzenie definicji (myFunc.cpp) deklaracją (z pliku myFunc.h) nie wnosi wiele nowego, ale pozwala kompilatorowi na sprawdzenie czy zgadza się typ funkcji ```std::string```.
 
 
 
