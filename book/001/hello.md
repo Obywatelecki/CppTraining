@@ -282,7 +282,7 @@ Należy modyfikować zawartość plików myFunc.h i App1.cpp (dodając spację n
 
 Projekty App1 i App2 są takie same, będzie omówiony tylko jeden.
 
-Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacji (ang: compilation unit): myFunc.cpp i App1.cpp. Obie są kompilowane, skutkiem ich kompilacji jest plik pośredni z rozszerzeniem \*.obj (gcc: \*.o) (ang: object file). Object file zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
+Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacji (ang: compilation unit): "myFunc.cpp" i "App1.cpp". Obie są kompilowane, skutkiem ich kompilacji jest plik pośredni z rozszerzeniem \*.obj (w przypadku kompilatora gcc: \*.o) (ang: object file). Object file zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
 
 ```
 +------------+         +------------+
