@@ -360,17 +360,3 @@ Obie jednostki kompilacji zawieraja dyrektywę ```#include "myFunc.h"```, któr�
 
 * ```std::cout << myFunc() << "\n"s;```  
    Wywołanie funcji ```myFunc()```, obliczenie sekwencji operatorów ```<<``` - będzie opisane szczegółowo.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
