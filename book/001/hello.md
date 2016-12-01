@@ -287,7 +287,21 @@ Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacyjne (ang: c
 
 Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj ze wszystkich jednostek kompilacyjnych, dołożenie pożądanych bibliotek (biblioteka to nic inego, jak wiele plików \*.obj spakowanych w jedną całość).
 
-
+```
++------------+         +------------+         +------------+
+|            |         |            |         |            |
+| myFunc.obj |         |  App1.obj  |         |   libc++   |
+|            |         |            |         |            |
++-----+------+         +-----+------+         +-----+------+
+      |                      |                      |
+      +------------+         |         +------------+
+                   |         |         |
++------------------v---------v---------v-------------------+
+|                                                          |
+|                         App1.exe                         |
+|                                                          |
++----------------------------------------------------------+
+```
 
 
 
