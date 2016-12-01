@@ -239,8 +239,14 @@ Projekt powinien wyglądać tak (z dokładnością do ikon przed nazwami plików
 
 Projekt powinien dać się skompilować bez problemu (ważna jest ostatnia linia: ..., 0 failed, ...):
 > Skrót: Ctrl-Shift-B
+> Menu: ... miliony kliknięć, kilometry myszką, podstawowych skrótów klawiaturowych trzeba się nauczyć.
 ![Build Output](_images_/hello/007.png)
 
+### Uruchomienie
+
+Skompilowany, program po uruchomieniu:
+> Skrót: Ctr-F5
+> Menu: Debug »  
 
 
 
