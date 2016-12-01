@@ -359,5 +359,4 @@ Obie jednostki kompilacji zawierają dyrektywę ```#include "myFunc.h"```, któr
 ### Inne konstrukcje języka
 
 * ```std::cout << myFunc() << "\n"s;```  
-   Wywołanie funkcji ```myFunc()```, obliczenie sekwencji operatorów ```<<``` - będzie opisane szczegółowo.
-
+   Wywołanie funkcji ```myFunc()```, obliczenie sekwencji operatorów ```<<``` - wkrótce będzie opisane szczegółowo.
