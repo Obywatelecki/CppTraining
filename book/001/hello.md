@@ -274,9 +274,9 @@ Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacyjne (ang: c
 ```
 +------------+         +------------+
 | myFunc.cpp |         |  App1.cpp  |
-+-----+------+         +-----+------+
-      |                      |
 +-----v------+         +-----v------+
+      |                      |
++-----V------+         +-----V------+
 | myFunc.obj |         |  App1.obj  |
 +------------+         +------------+
 ```
@@ -286,17 +286,27 @@ Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj z
 ```
 +------------+         +------------+         +------------+
 | myFunc.obj |         |  App1.obj  |         |   libc++   |
-+-----+------+         +-----+------+         +-----+------+
++-----v------+         +-----v------+         +-----v------+
       |                      |                      |
       +------------+         |         +------------+
                    |         |         |
-+------------------v---------v---------v-------------------+
++------------------V---------V---------V-------------------+
 |                         App1.exe                         |
 +----------------------------------------------------------+
 ```
 
 Linker dopasowuje odpowiednie symbole (np. wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp, a odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej).
 
+```
++-[ libc++ ]+--------------+  +-[ App1.obj ]+-------------------+  +-[ myFunc.obj ]+-------+
+|                          |  |                                 |  |                       |
+| extern ostream std::cout;|  | std::cout <> myFunc() <> "\n"s; |  | std::string myFunc(){}|
+|                      +   |  |      ^+      ^                  |  |               +       |
++--------------------------+  +---------------------------------+  +-----------------------+
+                       |              |      |                                     |
+                       +--------------+      +-------------------------------------+>
+
+```
 
 
 
