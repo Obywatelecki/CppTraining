@@ -4,4 +4,4 @@ Nie samym programowaniem człowiek żyje. Architektura, testy jednostkowe, sprin
 
 Tworzenie kodu to (zależnie od strategii firmy) **mniej więcej 20%** czasu poswięconego na wytworzenie oprogramowania.
 
-Stąd pomysł wzbogacenia kursu elementami inżynierii. To będą tylko zajawki tematów, na każdy z nich można napisać książkę albo dwie.
+Stąd pomysł wzbogacenia kursu elementami inżynierii. Każda część będzie zaczynać się krótkim tekstem na rozgrzewkę. To będą tylko zajawki tematów, na każdy z nich można napisać książkę albo dwie.
