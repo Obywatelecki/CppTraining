@@ -19,7 +19,7 @@ Nie oczekuję, że czytelnik zawsze i w pełni się z nimi zgodzi. Jeśli jest t
 W kilku miejscach kursu można znaleźć odniesienia i przykłady użycia programów i usług. Kryteria którymi się kierowałem to:
 * licencja powinna być na tyle liberalna, żeby narzędzie można było **za darmo** wykorzystać w czasie kursu.
 * narzędzie lub usługa powinno być wystarczająco dobre, niekoniecznie subiektywnie najlepsze.
-W szczególności: nie jest moim celem tworzenie katalogu programów i usług, nie jest moim celem wyliczanie programów o podobnych funkcjonalnościach. Przykład: znam i cenię konkretne środowiska zintegrowane (IDE) i będę ich używać. Nie będę opisywać różnic między nimi a innymi IDE. Tym niech zajmują się inni.
+W szczególności: nie jest moim celem tworzenie katalogu programów i usług, nie jest moim celem wyliczanie programów o podobnych funkcjonalnościach. Przykład: znam i cenię konkretne środowiska zintegrowane (IDE) i tu będę ich używać. Nie będę opisywać różnic między nimi a innymi IDE. Tym niech zajmują się inni.
 
 ## Licencja
 
