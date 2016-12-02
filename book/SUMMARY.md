@@ -10,6 +10,10 @@
 * [Środowisko do nauki](000/environment.md)
 * [Hello world](000/hello.md) (+ ćwiczenia)
 
+### Dzień 01
+
+* [20%](short/README.md)
+
 ### Niedokończone
 
 ### Szorty
