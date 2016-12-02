@@ -35,7 +35,7 @@ Pierwsza norma opisująca język C++ została opublikowana w 1998, dziś określ
 
 #### TR, TS
 
-Prace nad normalizacją utknęły w miejscu - za dużo pomysłów na raz, nie dało się wprowadzić jakiegoś fajnego, dobrze ograniczonego standardu. Komitet opublikował wiele raportów technicznych (TR) i specyfikacji (TS), większość kompilatorów wspierała poszczególne TR i TS (choć każdy po swojemu), ale nie miały one mocy prawnej.
+Prace nad normalizacją utknęły w miejscu - za dużo pomysłów na raz, nie dało się wprowadzić jakiegoś fajnego, dobrze ograniczonego standardu. Komitet opublikował wiele raportów technicznych (TR: Technical Report) i specyfikacji (TS: Technical Specification), większość kompilatorów wspierała poszczególne TR i TS (choć każdy po swojemu), ale nie miały one mocy prawnej.
 
 #### C++11, C++14
 
