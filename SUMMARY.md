@@ -1,4 +1,3 @@
 # Summary
 
-* Dzien 01
 
