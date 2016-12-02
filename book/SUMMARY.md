@@ -4,13 +4,18 @@
 
 * [Wstęp](README.md)
 
-### Dzień I
+### Dzień 00
 
-* [Czym jest język C++](001/language.md)
-* [Środowisko do nauki](001/environment.md)
-* [Hello world](001/hello.md) (+ ćwiczenia)
+* [Czym jest język C++](000/language.md)
+* [Środowisko do nauki](000/environment.md)
+* [Hello world](000/hello.md) (+ ćwiczenia)
 
 ### Niedokończone
+
+### Szorty
+
+* [20%](short/README.md)
+
 
 ----
 
