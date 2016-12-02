@@ -41,7 +41,7 @@ Prace nad normalizacją utknęły w miejscu - za dużo pomysłów na raz, nie da
 
 Kłopot rozwiązano przez zmianę trybu procedowania: kolejne wersje języka będą powstawały co trzy lata. Jeśli jakiś pomysł zostanie wystarczająco przedyskutowany i zaakceptowany, to wejdzie do standardu, a jak nie, to musi poczekać do kolejnej edycji. To trochę jak z pociągiem: spóźniłeś się na dworzec - pojedziesz następnym.
 
-Standard C++11 definiuje w zasadzie całkiem nowy język, a C++14 wprowadza niewiele zmian i poprawia dużo błędów i nieścisłości.
+Standard C++11 definiuje w zasadzie całkiem nowy język, C++14 wprowadza niewiele zmian i poprawia dużo błędów i nieścisłości.
 
 #### C++17
 
