@@ -27,10 +27,10 @@ Spośród kompilatorów działających na komputerach osobistych (Windows, Linux
 
 ## Środowisko zintegrowane (IDE)
 
-Można programy pisać w notepadzie albo VI i kompilować z linii poleceń. Można furmanką pojechać do Paryża, tylko po co? Przemyślane, dobrze skonfigurowane zintegrowane środowisko projektowe znakomicie odciąża programistę, nie trzeba dbać o drobiazgi, zapewnia harmonijną współpracę dobrego edytora, kompilatora, środowiska uruchomieniowego (debuggera czyli odpluskwiacza, będzie o nim więcej) i kilku innych narzędzi. Po to ludzkość wymyśliła komputery, żeby pracowały za nas i żebyśmy mogli skoncentrować się na pracy.
+Można programy pisać w notepadzie albo vi i kompilować z linii poleceń. Można furmanką pojechać do Paryża, tylko po co? Przemyślane, dobrze skonfigurowane zintegrowane środowisko projektowe znakomicie odciąża programistę, nie trzeba dbać o drobiazgi, zapewnia harmonijną współpracę dobrego edytora, kompilatora, środowiska uruchomieniowego (debuggera czyli odpluskwiacza, będzie o nim więcej) i kilku innych narzędzi. Po to ludzkość wymyśliła komputery, żeby pracowały za nas i żebyśmy mogli skoncentrować się na pracy.
 
 - Dla Windows nie ma lepszego środowiska niż **Visual Studio**. Wszystkie programy dołączone do niniejszego kursu są przygotowane jako projekty Visual Studio.
-- Godnym zainteresowania darmowym środowiskiem, zarówno dla Linuxa, jak i dla Windows jest [Eclipse](https://eclipse.org/). Zaletą jest dobre wsparcie dla moich ulubionych języków (można używać w jednym projekcie C++, Javę i Perl) i fakt, że w wersji dla Windows debugger działa poprawnie (a to nie jest powszechna właściwość). Poważną wadą jest nieintuicyjny interfejs. Aby używać Eclipse i C++ potrzebny jest plugin (albo wersja) CDT.
+- Godnym zainteresowania darmowym środowiskiem, zarówno dla Linuxa, jak i dla Windows jest [Eclipse](https://eclipse.org/). Zaletą jest dobre wsparcie dla moich ulubionych języków (można używać w jednym projekcie C++, Javę i Perl) i fakt, że w wersji dla Windows debugger działa poprawnie (a to nie jest powszechna właściwość). Poważną wadą jest nieintuicyjny interfejs. Aby używać Eclipse i C++ potrzebny jest plugin/wersja CDT.
 
 ### Visual Studio
 
