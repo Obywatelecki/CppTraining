@@ -8,7 +8,7 @@ Pliki mogą być zapisane w zwykłym ASCII, większość kompilatorów dobrze ro
 
 Bezpiecznie jest wystrzegać się stosowania znaków spoza podstawowego zakresu '\x20'-'\x7F', nawet naszego polskiego "ąćęłńóśźż":
 
-- w kodzie programu pojawią się nieoczywiste interpretacje / konwersje, zależnie od tego jaki jest plik zakodowany,
+- w kodzie programu pojawią się nieoczywiste interpretacje i konwersje, zależne od tego jaki jest plik zakodowany,
 - język pozwala takie znaczki zapisać explicite razem z pożądanym kodowaniem),
 - można wprawić w zakłopotanie inne narzędzia pracujące z naszym kodem.
 
