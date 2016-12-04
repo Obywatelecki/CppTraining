@@ -17,6 +17,8 @@
 
 ### Niedokończone
 
+* [Struktura programu](001/general.md)
+
 ### Szorty
 
 * [20%](short/README.md)
