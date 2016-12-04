@@ -20,8 +20,9 @@ Wymagania wobec systemu informatycznego można podzielić na trzy grupy:
 Klasyfikowanie wymagań wymaga odrobiny wprawy. Weźmy takie wymaganie niefunkcjonalne:  
 - system ma być szybki.
 - ale jak szybki?
-- system ma uruchamiać się w 5 sekund (bez znaczenia w tym miejscu jest co to znaczy "czas uruchamiania").  
-   To wygląda całkiem jak "ograniczenie". Więcej: można napisac test akceptacyjny, który będzie mierzyć czas uruchomienia systemu i sprawdzać, czy jest wystarczająco dobry. Mała jest różnica między testami akceptacyjnymi a testami funkcjonalnymi (o [testach jeszcze będzie](../_placeholder_.md)), testy funkcjonalne sprawdzają spełnienie wymagań funkcjonalnych, to wygląda trochę jak wymaganie funkcjonalne.  
+- system ma uruchamiać się w 5 sekund (należałoby jeszcze zdefiniować "czas uruchamiania").
+
+To wygląda całkiem jak "ograniczenie". Więcej: można napisac test akceptacyjny, który będzie mierzyć czas uruchomienia systemu i sprawdzać, czy jest wystarczająco dobry. Mała jest różnica między testami akceptacyjnymi a testami funkcjonalnymi (o [testach jeszcze będzie](../_placeholder_.md)), testy funkcjonalne sprawdzają spełnienie wymagań funkcjonalnych, to wygląda trochę jak wymaganie funkcjonalne.  
 Mimo to - mamy do czynienia z wymaganiem niefunkcjonalnym w kategorii "szybkie uruchomienie" (ang: performance/latency).
 
 Przykłady wymagań:
