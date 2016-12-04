@@ -6,7 +6,7 @@ Kod źródłowy programu w języku C++ zapisuje się w **zwykłych plikach tekst
 
 Pliki mogą być zapisane w zwykłym ASCII, większość kompilatorów dobrze rozumie też UTF-8 i UTF-16.
 
-Bezpiecznie jest wystrzegać się stosowania znaków spoza podstawowego zakresu '\x20'-'\x7f', nawet naszego polskiego "ąćęłńóśźż":
+Bezpiecznie jest wystrzegać się stosowania znaków spoza podstawowego zakresu '\x20'-'\x7F', nawet naszego polskiego "ąćęłńóśźż":
 
 - w kodzie programu pojawią się nieoczywiste interpretacje / konwersje, zależnie od tego jaki jest plik zakodowany,
 - język pozwala takie znaczki zapisać explicite razem z pożądanym kodowaniem),
