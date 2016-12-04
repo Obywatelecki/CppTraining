@@ -1,6 +1,6 @@
 # Struktura programu
 
-Kod źródłowy programu w języku C++ zapisuje się w **zwykłych plikach tekstowych**.
+Kod źródłowy programu w języku C++ zapisuje się w **zwykłych plikach tekstowych** (ang: plain text files).
 
 ## Pliki tekstowe
 
