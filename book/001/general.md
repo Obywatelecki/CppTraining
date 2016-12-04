@@ -30,7 +30,7 @@ Używane są dwa podstawowe rodzaje plików z kodem:
   Te formalne reguły nie są sprawdzane przez kompilator ani żadne narzędzie, nic od nich nie zależy.
   * pliki z kodem generowane maszynowo (jakieś tablice konwersji, definicje gramatyk itp): nie ma reguły, bo takie pliki spotyka się naprawde rzadko.
 
-Kompilator nie ingeruje w wielkość znaków w nazwach plików, obsługa systemu plików pozostawiona jest podsystemowi plików systemu operacyjnego. Linux i Unix zazwyczaj rozróżniają wielkie i małe litery w nazwach plików ("myFile.cpp" i "myfile.cpp" to dwa różne pliki), Windows zazwyczaj nie rozróżnia wielkości liter w nazwach plików ("myFile.cpp" i "myfile.cpp" to ten sam plik).
+Kompilator nie ingeruje w wielkość znaków w nazwach plików, obsługa systemu plików pozostawiona jest podsystemowi plików systemu operacyjnego. Linux i Unix zazwyczaj rozróżniają wielkie i małe litery ("myFile.cpp" i "myfile.cpp" to dwa różne pliki), Windows zazwyczaj ich nie rozróżnia ("myFile.cpp" i "myfile.cpp" to ten sam plik).
 
 Bezpiecznie jest **używać nazw plików takich, jakimi są** (wielkie/małe litery):
 
