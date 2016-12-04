@@ -31,11 +31,12 @@ Przykłady wymagań:
 
 ### Wymagania funkcjonalne
 
-Wymagania funkcjonalne dość jednoznacznie przekładają się na kod programu. Mając już pomysł jak będzie wyglądać architektura z opisu wymagania dość często wynika jak go zaimplementować.
+Wymagania funkcjonalne dość jednoznacznie przekładają się na kod programu. Mając już pomysł jak będzie wyglądać architektura, z opisu wymagania dość często wynika - jak je zaimplementować.
 
 ```C++
   guzik.onKeypress( showBalwanek( animowany ) );
 ```
+W przypadku niepowodzenia kopiowania pliku należy wyświetlić stosowny komunikat:
 
 ```C++
   if ( copyFailed() ) { sendAlert( copyFailedMessage ); };
