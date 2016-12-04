@@ -44,8 +44,8 @@ Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wyma
 
 ```
   [ guzik ]
-  
-                                  [=(:^)(.)(*)
+
+                                  [=(:^)(*)(*)
 ```
 
 ### Wymagania niefunkcjonalne
