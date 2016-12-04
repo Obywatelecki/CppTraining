@@ -34,7 +34,7 @@ Kompilator nie ingeruje w wielkość znaków w nazwach plików, obsługa systemu
 
 Bezpiecznie jest **używać nazw plików takich, jakimi są** (wielkie/małe litery):
 
-* ```#include <stdio.h>           // przenośne```
+* ```#include <stdio.h>           // przenośne, zawsze działa```
 * ```#include <stdIO.h>           // ładnie wygląda, nie zawsze działa```
 
 
