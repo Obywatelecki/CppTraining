@@ -13,9 +13,10 @@
 ### Dzień 001
 
 * [20%](short/README.md)
-* [Wymagania](short/requirements.md)
 
 ### Niedokończone
+
+* [Wymagania](short/requirements.md)
 
 ### Szorty
 
