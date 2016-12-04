@@ -27,7 +27,7 @@ Mimo to - mamy do czynienia z wymaganiem niefunkcjonalnym w kategorii "szybkie u
 Przykłady wymagań:
 * funkcjonalne: użytkownik wciska guzik i pojawia się animowany bałwanek.
 * niefunkcjonalne: bałwanek ma się pojawić jak najszybciej.
-* ograniczenia: komercjalizacja produktu musi nastąpić w ciągu miesiąca (potem będzie po Świętach i będzie czas na nowy prjekt: bałwanek ze śmigłem - żeby odlecieć do zimnych krajów).
+* ograniczenia: komercjalizacja produktu musi nastąpić w ciągu miesiąca (potem będzie po Świętach i będzie czas na nowy projekt: bałwanek ze śmigłem - żeby odlecieć do zimnych krajów).
 
 ### Wymagania funkcjonalne
 
