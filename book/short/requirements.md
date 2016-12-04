@@ -43,12 +43,11 @@ Wymagania funkcjonalne dość jednoznacznie przekładają się na kod programu. 
 Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wymagania "użytkownik wciska guzik i pojawia się animowany bałwanek" nie wynika "system musi mieć jakąś reprezentację guzika", ani nie wynika, że system ma jakiś graficzny interfejs użytkownika (GUI). Takie rzeczy definuje się w ograniczeniach.
 
 ```
-  [ guzik ]
-
-                                  [=(:^)(*)(*)
+  [ guzik ]                       [=(:^)
 ```
 
 ### Wymagania niefunkcjonalne
+
 
 
 ### Ograniczenia
