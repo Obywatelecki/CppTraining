@@ -21,7 +21,7 @@ Klasyfikowanie wymagań wymaga odrobiny wprawy. Weźmy takie wymaganie niefunkcj
 - system ma być szybki.
 - ale jak szybki?
 - system ma uruchamiać się w 5 sekund (bez znaczenia w tym miejscu jest co to znaczy "czas uruchamiania").  
-To wygląda całkiem jak "ograniczenie". Więcej: można napisac test akceptacyjny, który będzie mierzyć czas uruchomienia systemu i sprawdzać, czy jest wystarczająco dobry. Mała jest różnica między testami akceptacyjnymi a testami funkcjonalnymi (o [testach jeszcze będzie](../_placeholder_.md)), testy funkcjonalne sprawdzają spełnienie wymagań funkcjonalnych, to wygląda trochę jak wymaganie funkcjonalne.  
+   To wygląda całkiem jak "ograniczenie". Więcej: można napisac test akceptacyjny, który będzie mierzyć czas uruchomienia systemu i sprawdzać, czy jest wystarczająco dobry. Mała jest różnica między testami akceptacyjnymi a testami funkcjonalnymi (o [testach jeszcze będzie](../_placeholder_.md)), testy funkcjonalne sprawdzają spełnienie wymagań funkcjonalnych, to wygląda trochę jak wymaganie funkcjonalne.  
 Mimo to - mamy do czynienia z wymaganiem niefunkcjonalnym w kategorii "szybkie uruchomienie" (ang: performance/latency).
 
 Przykłady wymagań:
@@ -43,7 +43,8 @@ Wymagania funkcjonalne dość jednoznacznie przekładają się na kod programu. 
 Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wymagania "użytkownik wciska guzik i pojawia się animowany bałwanek" nie wynika "system musi mieć jakąś reprezentację guzika", ani nie wynika, że system ma jakiś graficzny interfejs użytkownika (GUI). Takie rzeczy definuje się w ograniczeniach.
 
 ```
-  [ guzik ]                       [=(:^)
+  [ guzik ]
+                        [=(:^)
 ```
 
 ### Wymagania niefunkcjonalne
