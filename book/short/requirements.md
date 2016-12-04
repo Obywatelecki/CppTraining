@@ -54,7 +54,7 @@ Kolejne (nowe) wymaganie funkcjonalne często jest względnie łatwe w implement
 
 ### Wymagania niefunkcjonalne
 
-Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożądane cechy systemu w różnych kategoriach: testowalność, wydajność, skalowalność, czytelność kodu, użyteczność, …. Tych kategorii (-ość, ang: -ity) opisano i dogłębnie przeanalizowano około 50 (plus sporo podkategorii jak: szybkość/czas uruchomienia, szybkość/czas trwania operacji, szybkość/przepustowość, itd). Dla każdej z nich można znaleźć podpowiedzi: jak projektować system (ang: design principle), aby sprzyjać realizacji wymagania.
+Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożądane cechy systemu w różnych kategoriach: testowalność, wydajność, skalowalność, czytelność kodu, użyteczność, …. [Tych kategorii](https://en.wikipedia.org/wiki/Non-functional_requirement) (-ość, ang: -ity) opisano i dogłębnie przeanalizowano około 50 (plus sporo podkategorii jak: szybkość/czas uruchomienia, szybkość/czas trwania operacji, szybkość/przepustowość, itd). Dla każdej z nich można znaleźć podpowiedzi: jak projektować system (ang: design principle), aby sprzyjać realizacji wymagania.
 
 > Przykład: kod programu ma być dobrze przetestowany. Realizację wymagania z kategorii "testowalność" (ang: testability) promują zasady projektowania:  
 > * Odwrócenie sterowania (ang: inversion of control).  
