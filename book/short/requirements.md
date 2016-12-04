@@ -1,6 +1,7 @@
 # Wymagania funkcjonalne i niefunkcjonalne
 
-Na temat "jak bardzo rozminęła się wizja klienta i dostarczone klientowi oprogramowanie" powstało dziesiątki memów i dowcipów.
+Na temat "jak bardzo rozminęła się wizja klienta i dostarczone klientowi oprogramowanie" powstało dziesiątki memów i dowcipów. Rozdział nie będzie o tym.  
+Nie będzie też o testowaniu realizacji wymagań.
 
 ## Tłusty proces, tłuste wymagania
 
@@ -84,9 +85,5 @@ Ograniczenia wobec systemu zazwyczaj mają wpływ na proces wytwarzania.
 
 Ograniczenia zazwyczaj nie mają wpływu na architekturę ani szczegóły implementacji, a jeśli taki związek jest, to powinien być oddzielnie wyspecyfikowany.
 
-
-
-
-
-
-
+> Przykład: system Tizen ułatwia użycie wzorca Model-View-Controler.  
+> Określenie ograniczenia "aplikacja dla Tizena" nie implikuje utworzenia wymagania funkcjonalnego "architektura Model-View-Controler". Należy je określić niezależnie.
