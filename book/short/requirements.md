@@ -51,7 +51,7 @@ Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wyma
 
 ### Wymagania niefunkcjonalne
 
-
+Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożądane cechy systemu w różnych kategoriach: testowalność, wydajność, skalowalność, czytelność kodu, użyteczność, ...
 
 ### Ograniczenia
 
