@@ -27,7 +27,7 @@ Mimo to - mamy do czynienia z wymaganiem niefunkcjonalnym w kategorii "szybkie u
 Przykłady wymagań:
 * funkcjonalne: użytkownik wciska guzik i pojawia się animowany bałwanek.
 * niefunkcjonalne: bałwanek ma się pojawić jak najszybciej.
-* ograniczenia: komercjalizacja produktu musi nastąpić w ciągu miesiąca (potem będzie po świętach i bałwanek będzie musiał mieć śmigła - żeby odlecieć do zimnych krajów).
+* ograniczenia: komercjalizacja produktu musi nastąpić w ciągu miesiąca (potem będzie po Świętach i będzie czas na nowy prjekt: bałwanek ze śmigłem - żeby odlecieć do zimnych krajów).
 
 ### Wymagania funkcjonalne
 
@@ -40,7 +40,7 @@ Wymagania funkcjonalne dość jednoznacznie przekładają się na kod programu. 
 ```C++
   if ( copyFailed() ) { sendAlert( copyFailedMessage ); };
 ```
-Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wymagania "użytkownik wciska guzik i pojawia się animowany bałwanek" nie wynika "system musi mieć jakąś reprezentację guzika", ani nie wynika, że system ma jakiś graficzny interfejs użytkownika (GUI). Takie rzeczy definuje się w ograniczeniach.
+Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wymagania "użytkownik wciska guzik i pojawia się animowany bałwanek" nie wynika "system musi mieć jakąś reprezentację guzika", ani nie wynika, że system ma graficzny interfejs użytkownika (GUI). Takie rzeczy definuje się w ograniczeniach.
 
 ```
   [ guzik ]
