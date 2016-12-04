@@ -44,14 +44,40 @@ W przypadku niepowodzenia kopiowania pliku należy wyświetlić stosowny komunik
 ```
 Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wymagania "użytkownik wciska guzik i pojawia się animowany bałwanek" nie wynika "system musi mieć jakąś reprezentację guzika", ani nie wynika, że system ma graficzny interfejs użytkownika (GUI). Takie rzeczy definuje się w ograniczeniach.
 
+Kolejne (nowe) wymaganie funkcjonalne często jest względnie łatwe w implementacji i zazwyczaj nie powoduje konieczności zmiany całego systemu (choć czasem zmianę trzeba wprowadzić w bardzo wielu miejscach).
+
 ```
   [ guzik ]
                         [=(:^)
 ```
 
+
+
 ### Wymagania niefunkcjonalne
 
-Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożądane cechy systemu w różnych kategoriach: testowalność, wydajność, skalowalność, czytelność kodu, użyteczność, ...
+Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożądane cechy systemu w różnych kategoriach: testowalność, wydajność, skalowalność, czytelność kodu, użyteczność, …. Tych kategorii (-ość, ang: -ity) opisano i dogłębnie przeanalizowano około 50 (plus sporo podkategorii jak: szybkość/czas uruchomienia, szybkość/czas trwania operacji, szybkość/przepustowośc, itd). Dla każdej z nich można znaleźć podpowiedzi: jak projektować system (ang: design principle), aby sprzyjać realizacji wymagania.
+
+Przykład: Kod programu ma być dobrze przetestowany. Realizację wymagania z kategorii "testowalność" (ang: testability) promują zasady projektowania:
+
+* Odwrócenie sterowania (ang: inversion of control).
+* Segregacja interfejsów (ang: interface segregation). 
+
+Można szukać analogii w architekturze (budownictwo): miejsce do zamieszkania ma mieć cechę niefunkcjonalną "dobry dostęp do świeżych warzyw". Realizację tego wymagania ułatwiają wzorce:
+
+* dom z ogródkiem,
+* mieszkanie w bloku bisko bazaru,
+* dom niedaleko działki (+rower).
+
+Dodanie nowego wymagania niefunkcjonalnego zazwyczaj skutkuje dużą zmianą projektu.
+
+* Mamy domek z ogródkiem, chcielibyśmy dodać "energooszczędny".
+* Mamy system, chcielibyśmy dodać "skalowalny (ang: scalability)".
+
+
+
+
+
+
 
 ### Ograniczenia
 
