@@ -13,14 +13,14 @@
 ### Dzień 001
 
 * [20%](short/README.md)
-* [Wymagania (funkcjonalne, niefunkcjonalne, ograniczenia)](short/requirements.md)
+* [Wymagania](short/requirements.md)
 
 ### Niedokończone
 
 ### Szorty
 
 * [20%](short/README.md)
-* [Wymagania (funkcjonalne, niefunkcjonalne, ograniczenia)](short/requirements.md)
+* [Wymagania](short/requirements.md)
 
 ----
 
