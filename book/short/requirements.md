@@ -58,7 +58,7 @@ Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożą
 
 > Przykład: kod programu ma być dobrze przetestowany. Realizację wymagania z kategorii "testowalność" (ang: testability) promują zasady projektowania:  
 > * Odwrócenie sterowania (ang: inversion of control).  
-> * Segregacja interfejsów (ang: interface segregation). 
+> * Segregacja interfejsów (ang: interface segregation).  
 > Projektowanie systemu bez przestrzegania tych zasad doprowadzi do realizacji projektu, który nie spełnia wymagania "testowalność".
 
 Może się zdarzyć, że wymagania niefunkcjonalne są wewnętrznie sprzeczne.  
