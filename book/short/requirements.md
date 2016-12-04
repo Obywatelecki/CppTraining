@@ -27,7 +27,15 @@ Przykłady wymagań:
 * niefunkcjonalne: bałwanek ma się pojawić jak najszybciej.
 * ograniczenia: komercjalizacja produktu musi nastąpić w ciągu miesiąca (potem będzie po świętach i bałwanek będzie musiał mieć śmigła - żeby odlecieć do zimnych krajów).
 
+Wymagania funkcjonalne dość jednoznacznie przekładają się na kod programu. Prawie nie mają wpływu na architekturę systemu.
 
+```C++
+  guzik.onKeypress( showBalwanek( animowany ) );
+```
+
+```C++
+  if ( copyFailed() ) { sendAlert( copyFailedMessage ); };
+```
 
 
 
