@@ -8,7 +8,7 @@ Kod [Hello world]((http://coliru.stacked-crooked.com/a/be1a932a974e7b6f) na Coli
 
 ## GitHub
 
-Treść kursu oraz źródła programów są dostępne na [githubie](https://github.com/jbanaszczyk/CppTraining). Na razie (przed "Wprowadzenie do gita"): należy: kliknąć "Clone or download" » Download ZIP » i otworzyć w Visual Studio właściwy plik \*.sln.
+Treść kursu oraz źródła programów są dostępne na [githubie](https://github.com/jbanaszczyk/CppTraining). Na razie (przed "[Wprowadzenie do gita](../_placeholder_.md)"): należy: kliknąć "Clone or download" » Download ZIP » i otworzyć w Visual Studio właściwy plik \*.sln.
 
 ## Najprostszy program
 
