@@ -86,4 +86,5 @@ Ograniczenia wobec systemu zazwyczaj mają wpływ na proces wytwarzania.
 Ograniczenia zazwyczaj nie mają wpływu na architekturę ani szczegóły implementacji, a jeśli taki związek jest, to powinien być oddzielnie wyspecyfikowany.
 
 > Przykład: system Tizen ułatwia użycie wzorca Model-View-Controler.  
-> Określenie ograniczenia "aplikacja dla Tizena" nie implikuje utworzenia wymagania funkcjonalnego "architektura Model-View-Controler". Należy je określić niezależnie.
+> Określenie ograniczenia "aplikacja dla Tizena" nie implikuje utworzenia wymagania funkcjonalnego "architektura Model-View-Controler".  
+> Należy je określić niezależnie.
