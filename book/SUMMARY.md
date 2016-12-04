@@ -17,7 +17,6 @@
 
 ### Niedokończone
 
-
 ### Szorty
 
 * [20%](short/README.md)
