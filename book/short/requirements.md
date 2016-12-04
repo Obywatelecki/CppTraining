@@ -13,7 +13,7 @@ To było na marginesie.
 ## Funkcjonalne, niefunkcjonalne i ograniczenia
 
 Wymagania wobec systemu informatycznego można podzielić na trzy grupy:  
-* funkcjonalne (ang: functional requirements): co system ma robić. Wg nich system będzie oceniony "czy w ogole działa".
+* funkcjonalne (ang: functional requirements): co system ma robić. Wedłu nich system będzie oceniony "czy w ogole działa".
 * niefunkcjonalne (ang: non functional requirements): kryteria jakościowe, według nich system będzie oceniony "jak dobrze działa".
 * ograniczenia (ang: constraints): ograniczenie, których nie należy przekroczyć.
 
