@@ -266,7 +266,7 @@ Gdyby projekty od siebie zależały (na przykład App2 zawierałby bibliotekę u
 
 Proces budowania jest procesem kosztownym - wymaga przeczytania wielu dziesiątek plików, realizacji skomplikowanych algorytmów, zapisania kilku plików.
 
-W zasadzie wszystkie kompilatory (nie tylko C++) korzystają ze spostrzeżenia: jeśli plik źródłowy nie uległ zmianie, ani nie uległ zmianie żaden z plików, od których zależy wynik kompilacji (biblioteki, pliki dołączone (za chwilę będzie o preprocesorze)), ani opcje kompilacji nie uległy zmianie, to nie ma żadnej potrzeby ponownego kompilowania kodu.
+W zasadzie wszystkie kompilatory (nie tylko C++) korzystają ze spostrzeżenia: jeśli plik źródłowy nie uległ zmianie, ani nie uległ zmianie żaden z plików, od których zależy wynik kompilacji (biblioteki, pliki dołączone (za chwilę będzie o [preprocesorze](../_placeholder_.md))), ani opcje kompilacji nie uległy zmianie, to nie ma żadnej potrzeby ponownego kompilowania kodu.
 
 ### Build, rebuild
 
@@ -331,7 +331,7 @@ Wstępnym przebiegiem kompilatora jest uruchomienie preprocesora tekstu.
 Preprocesor interesuje się dyrektywami preprocesora - liniami kodu zaczynającymi się od znaku hash ```#```
 
 * ```#pragma once```  
-  W przypadku tego konkretnego kodu nie ma żadnego znaczenia, będzie podmiotem dużego rozdziału.
+  W przypadku tego konkretnego kodu nie ma żadnego znaczenia, będzie podmiotem [dużego rozdziału](../_placeholder_.md).
 * ```#include "myFunc.h"```  
   - Preprocesor zastępuje linię ```#include "myFunc.h"``` treścią z pliku "myFunc.h".
   - Tak, mowa jest o jednym z nowocześniejszych języków programowania i tu takie kwiatki :).
@@ -358,6 +358,6 @@ Obie jednostki kompilacji zawierają dyrektywę ```#include "myFunc.h"```, któr
 
 ### Inne konstrukcje języka
 
-* ```std::cout << myFunc() << "\n"s;``` - wkrótce będzie opisane szczegółowo.
+* ```std::cout << myFunc() << "\n"s;``` - będzie opisane szczegółowo.
   * Wywołanie funkcji ```myFunc()```
   * obliczenie sekwencji operatorów ```<<```
