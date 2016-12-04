@@ -62,7 +62,7 @@ Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożą
 > Projektowanie systemu bez przestrzegania tych zasad doprowadzi do realizacji projektu, który nie spełnia wymagania "testowalność".
 
 Może się zdarzyć, że wymagania niefunkcjonalne są wewnętrznie sprzeczne.  
-> Dobrze tanio i szybko - wybierz dwa.
+> Dobrze, tanio i szybko - wybierz dwa.
 
 Można szukać analogii w architekturze (budownictwo): miejsce do zamieszkania ma mieć cechę niefunkcjonalną "dobry dostęp do świeżych warzyw". Realizację tego wymagania ułatwiają wzorce:
 
