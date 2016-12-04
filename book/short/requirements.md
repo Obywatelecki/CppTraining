@@ -55,10 +55,9 @@ Kolejne (nowe) wymaganie funkcjonalne często jest względnie łatwe w implement
 
 Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożądane cechy systemu w różnych kategoriach: testowalność, wydajność, skalowalność, czytelność kodu, użyteczność, …. Tych kategorii (-ość, ang: -ity) opisano i dogłębnie przeanalizowano około 50 (plus sporo podkategorii jak: szybkość/czas uruchomienia, szybkość/czas trwania operacji, szybkość/przepustowośc, itd). Dla każdej z nich można znaleźć podpowiedzi: jak projektować system (ang: design principle), aby sprzyjać realizacji wymagania.
 
-Przykład: Kod programu ma być dobrze przetestowany. Realizację wymagania z kategorii "testowalność" (ang: testability) promują zasady projektowania:
-
-* Odwrócenie sterowania (ang: inversion of control).
-* Segregacja interfejsów (ang: interface segregation). 
+> Przykład: Kod programu ma być dobrze przetestowany. Realizację wymagania z kategorii "testowalność" (ang: testability) promują zasady projektowania:  
+> * Odwrócenie sterowania (ang: inversion of control).  
+> * Segregacja interfejsów (ang: interface segregation). 
 
 Może się zdarzyć, że wymagania niefunkcjonalne są wewnętrznie sprzeczne.  
 > dobrze tanio i szybko - wybierz dwa.
@@ -71,14 +70,18 @@ Można szukać analogii w architekturze (budownictwo): miejsce do zamieszkania m
 
 Dodanie nowego wymagania niefunkcjonalnego zazwyczaj skutkuje dużą zmianą projektu. Jeśli jakaś cecha nie została uwzględniona w projekcie, to system prawdopodonie jej nie ma.
 
-* Mamy domek z ogródkiem, chcielibyśmy dodać "energooszczędny".
-* Mamy system, chcielibyśmy dodać "skalowalny (ang: scalability)".
-
-
+> * Mamy domek z ogródkiem, chcielibyśmy dodać "energooszczędny".  
+> * Mamy system, chcielibyśmy dodać "skalowalny (ang: scalability)".
 
 ### Ograniczenia
 
-Ograniczenia wobec 
+Ograniczenia wobec systemu zazwyczaj mają wpływ na proces wytwarzania.
+
+* budżet: 10kPLN,
+* czas realizacji: dwa miesiące,
+* platforma: aplikacja dla Androida.
+
+Ograniczenia zazwyczaj nie mają wpływu na architekturę ani szczegóły implementacji, a jeśli taki związek jest, to powinien być oddzielnie wyspecyfikowany.
 
 
 
