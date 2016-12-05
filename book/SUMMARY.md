@@ -23,6 +23,7 @@
 
 * [20%](short/README.md)
 * [Wymagania](short/requirements.md)
+* [Toolchain](short/toolchain.md)
 
 ----
 
