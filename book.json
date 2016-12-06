@@ -1,4 +1,4 @@
 {
     "root": "./book",
-    "plugins": ["js-sequence-diagram-full"]   
+    "plugins": ["js-sequence-diagram-full", "puml"]
 }
