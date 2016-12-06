@@ -1,11 +1,11 @@
-Test begin
+Test begin 2
 
-``` sequence-hand
+``` sequence
 Title: Here is a title
 A->B: Normal line
 B-->C: Dashed line
 C->>D: Open arrow
-D-->>A: Dashed open arrow lala
+D-->>A: Dashed open arrow
 ```
 
 test end
