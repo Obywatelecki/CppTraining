@@ -20,13 +20,13 @@ Zawsze **rozróżniane są małe i wielkie litery** (ang: case sensitive).
 
 Używane są dwa podstawowe rodzaje plików z kodem:
 
-* pliki z treścią programu: **\*.cpp** (C++) i **\*.c** (C). Można spotkać się też z plikami o rozszerzeniach: .c++, .cc, .cxx., .C, obecnie zazwyczaj są niezalecane.
-* pliki z deklaracjami (obiektów, funkcji, klas, typów itp), zwane  też plikami nagłówkowymi (ang: header files): **\*.** (bez rozszerzenia) (C++) i **\*.h** (C/C++). Można też spotkać (obecnie niezalecane) .hpp i .hxx
+* **pliki z treścią programu**: **\*.cpp** (C++) i **\*.c** (C). Można spotkać się też z plikami o rozszerzeniach: .c++, .cc, .cxx., .C, obecnie zazwyczaj są niezalecane.
+* pliki z deklaracjami (obiektów, funkcji, klas, typów itp), zwane  też **plikami nagłówkowymi** (ang: header files): **\*.** (bez rozszerzenia) (C++) i **\*.h** (C/C++). Można też spotkać (obecnie niezalecane) .hpp i .hxx
 * można też spotkać pliki 
   * .ii, .ixx, .ipp, .inl (nagłówki zawierające fragmenty kodu ```inline```)
   * .txx, .tpp, .tpl - definicje wzorców (ang: templates).
   * wprowadzanie sztucznych formalizmów (jak te powyżej) nakłada na programistę dodatkowe obowiązki administracyjne:
-  > Ach! zmieniłem klasę na wzorzec klasy, to teraz muszę ten wzorzec wynieść do innego pliku o rozszerzeniu .tpp, pamiętać muszę o tym, żeby te wzorce właściwie dołączać do kodu, i mam nadzieję, że mi się zależności w kodzie nie posypią).  
+  > Ach! zmieniłem klasę na wzorzec klasy, to teraz muszę ten wzorzec wynieść do innego pliku o rozszerzeniu .tpp, pamiętać muszę o tym, żeby te wzorce właściwie dołączać do kodu, mam nadzieję, że mi się zależności w kodzie nie posypią).  
 Te formalne reguły nie są sprawdzane przez kompilator ani żadne narzędzie, nic od nich nie zależy.
   * pliki z kodem generowane maszynowo (jakieś tablice konwersji, definicje gramatyk itp): nie ma reguły nazewnictwa, rozsądnym wyborem jest .inc.
 
@@ -36,5 +36,7 @@ Bezpiecznie jest **używać nazw plików takich, jakimi są** (wielkie/małe lit
 
 * ```#include <stdio.h>           // przenośne, zawsze działa```
 * ```#include <stdIO.h>           // ładnie wygląda, nie zawsze działa```
+
+W rozbudowanych systemach kompilacji pliki z kodem będą przetwarzane przez całkiem sporą liczbę barzędzi, na wielu komputerach, pod kontrolą wielu systemów operacyjnych. Dla uniknięcia problemów z przenośnością warto przestrzegać zalecenia: jedyne dopuszczalne znaki w nazwach **plików i katalogów**(!) to: **litery alfabetu łacińskiego, cyfry i znak podkreślenia** \[a-zA-Z0-9\_]. No i jedna kropka jako separator nazwy i rozszerzenia.
 
 
