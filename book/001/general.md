@@ -38,5 +38,3 @@ Bezpiecznie jest **używać nazw plików takich, jakimi są** (wielkie/małe lit
 * ```#include <stdIO.h>           // ładnie wygląda, nie zawsze działa```
 
 W rozbudowanych systemach kompilacji pliki z kodem będą przetwarzane przez całkiem sporą liczbę barzędzi, na wielu komputerach, pod kontrolą wielu systemów operacyjnych. Dla uniknięcia problemów z przenośnością warto przestrzegać zalecenia: jedyne dopuszczalne znaki w nazwach **plików i katalogów**(!) to: **litery alfabetu łacińskiego, cyfry i znak podkreślenia** \[a-zA-Z0-9\_]. No i jedna kropka jako separator nazwy i rozszerzenia.
-
-
