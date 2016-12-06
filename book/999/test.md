@@ -1,4 +1,4 @@
-Test begin 6
+[Diagram sekwencji](https://bramp.github.io/js-sequence-diagrams/)
 
 ```sequence
 Title: Here is a title
@@ -7,6 +7,8 @@ B-->C: Dashed line
 C->>D: Open arrow
 D-->>A: Dashed open arrow
 ```
+
+---
 
 test end
 
