@@ -30,4 +30,5 @@
 ### Notatki na marginesie
 
 * [znaczki różne](999/charmap.md)
+* [pluginy](999/plugins.md)
 * [testy](999/test.md)
