@@ -16,10 +16,6 @@ D-->>A: Dashed open arrow
 Bob->Alice : hello
 {% endplantuml %}
 
-```uml
-Bob->Alice : hello
-```
-
 ---
 
 [Flow](https://plugins.gitbook.com/plugin/flow)
