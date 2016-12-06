@@ -10,5 +10,11 @@ D-->>A: Dashed open arrow
 
 ---
 
+PlantUML
+
+{% plantuml %}
+Bob->Alice : hello
+{% endplantuml %}
+
 test end
 
