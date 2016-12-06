@@ -1,12 +1,12 @@
-Test begin 3a
+Test begin 4
 
-``` sequence
+'''sequence
 Title: Here is a title
 A->B: Normal line
 B-->C: Dashed line
 C->>D: Open arrow
 D-->>A: Dashed open arrow
-```
+'''
 
 test end
 
