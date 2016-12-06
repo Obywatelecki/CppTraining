@@ -10,7 +10,7 @@ D-->>A: Dashed open arrow
 
 ---
 
-PlantUML
+[PlantUML](http://plantuml.com/)
 
 {% plantuml %}
 Bob->Alice : hello
