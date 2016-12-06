@@ -1,3 +1,4 @@
 {
     "root": "./book"
+    "plugins": ["js-sequence-hand-diagram"]
 }
