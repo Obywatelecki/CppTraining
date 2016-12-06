@@ -2,22 +2,10 @@
 [PlantUML](http://plantuml.com/)
 
 {% plantuml %}
-[*] --> NotShooting
 
-state NotShooting {
-  [*] --> Idle
-  Idle --> Configuring : EvConfig
-  Configuring --> Idle : EvConfig
-}
+Source --> Precompiled
+Precompiled --> Object
+Object --> Executable
 
-state Configuring {
-  [*] --> NewValueSelection
-  NewValueSelection --> NewValuePreview : EvNewValue
-  NewValuePreview --> NewValueSelection : EvNewValueRejected
-  NewValuePreview --> NewValueSelection : EvNewValueSaved
-  
-  state NewValuePreview {
-     State1 -> State2
-  }
   
 {% endplantuml %}
