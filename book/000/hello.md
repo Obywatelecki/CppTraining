@@ -345,7 +345,7 @@ int main() {
 	return 0;
 }
 ```
-> W edytorze, w menu kontekstowym słowa ```iostream``` jest pozycja "Open Document \<iostream\>"
+> W edytorze, w menu kontekstowym słowa ```iostream``` jest pozycja "Open Document &lt;iostream&gt;"
 
 ### Kompilator
 
