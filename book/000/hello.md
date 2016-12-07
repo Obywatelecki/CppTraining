@@ -282,47 +282,44 @@ Należy modyfikować zawartość plików myFunc.h i App1.cpp (dodając spację n
 
 Projekty App1 i App2 są takie same, będzie omówiony tylko jeden.
 
-Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacji (ang: compilation unit): "myFunc.cpp" i "App1.cpp". Obie są kompilowane, skutkiem ich kompilacji jest plik pośredni z rozszerzeniem \*.obj (ang: object file). Object file zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
+Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacji (ang: compilation unit): "myFunc.cpp" i "App1.cpp".
 
-```
-+------------+         +------------+
-| myFunc.cpp |         |  App1.cpp  |
-+-----v------+         +-----v------+
-      |                      |
-+-----V------+         +-----V------+
-| myFunc.obj |         |  App1.obj  |
-+------------+         +------------+
-```
+{% plantuml %}
 
-Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj ze wszystkich jednostek kompilacji, dołożenie pożądanych bibliotek (biblioteka to nic innego, jak wiele plików \*.obj spakowanych w jedną całość) i wygenerowanie pliku wykonywalnego oczekiwanego przez system.
+state "main<source>"     as Source_main
+state "<preprocessed>"   as Preprocessed_main
 
-```C++
-+------------+         +------------+         +------------+
-| myFunc.obj |         |  App1.obj  |         |   libc++   |
-+-----v------+         +-----v------+         +-----v------+
-      |                      |                      |
-      +------------+         |         +------------+
-                   |         |         |
-+------------------V---------V---------V-------------------+
-|                         App1.exe                         |
-+----------------------------------------------------------+
-```
+state "myFunc<source>"   as Source_myFunction
+state "<preprocessed>"   as Preprocessed_myFunction
 
-Linker dopasowuje odpowiednie symbole:
-* wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp,
-* odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej.
+state "main<object>"     as Object_main
+state "myFunc<object>"   as Object_myFunction
+state "main<executable>" as Executable
 
-```C++
-+-[ libc++ ]---------+    +-[ myFunc.obj ]---------+
-| ostream std::cout; |    | std::string myFunc(){} |
-+--------------v-----+    +-------------v----------+
-               |                        |
-               |       +----------------+
-               |       |
-        +------V-------V------------------+
-        | std::cout << myFunc() << "\n"s; |
-        +---------------------------------+
-```
+[*]                     --> Source_main
+Source_main             --> Preprocessed_main       : preprocessor
+Preprocessed_main       --> Object_main             : compiler
+
+[*]                     --> Source_myFunction
+Source_myFunction       --> Preprocessed_myFunction : preprocessor
+Preprocessed_myFunction --> Object_myFunction       : compiler
+
+Object_main             --> Executable              : linker
+Object_myFunction       --> Executable              : linker
+stdlib                  --> Executable              : linker
+Executable              --> [*]
+
+Source_main             : App1.cpp
+Preprocessed_main       : App1.i
+
+Source_myFunction       : myFunc.cpp
+Preprocessed_myFunction : myFunc.i
+
+Object_main             : App1.obj
+Object_myFunction       : myFunc.obj
+Executable              : App1.exe
+
+{% endplantuml %}
 
 ### Preprocesor
 
@@ -347,6 +344,29 @@ int main() {
 	std::cout << myFunc() << "\n"s;
 	return 0;
 }
+```
+### Kompilator
+
+Obie są kompilowane, skutkiem ich kompilacji jest plik pośredni z rozszerzeniem \*.obj (ang: object file). Object file zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
+
+### Linker
+
+Ostatnim etapem budowania pliku wykonywalnego jest połączenie plików \*.obj ze wszystkich jednostek kompilacji, dołożenie pożądanych bibliotek (biblioteka to nic innego, jak wiele plików \*.obj spakowanych w jedną całość) i wygenerowanie pliku wykonywalnego oczekiwanego przez system.
+
+Linker dopasowuje odpowiednie symbole:
+* wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp,
+* odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej.
+
+```C++
++-[ libc++ ]---------+    +-[ myFunc.obj ]---------+
+| ostream std::cout; |    | std::string myFunc(){} |
++--------------v-----+    +-------------v----------+
+               |                        |
+               |       +----------------+
+               |       |
+        +------V-------V------------------+
+        | std::cout << myFunc() << "\n"s; |
+        +---------------------------------+
 ```
 
 ### Deklaracja funkcji
