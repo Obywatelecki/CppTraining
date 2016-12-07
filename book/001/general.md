@@ -6,16 +6,14 @@ Kod źródłowy programu w języku C++ zapisuje się w **zwykłych plikach tekst
 
 Pliki mogą być zapisane w zwykłym ASCII, większość kompilatorów dobrze rozumie też UTF-8 i UTF-16.
 
-Postawowy zestaw znaków języka obejmuje:
-* 5 rodzajów spacji: spacja ('\0x20'), tabulator poziomy (HT, '\0x09'), tabulator pionowy (VT, '\0x0B'), znak nowej strony (FF, '\0x0C'), znak nowej linii (LF, '\0x0A').
+Podstawowy zestaw znaków języka obejmuje:
+* 5 równoważnych rodzajów spacji: spacja ('\0x20'), tabulator poziomy (HT, '\0x09'), tabulator pionowy (VT, '\0x0B'), znak nowej strony (FF, '\0x0C'), znak nowej linii (LF, '\0x0A').
 * 10 cyfr: '0' do '9'
 * 52 litery alfabetu łacińskiego: od 'a' do 'z' oraz od 'A' do 'Z'
-* 29 znaków interpunkcyjnych: _ { } [ ] # ( ) < > % : ; . ? * + - / ^ & | ~ ! = , \ " '
+* 29 znaków interpunkcyjnych: _ { } [ ] # ( ) < > % : ; . ? * + - / ^ & | ~ ! = , \ " '  
+Wszystkie inne znaki są zastępowane znakami z zestawu rozszerzonego, zależnie od użytego kodowania.
 
-
-
-Bezpiecznie jest wystrzegać się stosowania znaków spoza podstawowego zakresu '\x20'-'\x7F', nawet naszego polskiego "ąćęłńóśźż":
-
+Bezpiecznie jest wystrzegać się stosowania znaków spoza podstawowego zestawu, nawet naszego polskiego "ąćęłńóśźż":
 - w kodzie programu pojawią się nieoczywiste interpretacje i konwersje, zależne od tego jak jest plik zakodowany,
 - język pozwala takie znaczki zapisać explicite razem z pożądanym kodowaniem,
 - można wprawić w zakłopotanie inne narzędzia pracujące z naszym kodem.
