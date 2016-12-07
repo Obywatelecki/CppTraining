@@ -297,12 +297,12 @@ state "myFunc<object>"   as Object_myFunction
 state "main<executable>" as Executable
 
 [*]                     --> Source_main
-Source_main             --> Preprocessed_main       : preprocessor
-Preprocessed_main       --> Object_main             : compiler
+Source_main             --> Preprocessed_main       : preprocesor
+Preprocessed_main       --> Object_main             : kompilator
 
 [*]                     --> Source_myFunction
-Source_myFunction       --> Preprocessed_myFunction : preprocessor
-Preprocessed_myFunction --> Object_myFunction       : compiler
+Source_myFunction       --> Preprocessed_myFunction : preprocesor
+Preprocessed_myFunction --> Object_myFunction       : kompilator
 
 Object_main             --> Executable              : linker
 Object_myFunction       --> Executable              : linker
@@ -323,7 +323,7 @@ Executable              : App1.exe
 
 ### Preprocesor
 
-Wstępnym przebiegiem kompilatora jest uruchomienie preprocesora tekstu.
+Wstępnym przebiegiem kompilatora jest uruchomienie [preprocesora tekstu](../_placeholder_.md).
 
 Preprocesor interesuje się dyrektywami preprocesora - liniami kodu zaczynającymi się od znaku hash ```#```
 
@@ -347,7 +347,7 @@ int main() {
 ```
 ### Kompilator
 
-Obie są kompilowane, skutkiem ich kompilacji jest plik pośredni z rozszerzeniem \*.obj (ang: object file). Object file zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
+Obie jednostki są kompilowane, skutkiem kompilacji jest plik pośredni z rozszerzeniem \*.obj (ang: object file). plik pośredni zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
 
 ### Linker
 
@@ -357,17 +357,21 @@ Linker dopasowuje odpowiednie symbole:
 * wywołanie funkcji ```myFunc()``` z App1 jest zastąpione wywołaniem realnej funkcji ```std::string myFunc()``` z jednostki myFunc.cpp,
 * odniesienie do strumienia wyjściowego ```std::cout``` w App1 zastąpione jest realnym strumieniem zdefiniowanym w bibliotece standardowej.
 
-```C++
-+-[ libc++ ]---------+    +-[ myFunc.obj ]---------+
-| ostream std::cout; |    | std::string myFunc(){} |
-+--------------v-----+    +-------------v----------+
-               |                        |
-               |       +----------------+
-               |       |
-        +------V-------V------------------+
-        | std::cout << myFunc() << "\n"s; |
-        +---------------------------------+
-```
+{% plantuml %}
+
+object "stdlib"     as stdlib
+object "myFunc.cpp" as myFunc
+
+object "main.cpp"   as main
+
+stdlib : ostream std::cout;
+myFunc : std::string myFunc(){}
+main   : std::cout << myFunc() << "\\n"s; 
+
+main <|.. stdlib : std::cout
+main <|.. myFunc : myFunc()
+
+{% endplantuml %}
 
 ### Deklaracja funkcji
 
