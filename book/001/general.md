@@ -44,8 +44,8 @@ Kompilator nie ingeruje w wielkość znaków w nazwach plików, obsługa systemu
 
 Bezpiecznie jest **używać nazw plików takich, jakimi są** (wielkie/małe litery):
 
-* ```#include <stdio.h>           // przenośne, zawsze działa```
-* ```#include <stdIO.h>           // ładnie wygląda, nie zawsze działa```
+* ```#include <stdio.h>           // Portable. It always works.```
+* ```#include <stdIO.h>           // Pretty. It does not always work.```
 
 W rozbudowanych systemach kompilacji: pliki z kodem będą przetwarzane przez całkiem sporą liczbę narzędzi, na wielu komputerach, pod kontrolą wielu systemów operacyjnych. Dla uniknięcia problemów z przenośnością warto przestrzegać zalecenia: jedyne dopuszczalne znaki w nazwach **plików i katalogów**(!) to: **litery alfabetu łacińskiego, cyfry i znaki: podkreślenie, plus i minus** \[a-zA-Z0-9\_+\\-]. No i jedna kropka jako separator nazwy i rozszerzenia.
 
