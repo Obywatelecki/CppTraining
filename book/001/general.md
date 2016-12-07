@@ -49,7 +49,7 @@ W rozbudowanych systemach kompilacji: pliki z kodem będą przetwarzane przez ca
 
 Komentarze w kodzie są wykrywane i usuwane na bardzo wczesnym etapie kompilacji.
 
-Są dostępne dwa rodzaje komentarzy: jednoliniowe ```\\``` i blokowe ```\*  *\```
+Są dostępne dwa rodzaje komentarzy: jednoliniowe ```\\ Lorem ipsum``` i blokowe ```\* Lorem ipsum *\```
 
 ```C++
   auto i = 0;   // Treść od tego miejsca do końca linii jest ignorowana
@@ -64,15 +64,17 @@ jest równoważne:
 ```
 
 ```C++
-  auto i = 0;   /* Od tego miejsca aż do końca komentarza wszystko jest ignorowane
-  auto          // j = 9; <- to też jest komentarz
-       j = 0;   // a to jest kontynuacja linii po usunięciu komentarza
+  auto i =    /* 0;   Od tego miejsca aż do końca komentarza wszystko jest ignorowane
+  auto j = 0; // j = 9; <- to też jest komentarz
+       j = 0; // a to jest kontynuacja linii po usunięciu komentarza
   Poprzednie linie są w całości wewnątrz komentarza wieloliniowego
-  A tu jest jego koniec => */ auto k = 2;
+  A tu jest jego koniec => */ 2;
+  auto z = /* 11 */ 9;
 ```
 jest równoważne (komentarz zastąpiony spacją):
 ```C++
-  auto i = 0;     auto k = 2;
+    auto i =      2;
+    auto z =   9;
 ```
 
 Komentarz ```\*  *\``` nie jest zagnieżdzony
