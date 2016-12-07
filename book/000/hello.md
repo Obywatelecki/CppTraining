@@ -349,7 +349,7 @@ int main() {
 
 ### Kompilator
 
-Obie jednostki są kompilowane, skutkiem kompilacji jest plik pośredni z rozszerzeniem \*.obj (ang: object file). plik pośredni zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
+Obie jednostki są kompilowane, skutkiem kompilacji jest plik pośredni z rozszerzeniem \*.obj (ang: object file). Plik pośredni zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
 
 ### Linker
 
