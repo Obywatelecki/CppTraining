@@ -66,6 +66,7 @@ jest równoważne:
 ```C++
   auto i =    /* 0;   Od tego miejsca aż do końca komentarza wszystko jest ignorowane
   auto j = 0; // j = 9; <- to też jest komentarz
+              /* to nie jest początek komentarza, bo już jest wewnątrz innego
        j = 0; // a to jest kontynuacja linii po usunięciu komentarza
   Poprzednie linie są w całości wewnątrz komentarza wieloliniowego
   A tu jest jego koniec => */ 2;
