@@ -116,7 +116,7 @@ Dzięki temu - (na przykład w czasie uruchamiania) będzie możliwe objęcie ko
 
 Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie (multiline edit, multicaret, block mode).
 > Visual Studio:
-> - Należy ustawić kursor na początku bloku
+> - należy ustawić kursor na początku bloku
 > - wcisnąć Alt-Shift-Down kilkukrotnie
-> - zacząć pisać (na przykład znaki "// "
+> - zacząć pisać (na przykład znaki "// ")
 
