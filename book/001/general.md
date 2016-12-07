@@ -28,7 +28,7 @@ Używane są dwa podstawowe rodzaje plików z kodem:
 
 * **pliki z treścią programu**: **\*.cpp** (C++) i **\*.c** (C). Można spotkać się też z plikami o rozszerzeniach: .c++, .cc, .cxx., .C, obecnie zazwyczaj są niezalecane.
 * pliki z deklaracjami (obiektów, funkcji, klas, typów itp), zwane  też **plikami nagłówkowymi** (ang: header files): **\*. (bez rozszerzenia)** (C++) i **\*.h** (C/C++). Można też spotkać (obecnie niezalecane) .hpp i .hxx
-* można też spotkać pliki 
+* można spotkać pliki 
   * .ii, .ixx, .ipp, .inl (nagłówki zawierające fragmenty kodu ```inline```)
   * .txx, .tpp, .tpl - definicje wzorców (ang: templates).
   * wprowadzanie sztucznych formalizmów (jak te powyżej) nakłada na programistę dodatkowe obowiązki administracyjne:
@@ -43,5 +43,38 @@ Bezpiecznie jest **używać nazw plików takich, jakimi są** (wielkie/małe lit
 * ```#include <stdio.h>           // przenośne, zawsze działa```
 * ```#include <stdIO.h>           // ładnie wygląda, nie zawsze działa```
 
-W rozbudowanych systemach kompilacji pliki z kodem będą przetwarzane przez całkiem sporą liczbę barzędzi, na wielu komputerach, pod kontrolą wielu systemów operacyjnych. Dla uniknięcia problemów z przenośnością warto przestrzegać zalecenia: jedyne dopuszczalne znaki w nazwach **plików i katalogów**(!) to: **litery alfabetu łacińskiego, cyfry i znaki: podkreślenie, plus i minus** \[a-zA-Z0-9\_+\\-]. No i jedna kropka jako separator nazwy i rozszerzenia.
+W rozbudowanych systemach kompilacji: pliki z kodem będą przetwarzane przez całkiem sporą liczbę narzędzi, na wielu komputerach, pod kontrolą wielu systemów operacyjnych. Dla uniknięcia problemów z przenośnością warto przestrzegać zalecenia: jedyne dopuszczalne znaki w nazwach **plików i katalogów**(!) to: **litery alfabetu łacińskiego, cyfry i znaki: podkreślenie, plus i minus** \[a-zA-Z0-9\_+\\-]. No i jedna kropka jako separator nazwy i rozszerzenia.
+
+## Komentarze
+
+Komentarze w kodzie są wykrywane i usuwane na bardzo wczesnym etapie kompilacji.
+
+Są dostępne dwa rodzaje komentarzy: jednoliniowe i wieloliniowe
+
+```C++
+  auto i = 0;   // Treść od tego miejsca do końca linii jest ignorowana
+  auto          // j = 1; <- to też jest komentarz
+       j = 1;   // a to jest kontynuacja linii po usunięciu komentarza
+```
+jest równoważne:
+```C++
+  auto i = 0;
+  auto
+       j = 1;
+```
+
+```C++
+  auto i = 0;   /* Od tego miejsca aż do końca komentarza wssytko jest ignorowane
+  auto          // j = 1; <- to też jest komentarz
+       j = 0;   // a to jest kontynuacja linii po usunięciu komentarza
+  Poprzednie linie są w całości wewnątrz komentarza wieloliniowego
+  A tu jest jego koniec => */ auto k = 2;
+```
+jest równoważne (komentarz zastąpiony spacją):
+```C++
+  auto i = 0;     auto k = 2;
+```
+     
+
+
 
