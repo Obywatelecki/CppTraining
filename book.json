@@ -1,10 +1,4 @@
 {
     "root": "./book",
-    "plugins": ["js-sequence-diagram-full", "puml", "flow"],
-    
-    "pluginsConfig": {
-        "flow": {
-            "line-color": "black"
-        }
-    }
+    "plugins": ["puml"]    
 }
