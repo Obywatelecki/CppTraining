@@ -83,10 +83,8 @@ Komentarz ```\*  *\``` nie jest zagnieżdzony
 *\       // te znaki spowodują błąd, bo nie ma żadnego komentarza blokowego do zakończenia
 ```
 
-
-
 (idiom) Język udostepnia jeszcze jeden mechanizm podobny do komentarza na poziomie preprocesora (o którym będzie za chwilę):
-```
+```C++
   auto i = 0;
   #if 0
     Blok od ```#if 0``` do ```#endif``` jest ignorowany
@@ -95,7 +93,23 @@ Komentarz ```\*  *\``` nie jest zagnieżdzony
 ```
 
 Warto rozważyć propozycję używania na co dzień wyłącznie komentarzy jednoliniowych ```\\```.
-
+```C++
+  auto i = 0; // Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              // Phasellus ut lorem ut ante gravida tincidunt.
+              // Etiam et tellus a velit molestie posuere.
+              // Curabitur accumsan facilisis nulla, a varius urna iaculis et.
+  auto j = 2;
+```
+Dzięki temu - (na przykład w czasie uruchamiania) objęcie komentarzem blokowym ```\*  *\``` fragmentu kodu z komentarzami nie spowoduje błędów kompilacji.
+```C++
+/*
+  auto i = 0; // Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              // Phasellus ut lorem ut ante gravida tincidunt.
+              // Etiam et tellus a velit molestie posuere.
+              // Curabitur accumsan facilisis nulla, a varius urna iaculis et.
+  auto j = 2;
+*/
+```
 
 
 
