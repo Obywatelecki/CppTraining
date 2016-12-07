@@ -91,7 +91,7 @@ Komentarz ```\*  *\``` nie jest zagnieżdzony
   auto i = 0;
   #if 0
     Blok od ```#if 0``` do ```#endif``` jest ignorowany
-    Ten pseudo-komentarz też nie jest zagnieżdzany - działa do najbliższej linii ```#endif```
+    Ten pseudo-komentarz też nie jest zagnieżdzany - działa do najbliższej linii #endif
   #endif
 ```
 
