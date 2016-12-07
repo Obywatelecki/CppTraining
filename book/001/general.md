@@ -56,9 +56,9 @@ Komentarze w kodzie są wykrywane i usuwane na bardzo wczesnym etapie kompilacji
 Są dostępne dwa rodzaje komentarzy: jednoliniowe ```\\ Lorem ipsum``` i blokowe ```\* Lorem ipsum *\```
 
 ```C++
-  auto i = 0;   // Treść od tego miejsca do końca linii jest ignorowana
-  auto          // j = 1; <- to też jest komentarz
-       j = 2;   // a to jest kontynuacja linii po usunięciu komentarza
+  auto i = 0;   // <- Ignored from this point
+  auto          // j = 1; <- It is a comment, too
+       j = 2;   // previous line of code is continued
 ```
 jest równoważne:
 ```C++
