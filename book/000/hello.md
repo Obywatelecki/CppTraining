@@ -345,6 +345,8 @@ int main() {
 	return 0;
 }
 ```
+> W edytorze, w menu kontekstowym słowa ```iostream``` jest pozycja "Open Document <iostream>"
+
 ### Kompilator
 
 Obie jednostki są kompilowane, skutkiem kompilacji jest plik pośredni z rozszerzeniem \*.obj (ang: object file). plik pośredni zawiera, oprócz kodu wynikowego, mnóstwo informacji które będą wykorzystane w kolejnym etapie: linkowaniu.
