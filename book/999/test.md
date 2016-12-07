@@ -1,5 +1,6 @@
 
 [PlantUML](http://plantuml.com/)
+[PlantUML server](http://www.plantuml.com/plantuml)
 
 {% plantuml %}
 
@@ -13,7 +14,4 @@ main.i --> main.obj
 main.obj --> main.exe
 main.obj : this is a string
 
-
-
-  
 {% endplantuml %}
