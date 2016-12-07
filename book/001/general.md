@@ -64,7 +64,7 @@ jest równoważne:
 ```
 
 ```C++
-  auto i = 0;   /* Od tego miejsca aż do końca komentarza wssytko jest ignorowane
+  auto i = 0;   /* Od tego miejsca aż do końca komentarza wszystko jest ignorowane
   auto          // j = 9; <- to też jest komentarz
        j = 0;   // a to jest kontynuacja linii po usunięciu komentarza
   Poprzednie linie są w całości wewnątrz komentarza wieloliniowego
