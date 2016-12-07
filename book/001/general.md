@@ -27,7 +27,7 @@ Zawsze **rozróżniane są małe i wielkie litery** (ang: case sensitive).
 Używane są dwa podstawowe rodzaje plików z kodem:
 
 * **pliki z treścią programu**: **\*.cpp** (C++) i **\*.c** (C). Można spotkać się też z plikami o rozszerzeniach: .c++, .cc, .cxx., .C, obecnie zazwyczaj są niezalecane.
-* pliki z deklaracjami (obiektów, funkcji, klas, typów itp), zwane  też **plikami nagłówkowymi** (ang: header files): **\*.** (bez rozszerzenia) (C++) i **\*.h** (C/C++). Można też spotkać (obecnie niezalecane) .hpp i .hxx
+* pliki z deklaracjami (obiektów, funkcji, klas, typów itp), zwane  też **plikami nagłówkowymi** (ang: header files): **\*. (bez rozszerzenia)** (C++) i **\*.h** (C/C++). Można też spotkać (obecnie niezalecane) .hpp i .hxx
 * można też spotkać pliki 
   * .ii, .ixx, .ipp, .inl (nagłówki zawierające fragmenty kodu ```inline```)
   * .txx, .tpp, .tpl - definicje wzorców (ang: templates).
@@ -44,3 +44,4 @@ Bezpiecznie jest **używać nazw plików takich, jakimi są** (wielkie/małe lit
 * ```#include <stdIO.h>           // ładnie wygląda, nie zawsze działa```
 
 W rozbudowanych systemach kompilacji pliki z kodem będą przetwarzane przez całkiem sporą liczbę barzędzi, na wielu komputerach, pod kontrolą wielu systemów operacyjnych. Dla uniknięcia problemów z przenośnością warto przestrzegać zalecenia: jedyne dopuszczalne znaki w nazwach **plików i katalogów**(!) to: **litery alfabetu łacińskiego, cyfry i znaki: podkreślenie, plus i minus** \[a-zA-Z0-9\_+\\-]. No i jedna kropka jako separator nazwy i rozszerzenia.
+
