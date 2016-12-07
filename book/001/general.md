@@ -54,13 +54,13 @@ Są dostępne dwa rodzaje komentarzy: jednoliniowe ```\\ Lorem ipsum``` i blokow
 ```C++
   auto i = 0;   // Treść od tego miejsca do końca linii jest ignorowana
   auto          // j = 1; <- to też jest komentarz
-       j = 1;   // a to jest kontynuacja linii po usunięciu komentarza
+       j = 2;   // a to jest kontynuacja linii po usunięciu komentarza
 ```
 jest równoważne:
 ```C++
   auto i = 0;
   auto
-       j = 1;
+       j = 2;
 ```
 
 ```C++
