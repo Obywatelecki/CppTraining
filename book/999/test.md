@@ -3,6 +3,7 @@
 
 {% plantuml %}
 
+[*] --> Source
 Source --> Precompiled
 Precompiled --> Object
 Object --> Executable
