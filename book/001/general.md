@@ -100,7 +100,7 @@ Warto rozważyć propozycję używania na co dzień wyłącznie komentarzy jedno
               // Curabitur accumsan facilisis nulla, a varius urna iaculis et.
   auto j = 2;
 ```
-Dzięki temu - (na przykład w czasie uruchamiania) objęcie komentarzem blokowym ```\*  *\``` fragmentu kodu z komentarzami nie spowoduje błędów kompilacji.
+Dzięki temu - (na przykład w czasie uruchamiania) będzie możliwe objęcie komentarzem blokowym ```\*  *\``` fragmentu kodu z komentarzami.
 ```C++
 /*
   auto i = 0; // Lorem ipsum dolor sit amet, consectetur adipiscing elit.
