@@ -86,7 +86,7 @@ Komentarz ```\*  *\``` nie jest zagnieżdzony
 *\       // te znaki spowodują błąd, bo nie ma żadnego komentarza blokowego do zakończenia
 ```
 
-(idiom) Język udostepnia jeszcze jeden mechanizm podobny do komentarza na poziomie preprocesora (o którym będzie za chwilę):
+(idiom) Język udostepnia jeszcze jeden mechanizm podobny do komentarza - na poziomie preprocesora (o którym będzie za chwilę):
 ```C++
   auto i = 0;
   #if 0
