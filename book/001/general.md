@@ -103,7 +103,7 @@ Warto rozważyć propozycję używania na co dzień wyłącznie komentarzy jedno
               // Curabitur accumsan facilisis nulla, a varius urna iaculis et.
   auto j = 2;
 ```
-Dzięki temu - (na przykład w czasie uruchamiania) będzie możliwe objęcie komentarzem blokowym ```\*  *\``` fragmentu kodu z komentarzami.
+Dzięki temu - (na przykład w czasie uruchamiania) będzie możliwe objęcie komentarzem blokowym ```\*Lorem*\``` fragmentu kodu z komentarzami.
 ```C++
 /*
   auto i = 0; // Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -114,17 +114,9 @@ Dzięki temu - (na przykład w czasie uruchamiania) będzie możliwe objęcie ko
 */
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie (multiline edit, multicaret, block mode).
+> Visual Studio:
+> - Należy ustawić kursor na początku bloku
+> - wcisnąć Alt-Shift-Down kilkukrotnie
+> - zacząć pisać (na przykład znaki "// "
 
