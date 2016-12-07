@@ -282,7 +282,7 @@ Należy modyfikować zawartość plików myFunc.h i App1.cpp (dodając spację n
 
 Projekty App1 i App2 są takie same, będzie omówiony tylko jeden.
 
-Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacji (ang: compilation unit): "myFunc.cpp" i "App1.cpp".
+Projekt App1 zawiera dwie, w zasadzie niezależne jednostki kompilacji (ang: compilation unit): "App1.cpp" i "myFunc.cpp".
 
 {% plantuml %}
 
