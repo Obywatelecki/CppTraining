@@ -119,4 +119,3 @@ Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie (multilin
 > - należy ustawić kursor na początku bloku
 > - wcisnąć Alt-Shift-Down kilkukrotnie
 > - zacząć pisać (na przykład znaki "// ")
-
