@@ -68,7 +68,7 @@ jest równoważne:
   auto j = 0; // j = 9; <- to też jest komentarz
               /* to nie jest początek komentarza, bo już jest wewnątrz innego
        j = 0; // a to jest kontynuacja linii po usunięciu komentarza
-  Poprzednie linie są w całości wewnątrz komentarza wieloliniowego
+  Poprzednie linie są w całości wewnątrz komentarza blokowego
   A tu jest jego koniec => */ 2;
   auto z = /* 11 */ 9;
 ```
@@ -79,7 +79,7 @@ jest równoważne (komentarz zastąpiony spacją):
 ```
 
 Komentarz ```\*  *\``` nie jest zagnieżdzony
-```
+```C++
 \*       początek komentarza
 \*       te znaki są ignorowane, bo już są wewnątrz komentarza
 *\       // te znaki kończą komentarz
