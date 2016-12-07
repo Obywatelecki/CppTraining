@@ -362,7 +362,7 @@ Linker dopasowuje odpowiednie symbole:
 object "stdlib"     as stdlib
 object "myFunc.cpp" as myFunc
 
-object "main.cpp"   as main
+object "App1.cpp"   as main
 
 stdlib : ostream std::cout;
 myFunc : std::string myFunc(){}
