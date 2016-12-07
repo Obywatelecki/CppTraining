@@ -14,7 +14,7 @@ Podstawowy zestaw znaków języka obejmuje:
 Wszystkie inne znaki są zastępowane znakami z zestawu rozszerzonego, zależnie od użytego kodowania.
 
 Bezpiecznie jest wystrzegać się stosowania znaków spoza podstawowego zestawu, nawet naszego polskiego "ąćęłńóśźż":
-- w kodzie programu pojawią się nieoczywiste interpretacje i konwersje, zależne od tego jak jest plik zakodowany,
+- w kodzie programu pojawią się nieoczywiste interpretacje i konwersje, zależne od tego jak plik jest zakodowany, wyszukiwanie związanych z tym prpblemów jest bardzo trudne,
 - język pozwala takie znaczki zapisać explicite razem z pożądanym kodowaniem,
 - można wprawić w zakłopotanie inne narzędzia pracujące z naszym kodem.
 
