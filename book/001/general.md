@@ -2,6 +2,10 @@
 
 Kod źródłowy programu w języku C++ zapisuje się w **zwykłych plikach tekstowych** (ang: plain text files).
 
+## Język
+
+Mimo, że kurs jest prowadzony po polsku, należy pamiętać, że językiem "urzędowym" jest angielski. Gorąco zachęcam do używania angielskiego w komentarzach, nazwach identyfikatorów, nazwach plików. Wystarczający jest [Basic English](http://www2.educ.fukushima-u.ac.jp/~ryota/word-list.html).
+
 ## Pliki tekstowe
 
 Pliki mogą być zapisane w zwykłym ASCII, większość kompilatorów dobrze rozumie też UTF-8 i UTF-16.
@@ -119,3 +123,11 @@ Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie (multilin
 > - należy ustawić kursor na początku bloku
 > - wcisnąć Alt-Shift-Down kilkukrotnie
 > - zacząć pisać (na przykład znaki "// ")
+
+### Gotowy kod
+
+Komentarze na Coliru
+
+Solucja: 
+
+
