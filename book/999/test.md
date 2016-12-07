@@ -4,7 +4,6 @@
 
 {% plantuml %}
 
-
 state "main<source>"     as Source_main
 state "<preprocessed>"   as Preprocessed_main
 
