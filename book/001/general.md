@@ -114,7 +114,7 @@ Dzięki temu - (na przykład w czasie uruchamiania) będzie możliwe objęcie ko
 */
 ```
 
-Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie (multiline edit, multicaret, block mode).
+Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie (multiline edit, multicaret edit, block mode).
 > Visual Studio:
 > - należy ustawić kursor na początku bloku
 > - wcisnąć Alt-Shift-Down kilkukrotnie
