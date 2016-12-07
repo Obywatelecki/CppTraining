@@ -49,7 +49,7 @@ W rozbudowanych systemach kompilacji: pliki z kodem będą przetwarzane przez ca
 
 Komentarze w kodzie są wykrywane i usuwane na bardzo wczesnym etapie kompilacji.
 
-Są dostępne dwa rodzaje komentarzy: jednoliniowe i wieloliniowe
+Są dostępne dwa rodzaje komentarzy: jednoliniowe ```\\``` i blokowe ```\*  *\```
 
 ```C++
   auto i = 0;   // Treść od tego miejsca do końca linii jest ignorowana
@@ -65,7 +65,7 @@ jest równoważne:
 
 ```C++
   auto i = 0;   /* Od tego miejsca aż do końca komentarza wssytko jest ignorowane
-  auto          // j = 1; <- to też jest komentarz
+  auto          // j = 9; <- to też jest komentarz
        j = 0;   // a to jest kontynuacja linii po usunięciu komentarza
   Poprzednie linie są w całości wewnątrz komentarza wieloliniowego
   A tu jest jego koniec => */ auto k = 2;
@@ -74,7 +74,40 @@ jest równoważne (komentarz zastąpiony spacją):
 ```C++
   auto i = 0;     auto k = 2;
 ```
-     
+
+Komentarz ```\*  *\``` nie jest zagnieżdzony
+```
+\*       początek komentarza
+\*       te znaki są ignorowane, bo już są wewnątrz komentarza
+*\       // te znaki kończą komentarz
+*\       // te znaki spowodują błąd, bo nie ma żadnego komentarza blokowego do zakończenia
+```
+
+
+
+(idiom) Język udostepnia jeszcze jeden mechanizm podobny do komentarza na poziomie preprocesora (o którym będzie za chwilę):
+```
+  auto i = 0;
+  #if 0
+    Blok od ```#if 0``` do ```#endif``` jest ignorowany
+    Ten pseudo-komentarz też nie jest zagnieżdzany - działa do najbliższej linii ```#endif```
+  #endif
+```
+
+Warto rozważyć propozycję używania na co dzień wyłącznie komentarzy jednoliniowych ```\\```.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
