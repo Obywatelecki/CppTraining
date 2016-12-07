@@ -126,8 +126,6 @@ Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie (multilin
 
 ### Gotowy kod
 
-Komentarze na Coliru
+Komentarze na Coliru.
 
-Solucja: 
-
-
+Solucja jest dostępna na [githubie](https://github.com/jbanaszczyk/CppTraining)
