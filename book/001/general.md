@@ -138,7 +138,7 @@ Są dwie szkoły, każda ma swoje racje.
 
 Istnieją narzędzia, które na podstawie komentarzy w kodzie (komentarzy w specyficznie zdefiniowanej formie) tworzą dokumentację kodu.
 
-W poprzednim punkcie wybór padł na "kod należy pisać tak, aby było zbędne komentowanie go". Ale gdyby jednak, to niech kometarze będą zgodne z jakimś przemysłowym standardem. Niech to będzie. Przykład dokumentacji wyprodukowanej przez [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html): biblioteka [ICU4C](https://ssl.icu-project.org/apiref/icu4c/).
+W poprzednim punkcie wybór padł na "kod należy pisać tak, aby było zbędne komentowanie go". Ale gdyby jednak, to niech kometarze będą zgodne z jakimś przemysłowym standardem. Niech to będzie  [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html). Przykład dokumentacji wyprodukowanej przez Doxygen: biblioteka [ICU4C](https://ssl.icu-project.org/apiref/icu4c/).
 
 ```C++
 //! \brief Copies bytes from a source memory area to a destination memory area, 
