@@ -58,7 +58,7 @@ Są dostępne dwa rodzaje komentarzy: jednoliniowe ```\\ Lorem ipsum``` i blokow
 ```C++
   auto i = 0;   // <- Ignored from this point
   auto          // j = 1; <- It is a comment, too
-       j = 2;   // previous line of code is continued
+       j = 2;   // previous line of code "auto" is continued
 ```
 jest równoważne:
 ```C++
@@ -68,13 +68,12 @@ jest równoważne:
 ```
 
 ```C++
-  auto i =    /* 0;   Od tego miejsca aż do końca komentarza wszystko jest ignorowane
-  auto j = 0; // j = 9; <- to też jest komentarz
-              /* to nie jest początek komentarza, bo już jest wewnątrz innego
-       j = 0; // a to jest kontynuacja linii po usunięciu komentarza
-  Poprzednie linie są w całości wewnątrz komentarza blokowego
-  A tu jest jego koniec => */ 2;
-  auto z = /* 11 */ 9;
+  auto i =    /* 0;   Everything form this point is ignored
+  auto j = 0; // j = 9; Whole line is a comment
+              /* This is not the beginning of a comment
+       j = 0; // Whole line is a comment
+    Comment ends -> */ 2;
+  auto z = /* 11 */ 9;   // 11 was commented aout
 ```
 jest równoważne (komentarz zastąpiony spacją):
 ```C++
@@ -84,20 +83,22 @@ jest równoważne (komentarz zastąpiony spacją):
 
 Komentarz ```\*  *\``` nie jest zagnieżdzony
 ```C++
-\*       początek komentarza
-\*       te znaki są ignorowane, bo już są wewnątrz komentarza
-*\       // te znaki kończą komentarz
-*\       // te znaki spowodują błąd, bo nie ma żadnego komentarza blokowego do zakończenia
+\*       Comment begins
+\*       Comment does not begin, comment was started in previous line
+*\       // Comment ends
+*\       // Syntax error
 ```
 
 (idiom) Język udostepnia jeszcze jeden mechanizm podobny do komentarza - na poziomie preprocesora (o którym będzie za chwilę):
 ```C++
   auto i = 0;
   #if 0
-    Blok od ```#if 0``` do ```#endif``` jest ignorowany
-    Ten pseudo-komentarz też nie jest zagnieżdzany - działa do najbliższej linii #endif
+    Pseudo-comment:
+    whole block ```#if 0```  ```#endif``` is ignored
   #endif
 ```
+
+### Styl komentowania
 
 Warto rozważyć propozycję używania na co dzień wyłącznie komentarzy jednoliniowych ```\\```.
 ```C++
@@ -118,13 +119,40 @@ Dzięki temu - (na przykład w czasie uruchamiania) będzie możliwe objęcie ko
 */
 ```
 
+### Wsparcie edytora
+
 Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie (multiline edit, multicaret edit, block mode).
 > Visual Studio:
 > - należy ustawić kursor na początku bloku
 > - wcisnąć Alt-Shift-Down kilkukrotnie
 > - zacząć pisać (na przykład znaki "// ")
 
-### Gotowy kod
+### Po co komu komentarz?
+
+Są dwie szkoły, każda ma swoje racje.
+
+1. Komentarzy należy pisac dużo. Co najmniej 20% linii programu to powinny byc komentarze (dokładniej: na 100 linii czystego kodu powinno przypdać 20 linii komentarzy z jakąś treścią).
+2. Język wysokiego poziomu (takim jest C++) pozwala pisać kod samo-dokumentujący się. Jeśli kod wymaga dodatkowego opisu, to znaczy, że jest napisany źle. Poprawności komentarzy nic nie sprawdza. W szczególności kompilator. Jeśli w kodzie jest komentarz stary, taki, który jest z kodem sprzecznym, to on jest nie tyle, że bezwartościowy, a szkodliwy. 
+
+### Doxygen, JavaDoc
+
+Istnieją narzędzia, które na podstawie komentarzy w kodzie (komentarzy w specyficznie zdefiniowanej formie) tworzą dokumentację kodu.
+
+W poprzednim punkcie wybór padł na "kod należy pisać tak, aby było zbędne komentowanie go". Ale gdyby jednak, to niech kometarze będą zgodne z jakimś przemysłowym standardem. Niech to będzie. Przykład dokumentacji wyprodukowanej przez Doxygen: ICU4C(https://ssl.icu-project.org/apiref/icu4c/).
+
+Coś takiego:
+```C++
+//! \brief Copies bytes from a source memory area to a destination memory area, 
+//! where both areas may not overlap.
+//! \param[out] dest The memory area to copy to.
+//! \param[in]  src  The memory area to copy from.
+//! \param[in]  n    The number of bytes to copy
+void memcpy(void *dest, const void *src, size_t n);
+```
+
+
+
+# Gotowy kod
 
 Komentarze na Coliru.
 
