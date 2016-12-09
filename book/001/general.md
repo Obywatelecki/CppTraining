@@ -60,7 +60,7 @@ Komentarze w kodzie są wykrywane i usuwane na bardzo wczesnym etapie kompilacji
 Są dostępne dwa rodzaje komentarzy: jednoliniowe `\\ Lorem ipsum i blokowe \* Lorem ipsum *\`
 
 ```C++
-auto i = 0;   // <- Ignored from this point
+  auto i = 0;   // <- Ignored from this point
   auto          // j = 1; <- It is a comment, too
        j = 2;   // previous line of code "auto" is continued
 ```
@@ -68,25 +68,25 @@ auto i = 0;   // <- Ignored from this point
 jest równoważne:
 
 ```C++
-auto i = 0;
+  auto i = 0;
   auto
        j = 2;
 ```
-
+(_kolorowanie składni pogubiło się_)
 ```C++
-auto i =    /* 0;   Everything form this point is ignored
+  auto i =    /* 0;   Everything form this point is ignored
   auto j = 0; // j = 9; Whole line is a comment
               /* This is not the beginning of a comment
-       j = 0; // Whole line is a comment
-    Comment ends -> */ 2;
-  auto z = /* 11 */ 9;   // 11 was commented aout
+       j = 1; // Whole line is a comment
+                 Comment ends -> */ 2;
+  auto z = /* 11 */ 9;   // 11 was commented out
 ```
 
 jest równoważne \(komentarz zastąpiony spacją\):
 
 ```C++
-auto i =      2;
-    auto z =   9;
+  auto i =      2;
+  auto z =   9;
 ```
 
 Komentarz `\*  *\ nie jest zagnieżdzony`
@@ -101,11 +101,13 @@ Komentarz `\*  *\ nie jest zagnieżdzony`
 \(idiom\) Język udostepnia jeszcze jeden mechanizm podobny do komentarza - na poziomie preprocesora \(o którym będzie za chwilę\):
 
 ```C++
-auto i = 0;
+  auto i = 0;
   #if 0
     Pseudo-comment:
     whole block ```#if 0```  ```#endif``` is ignored
+    i = 2;
   #endif
+  auto z = 9;
 ```
 
 ### Styl komentowania
@@ -113,7 +115,7 @@ auto i = 0;
 Warto rozważyć propozycję używania na co dzień wyłącznie komentarzy jednoliniowych `\\.`
 
 ```C++
-auto i = 0; // Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  auto i = 0; // Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               // Phasellus ut lorem ut ante gravida tincidunt.
               // Etiam et tellus a velit molestie posuere.
               // Curabitur accumsan facilisis nulla, a varius urna iaculis et.
