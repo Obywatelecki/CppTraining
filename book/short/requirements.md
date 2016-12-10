@@ -14,22 +14,22 @@ To było na marginesie.
 ## Funkcjonalne, niefunkcjonalne i ograniczenia
 
 Wymagania wobec systemu informatycznego można podzielić na trzy grupy:  
-* funkcjonalne (ang: functional requirements): co system ma robić. Według nich system będzie oceniony "czy w ogóle działa".
-* niefunkcjonalne (ang: non functional requirements): kryteria jakościowe, według nich system będzie oceniony "jak dobrze działa".
-* ograniczenia (ang: constraints): ograniczenia, których nie należy przekroczyć.
+* funkcjonalne \(ang: functional requirements\): co system ma robić. Według nich system będzie oceniony "czy w ogóle działa".
+* niefunkcjonalne \(ang: non functional requirements\): kryteria jakościowe, według nich system będzie oceniony "jak dobrze działa".
+* ograniczenia \(ang: constraints\): ograniczenia, których nie należy przekroczyć.
 
 Klasyfikowanie wymagań wymaga odrobiny wprawy. Weźmy takie wymaganie niefunkcjonalne:  
 - system ma być szybki.
 - ale jak szybki?
-- system ma uruchamiać się w 5 sekund (należałoby jeszcze zdefiniować "czas uruchamiania").
+- system ma uruchamiać się w 5 sekund \(należałoby jeszcze zdefiniować "czas uruchamiania"\).
 
-To wygląda całkiem jak "ograniczenie". Więcej: można napisać test akceptacyjny, który będzie mierzyć czas uruchomienia systemu i sprawdzać, czy jest wystarczająco dobry. Mała jest różnica między testami akceptacyjnymi a testami funkcjonalnymi (o [testach jeszcze będzie](../_placeholder_.md)), testy funkcjonalne sprawdzają spełnienie wymagań funkcjonalnych, to wygląda trochę jak wymaganie funkcjonalne.  
-Mimo to - mamy do czynienia z wymaganiem niefunkcjonalnym w kategorii "szybkie uruchomienie" (ang: performance/latency).
+To wygląda całkiem jak "ograniczenie". Więcej: można napisać test akceptacyjny, który będzie mierzyć czas uruchomienia systemu i sprawdzać, czy jest wystarczająco dobry. Mała jest różnica między testami akceptacyjnymi a testami funkcjonalnymi \(o [testach jeszcze będzie](../_placeholder_.md)\), testy funkcjonalne sprawdzają spełnienie wymagań funkcjonalnych, to wygląda trochę jak wymaganie funkcjonalne.  
+Mimo to - mamy do czynienia z wymaganiem niefunkcjonalnym w kategorii "szybkie uruchomienie" \(ang: performance/latency\).
 
 Przykłady wymagań:
 * funkcjonalne: użytkownik wciska guzik i pojawia się animowany bałwanek.
 * niefunkcjonalne: bałwanek ma się pojawić jak najszybciej.
-* ograniczenia: komercjalizacja produktu musi nastąpić w ciągu miesiąca (potem będzie po Świętach i będzie czas na nowy projekt: bałwanek ze śmigłem - żeby odlecieć do zimnych krajów).
+* ograniczenia: komercjalizacja produktu musi nastąpić w ciągu miesiąca \(potem będzie po Świętach i będzie czas na nowy projekt: bałwanek ze śmigłem - żeby odlecieć do zimnych krajów\).
 
 ### Wymagania funkcjonalne
 
@@ -43,9 +43,9 @@ W przypadku niepowodzenia kopiowania pliku należy wyświetlić stosowny komunik
 ```C++
   if ( copyFailed() ) { sendAlert( msgCopyFailed ); };
 ```
-Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wymagania "użytkownik wciska guzik i pojawia się animowany bałwanek" nie wynika "system musi mieć jakąś reprezentację guzika", ani nie wynika, że system ma graficzny interfejs użytkownika (GUI). Takie rzeczy definiuje się w ograniczeniach.
+Wymagania funkcjonalne prawie nie mają wpływu na architekturę systemu. Z wymagania "użytkownik wciska guzik i pojawia się animowany bałwanek" nie wynika "system musi mieć jakąś reprezentację guzika", ani nie wynika, że system ma graficzny interfejs użytkownika \(GUI\). Takie rzeczy definiuje się w ograniczeniach.
 
-Kolejne (nowe) wymaganie funkcjonalne często jest względnie łatwe w implementacji i zazwyczaj nie powoduje konieczności zmiany całego systemu (choć czasem zmianę trzeba wprowadzić w bardzo wielu miejscach).
+Kolejne \(nowe\) wymaganie funkcjonalne często jest względnie łatwe w implementacji i zazwyczaj nie powoduje konieczności zmiany całego systemu \(choć czasem zmianę trzeba wprowadzić w bardzo wielu miejscach\).
 
 ```
   [ guzik ]
@@ -54,26 +54,26 @@ Kolejne (nowe) wymaganie funkcjonalne często jest względnie łatwe w implement
 
 ### Wymagania niefunkcjonalne
 
-Wymagania niefunkcjonalne (zwane też wymaganiami jakościowymi) opisują pożądane cechy systemu w różnych kategoriach: testowalność, wydajność, skalowalność, czytelność kodu, użyteczność, …. [Tych kategorii](https://en.wikipedia.org/wiki/Non-functional_requirement) (-ość, ang: -ity) opisano i dogłębnie przeanalizowano około 50 (plus sporo podkategorii jak: szybkość/czas uruchomienia, szybkość/czas trwania operacji, szybkość/przepustowość, itd). Dla każdej z nich można znaleźć podpowiedzi: jak projektować system (ang: design principle), aby sprzyjać realizacji wymagania.
+Wymagania niefunkcjonalne \(zwane też wymaganiami jakościowymi\) opisują pożądane cechy systemu w różnych kategoriach: testowalność, wydajność, skalowalność, czytelność kodu, użyteczność, …. [Tych kategorii](https://en.wikipedia.org/wiki/Non-functional_requirement) \(-ość, ang: -ity\) opisano i dogłębnie przeanalizowano około 50 \(plus sporo podkategorii jak: szybkość/czas uruchomienia, szybkość/czas trwania operacji, szybkość/przepustowość, itd\). Dla każdej z nich można znaleźć podpowiedzi: jak projektować system \(ang: design principle\), aby sprzyjać realizacji wymagania.
 
-> Przykład: kod programu ma być dobrze przetestowany. Realizację wymagania z kategorii "testowalność" (ang: testability) promują zasady projektowania:  
-> * Odwrócenie sterowania (ang: inversion of control).  
-> * Segregacja interfejsów (ang: interface segregation).  
+> Przykład: kod programu ma być dobrze przetestowany. Realizację wymagania z kategorii "testowalność" \(ang: testability\) promują zasady projektowania:  
+> * Odwrócenie sterowania \(ang: inversion of control\).  
+> * Segregacja interfejsów \(ang: interface segregation\).  
 > Projektowanie systemu bez przestrzegania tych zasad doprowadzi do realizacji projektu, który nie spełnia wymagania "testowalność".
 
 Może się zdarzyć, że wymagania niefunkcjonalne są wewnętrznie sprzeczne.  
 > Dobrze, tanio i szybko - wybierz dwa.
 
-Można szukać analogii w architekturze (budownictwo): miejsce do zamieszkania ma mieć cechę niefunkcjonalną "dobry dostęp do świeżych warzyw". Realizację tego wymagania ułatwiają wzorce:
+Można szukać analogii w architekturze \(budownictwo\): miejsce do zamieszkania ma mieć cechę niefunkcjonalną "dobry dostęp do świeżych warzyw". Realizację tego wymagania ułatwiają wzorce:
 
 * dom z ogródkiem,
 * mieszkanie w bloku blisko bazaru,
-* dom niedaleko działki (+rower).
+* dom niedaleko działki \(+rower\).
 
 Dodanie nowego wymagania niefunkcjonalnego zazwyczaj skutkuje dużą zmianą projektu. Jeśli jakaś cecha nie została uwzględniona w projekcie, to system prawdopodobnie jej nie ma.
 
 > * Mamy domek z ogródkiem, chcielibyśmy dodać "energooszczędny".  
-> * Mamy system, chcielibyśmy dodać "skalowalny (ang: scalability)".
+> * Mamy system, chcielibyśmy dodać "skalowalny \(ang: scalability\)".
 
 ### Ograniczenia
 

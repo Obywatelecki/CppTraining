@@ -10,7 +10,7 @@ Zakładam, że odbiorca wie, czym jest program komputerowy i o co w ogóle chodz
 
 ## Zastrzeżenie #1
 
-Ten kurs bazuje na moich doświadczeniach i przemyśleniach. W wielu miejscach wprowadzam duże uproszczenia (to nie jest encyklopedia).
+Ten kurs bazuje na moich doświadczeniach i przemyśleniach. W wielu miejscach wprowadzam duże uproszczenia \(to nie jest encyklopedia\).
 
 Nie oczekuję, że czytelnik zawsze i w pełni się z nimi zgodzi. Jeśli jest to problem - zrezygnuj z dalszego czytania. Choć prawdopodobnie będziesz żałować.
 
@@ -19,7 +19,7 @@ Nie oczekuję, że czytelnik zawsze i w pełni się z nimi zgodzi. Jeśli jest t
 W kilku miejscach kursu można znaleźć odniesienia i przykłady użycia programów i usług. Kryteria którymi się kierowałem to:
 * licencja powinna być na tyle liberalna, żeby narzędzie można było **za darmo** wykorzystać w czasie kursu.
 * narzędzie lub usługa powinno być wystarczająco dobre, niekoniecznie subiektywnie najlepsze.
-W szczególności: nie jest moim celem tworzenie katalogu programów i usług, nie jest moim celem wyliczanie programów o podobnych funkcjonalnościach. Przykład: znam i cenię konkretne środowiska zintegrowane (IDE) i tu będę ich używać. Nie będę opisywać różnic między nimi a innymi IDE. Tym niech zajmują się inni.
+W szczególności: nie jest moim celem tworzenie katalogu programów i usług, nie jest moim celem wyliczanie programów o podobnych funkcjonalnościach. Przykład: znam i cenię konkretne środowiska zintegrowane \(IDE\) i tu będę ich używać. Nie będę opisywać różnic między nimi a innymi IDE. Tym niech zajmują się inni.
 
 ## Licencja
 

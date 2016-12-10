@@ -8,7 +8,7 @@
 
 * [Czym jest język C++](000/language.md)
 * [Środowisko do nauki](000/environment.md)
-* [Hello world](000/hello.md) (+ ćwiczenia)
+* [Hello world](000/hello.md) \(+ ćwiczenia\)
 
 ### Dzień 001
 

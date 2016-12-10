@@ -9,11 +9,11 @@ Wiki określa język C++ jako język o wielu paradygmatach. Paradygmat to styl p
 Połączenie wielu paradygmatów w jednym języku daje programiście do ręki bardzo wszechstronne narzędzie.
 
 Język C++ jest wyposażony w mechanizmy bardzo silne i niespotykane w innych językach:
-- preprocesor kodu źródłowego (to akurat nie jest powód do dumy),
+- preprocesor kodu źródłowego \(to akurat nie jest powód do dumy\),
 - destruktory,
-- dziedziczenie po wielu klasach jednocześnie (powoduje u wielu programistów silny ból głowy).
+- dziedziczenie po wielu klasach jednocześnie \(powoduje u wielu programistów silny ból głowy\).
 
-Cechą wzmacniającą uniwersalność jest fakt, że kompilatory potrafią wyprodukować "program" naturalny (ang: native) dla docelowej platformy, taki który na platformie uruchamia się bezpośrednio, nie wymagając żadnych maszyn wirtualnych ani innych dodatków. Wiele kompilatorów wspiera także kompilację skrośną - na przykład na komputerze z systemem Windows i procesorem Intela można wyprodukować program działający pod Linuxem z procesorem ARM. Albo jakoś inaczej.
+Cechą wzmacniającą uniwersalność jest fakt, że kompilatory potrafią wyprodukować "program" naturalny \(ang: native\) dla docelowej platformy, taki który na platformie uruchamia się bezpośrednio, nie wymagając żadnych maszyn wirtualnych ani innych dodatków. Wiele kompilatorów wspiera także kompilację skrośną - na przykład na komputerze z systemem Windows i procesorem Intela można wyprodukować program działający pod Linuxem z procesorem ARM. Albo jakoś inaczej.
 
 ## Trochę historii
 
@@ -35,7 +35,7 @@ Pierwsza norma opisująca język C++ została opublikowana w 1998, dziś określ
 
 #### TR, TS
 
-Prace nad normalizacją utknęły w miejscu - za dużo pomysłów na raz, nie dało się wprowadzić jakiegoś fajnego, dobrze ograniczonego standardu. Komitet opublikował wiele raportów technicznych (TR: Technical Report) i specyfikacji (TS: Technical Specification), większość kompilatorów wspierała poszczególne TR i TS (choć każdy po swojemu), ale nie miały one mocy prawnej.
+Prace nad normalizacją utknęły w miejscu - za dużo pomysłów na raz, nie dało się wprowadzić jakiegoś fajnego, dobrze ograniczonego standardu. Komitet opublikował wiele raportów technicznych \(TR: Technical Report\) i specyfikacji \(TS: Technical Specification\), większość kompilatorów wspierała poszczególne TR i TS \(choć każdy po swojemu\), ale nie miały one mocy prawnej.
 
 #### C++11, C++14
 
@@ -45,15 +45,15 @@ Standard C++11 definiuje w zasadzie całkiem nowy język, C++14 wprowadza niewie
 
 #### C++17
 
-Propozycja wersji C++17 została określona na konferencji w Oulu (czerwiec 2016), do końca marca 2017 pracować będzie komisja balotażowa.
+Propozycja wersji C++17 została określona na konferencji w Oulu \(czerwiec 2016\), do końca marca 2017 pracować będzie komisja balotażowa.
 
 ## Język C
 
-Język C powstał około roku 1972, został udokumentowany w 1978. Zaimplementowano w nim jądro (kernel) systemu Unix. Na długie lata został wiodącym językiem tworzenia systemów operacyjnych.
+Język C powstał około roku 1972, został udokumentowany w 1978. Zaimplementowano w nim jądro \(kernel\) systemu Unix. Na długie lata został wiodącym językiem tworzenia systemów operacyjnych.
 
 ### C99, C11
 
-Język C też jest normalizowany przez ISO, rozwija się znacznie wolniej, aktualny standard powstał w 2011 i niewiele różni się od opisu z roku 1978 (sprzed prawie 40 lat). Widziałem gdzieś porównanie sposobu kodowania 25 lat temu i współcześnie (ówczesna wersja Linuxa i jedno z pierwszych wydań Worda): bardzo niewiele uległo zmianie (nie potrafię odtworzyć źródeł informacji).
+Język C też jest normalizowany przez ISO, rozwija się znacznie wolniej, aktualny standard powstał w 2011 i niewiele różni się od opisu z roku 1978 \(sprzed prawie 40 lat\). Widziałem gdzieś porównanie sposobu kodowania 25 lat temu i współcześnie \(ówczesna wersja Linuxa i jedno z pierwszych wydań Worda\): bardzo niewiele uległo zmianie \(nie potrafię odtworzyć źródeł informacji\).
 
 ## Która wersja?
 
@@ -67,8 +67,8 @@ Warto spojrzeć na publikacje:
 
 * [Bjarne Stroustrup](http://www.stroustrup.com/): Autor języka. Z jego strony domowej: "zaprojektowałem i zaimplementowałem język C++, napisałem kilka książek, [...]".
 * [Scott Mayers](http://www.aristeia.com/): niestety już emeryt.
-* [Herb Sutter](http://www.gotw.ca/): pracuje w Microsofcie, współodpowiada za rozwój Visual Studio (C++ i CLI)
-* Andrei Alexandrescu: autorzy kompilatorów traktują jego bibliotekę [Loki](http://loki-lib.sourceforge.net/) jako sprawdzian kompatybilności z językiem (czyli "jeśli kompilator prawidłowo skompiluje Loki, to może aspirować do bycia kompilatorem")
-* Banda Czworga (Gang Of Four, GoF) - Erich Gamma, Richard Helm, Ralph Johnson oraz John Vlissides: autorzy "Inżynieria oprogramowania: Wzorce projektowe".
+* [Herb Sutter](http://www.gotw.ca/): pracuje w Microsofcie, współodpowiada za rozwój Visual Studio \(C++ i CLI\)
+* Andrei Alexandrescu: autorzy kompilatorów traktują jego bibliotekę [Loki](http://loki-lib.sourceforge.net/) jako sprawdzian kompatybilności z językiem \(czyli "jeśli kompilator prawidłowo skompiluje Loki, to może aspirować do bycia kompilatorem"\)
+* Banda Czworga \(Gang Of Four, GoF\) - Erich Gamma, Richard Helm, Ralph Johnson oraz John Vlissides: autorzy "Inżynieria oprogramowania: Wzorce projektowe".
 * [StackOverflow](https://stackoverflow.com/): absolutnie najważniejsze, wiarygodne forum wymiany wiedzy.
 * [boost](http://www.boost.org/): społeczność i kolekcja bibliotek. To oni implementują większość nowości w C++; to nad czym głosuje ISO w nowych wersjach C++ jest zazwyczaj już zaimplementowane przez boost. Będzie o tym [cały rozdział](../_placeholder_.md).
