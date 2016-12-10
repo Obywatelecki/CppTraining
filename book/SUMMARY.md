@@ -14,10 +14,11 @@
 
 * [20%](short/README.md)
 * [Wymagania](short/requirements.md)
+* [Struktura programu](001/general.md)
+* [Komentarze](001/comments.md)
 
 ### Niedokończone
 
-* [Struktura programu](001/general.md)
 
 ### Szorty
 
