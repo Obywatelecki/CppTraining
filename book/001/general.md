@@ -51,13 +51,13 @@ Bezpiecznie jest **używać nazw plików takich, jakimi są** \(wielkie/małe li
 * `#include <stdio.h>           // Portable. It always works.`
 * `#include <stdIO.h>           // Pretty. It does not always work.`
 
-W rozbudowanych systemach kompilacji: pliki z kodem będą przetwarzane przez całkiem sporą liczbę narzędzi, na wielu komputerach, pod kontrolą wielu systemów operacyjnych. Dla uniknięcia problemów z przenośnością warto przestrzegać zalecenia: jedyne dopuszczalne znaki w nazwach **plików i katalogów**\(!\) to: **litery alfabetu łacińskiego, cyfry i znaki: podkreślenie, plus i minus** \[a-zA-Z0-9\_+\-\]. No i jedna kropka jako separator nazwy i rozszerzenia.
+W rozbudowanych systemach kompilacji: pliki z kodem będą przetwarzane przez całkiem sporą liczbę narzędzi, na wielu komputerach, pod kontrolą wielu systemów operacyjnych. Dla uniknięcia problemów z przenośnością warto przestrzegać zalecenia: jedyne dopuszczalne znaki w **nazwach plików i katalogów**\(!\) to: **litery alfabetu łacińskiego, cyfry i znaki: podkreślenie, plus i minus** \[a-zA-Z0-9\_+\-\]. No i jedna kropka jako separator nazwy i rozszerzenia.
 
 ## Komentarze
 
 Komentarze w kodzie są wykrywane i usuwane na bardzo wczesnym etapie kompilacji.
 
-Są dostępne dwa rodzaje komentarzy: jednoliniowe `\\ Lorem ipsum i blokowe \* Lorem ipsum *\`
+Są dostępne dwa rodzaje komentarzy: jednoliniowe `\\ Lorem ipsum` i blokowe `\* Lorem ipsum *\`
 
 ```C++
   auto i = 0;   // <- Ignored from this point
