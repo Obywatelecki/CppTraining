@@ -9,7 +9,7 @@ void f1() {
        j = 2; // previous line of code "auto" is continued
   std::cout << __func__ << ":\n"s 
     << "\ti: "s << i << "\n"s 
-    << "\tj: "s << j << ":\n"s;
+    << "\tj: "s << j << "\n"s;
 }
 
 void f2() {
@@ -37,7 +37,6 @@ void f3() {
     << "\tz: "s << z << "\n"s;
 }
 
-
 int main() {
   f1();
   f2();
@@ -46,4 +45,3 @@ int main() {
   std::cin.get();
   return 0;
 }
-

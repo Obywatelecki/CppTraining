@@ -19,6 +19,8 @@
 
 ### Niedokończone
 
+* [Preprocesor](001/preprocesor.md)
+
 
 ### Szorty
 
