@@ -100,15 +100,18 @@ Są dwie szkoły, każda ma swoje racje.
 
 Godną polecenia praktyką jest oznaczanie komentarzem miejsc w kodzie, do których jeszcze trzeba wrócić. Nieformalnym standardem jest ```TODO:```
 ```C++
-    \\TTOO
+    \\TODO: Add parameters 
+```
 
+## Wulgaryzmy w komentarzach
 
+Po prostu nie, no przecież ten kod bądzie czytać wiele osób. Są nawet narzędzia do wykrywania wulgaryzmów w komentarzach.
 
 ## Doxygen, JavaDoc
 
 Istnieją narzędzia, które na podstawie komentarzy w kodzie \(komentarzy w specyficznie zdefiniowanej formie\) tworzą dokumentację kodu.
 
-W poprzednim punkcie wybór padł na "kod należy pisać tak, aby było zbędne komentowanie go". Ale gdyby jednak, to niech komentarze będą zgodne z jakimś przemysłowym standardem. Niech to będzie  [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html). Przykład dokumentacji wyprodukowanej przez Doxygen: biblioteka [ICU4C](https://ssl.icu-project.org/apiref/icu4c/).
+Kod należy pisać tak, aby było zbędne komentowanie go. Ale gdyby jednak, to niech komentarze będą zgodne z jakimś przemysłowym standardem. Niech to będzie [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/commands.html). Przykład dokumentacji wyprodukowanej przez Doxygen: biblioteka [ICU4C](https://ssl.icu-project.org/apiref/icu4c/).
 
 ```C++
 //! \brief Copies bytes from a source memory area to a destination memory area, 
