@@ -94,7 +94,15 @@ Dobre edytory udostępniają tryb edycji w kilku liniach jednocześnie \(multili
 Są dwie szkoły, każda ma swoje racje.
 
 1. Komentarzy należy pisać dużo. Co najmniej 20% linii programu to powinny być komentarze \(dokładniej: na 100 linii czystego kodu powinno przypadać 20 linii komentarzy z jakąś treścią\).
-2. Język wysokiego poziomu \(takim jest C++\) pozwala pisać kod samo-dokumentujący się. Jeśli kod wymaga dodatkowego opisu, to znaczy, że jest napisany źle. Poprawności komentarzy nic nie sprawdza, w szczególności kompilator. Jeśli w kodzie jest komentarz stary, taki, który jest z kodem sprzecznym, to on jest nie tyle, że bezwartościowy, a szkodliwy. 
+2. Język wysokiego poziomu \(takim jest C++\) pozwala pisać kod samo-dokumentujący się. Jeśli kod wymaga dodatkowego opisu, to znaczy, że jest napisany źle. Poprawności komentarzy nic nie sprawdza, w szczególności kompilator. Jeśli w kodzie jest komentarz stary, taki, który jest z kodem sprzecznym, to on jest nie tyle, że bezwartościowy, a szkodliwy.
+
+## //TODO:
+
+Godną polecenia praktyką jest oznaczanie komentarzem miejsc w kodzie, do których jeszcze trzeba wrócić. Nieformalnym standardem jest ```TODO:```
+```C++
+    \\TTOO
+
+
 
 ## Doxygen, JavaDoc
 
