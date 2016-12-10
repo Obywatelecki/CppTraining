@@ -100,7 +100,7 @@ Są dwie szkoły, każda ma swoje racje.
 
 Godną polecenia praktyką jest oznaczanie komentarzem miejsc w kodzie, do których jeszcze trzeba wrócić. Nieformalnym standardem jest ```TODO:```
 ```C++
-    \\TODO: Add parameters verification
+    //TODO: Add parameters verification
 ```
 
 ## Wulgaryzmy w komentarzach
