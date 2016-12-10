@@ -4,7 +4,7 @@ Jedną z najwcześniejszych faz kompilacji jest wstępne przetwarzanie kodu źr�
 
 Dyrektywy preprocesora pozwalają dopasowac funkcje biblioteczne do konkretnej platformy \(np. x86 i ARM\), architektury \(np. 32 i 64 bity\) albo nawet języka \(C i C++\) czy kompilatora \(Visual Studio i gcc\). Oznacza to, że można **bez żadnych modyfikacji** użyć tej samej biblioteki kompilując kod w języku C dla ARMa 32-bitowego, jak i w C++ dla Windows.
 
-Przy u
+Przy pomocy preprocesora można uzyskać spektakularne efekty \(przykłady: biblioteki języka albo mój faworyt: bibilioteka [Google Test](https://github.com/google/googletest)\), można też wprowadzić do kodu błędy trudne do uchwycenia. 
 
 ## Szybki przykład
 
@@ -23,3 +23,25 @@ Do kompilacji jest kierowany taki kod:
   auto y = 100;
   auto z = N1;
 ```
+
+## Ostrożnie
+
+Preprocesor nie sygnalizuje żadnych błędów składni, po prostu wykonuje proste operacje na kodzie źródłowym kierowanym do kompilacji. Kontrole poprawnosci realizuje kompilator, który operuje na wynikach działania preprocesora, których my nawet nie widzimy (widzimy kod źrodłowy przed przetworzeniem przez preprocesor).
+
+W językach C++ oraz C99 wprowadzono słowa kluczowe
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
