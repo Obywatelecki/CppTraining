@@ -1,4 +1,8 @@
 {
     "root": "./book",
-    "plugins": ["puml"]    
+    "plugins": ["puml", "page-toc"],
+    {
+        "pluginsConfig": {
+        }
+    }
 }
