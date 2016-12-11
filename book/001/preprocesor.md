@@ -28,7 +28,9 @@ Do kompilacji jest kierowany taki kod:
 
 Preprocesor nie sygnalizuje żadnych błędów składni, po prostu wykonuje proste operacje na kodzie źródłowym kierowanym do kompilacji. Kontrole poprawnosci realizuje kompilator, który operuje na wynikach działania preprocesora, których zazwyczaj nawet nie widzimy (widzimy kod źrodłowy przed przetworzeniem przez preprocesor).
 
-## 
+## Dyrektywy
+
+
 
 
 
