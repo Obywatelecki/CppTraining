@@ -127,3 +127,4 @@ void memcpy(void *dest, const void *src, size_t n);
 Komentarze na [Coliru](http://coliru.stacked-crooked.com/a/edceb7c29b54eef5).
 
 Rozwiązanie jest dostępne na [githubie](https://github.com/jbanaszczyk/CppTraining/tree/master/examples/001/Comments)
+
