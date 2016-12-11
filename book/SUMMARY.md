@@ -31,9 +31,7 @@
 
 * [index](999/index.md)
 
-
 ----
-
 
 ## Notatki na marginesie
 
