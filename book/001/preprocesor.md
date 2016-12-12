@@ -35,7 +35,7 @@ Preprocesor definiuje swój własny język, który:
 * operuje własnymi symbolami \(tworzonymi przez ```#define ```, usuwanymi przez ```#undef```\),
     * niektóre z symboli mają związek z procesem kompilacji \(np. \__func__\)
     * zna wyrażenia operujące na tych symbolach
-* wybiera które fragmenty kodu kierowac do kompilacji \(```#if``` \ ```#ifdef``` \ ```#ifndef```, ```#elif``` \ ```#else```, ```#endif```\)
+* wybiera, które fragmenty kodu kierowac do kompilacji \(```#if``` \ ```#ifdef``` \ ```#ifndef```, ```#elif``` \ ```#else```, ```#endif```\)
 * 
 
 
