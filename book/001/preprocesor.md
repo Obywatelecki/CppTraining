@@ -33,10 +33,13 @@ Preprocesor nie sygnalizuje żadnych błędów składni, po prostu wykonuje pros
 Preprocesor definiuje swój własny język, który:
 
 * operuje własnymi symbolami \(tworzonymi przez ```#define ```, usuwanymi przez ```#undef```\),
-    * niektóre z symboli mają związek z procesem kompilacji \(np. \__func__\)
-    * zna wyrażenia operujące na tych symbolach
-* wybiera, które fragmenty kodu kierowac do kompilacji \(```#if``` \ ```#ifdef``` \ ```#ifndef```, ```#elif``` \ ```#else```, ```#endif```\)
+    * niektóre z symboli mają związek z procesem kompilacji \(np. _\_func__\),
+    * zna wyrażenia operujące na tych symbolach,
+* wybiera, które fragmenty kodu kierowac do kompilacji, a które nie \(```#if``` \ ```#ifdef``` \ ```#ifndef```, ```#elif``` \ ```#else```, ```#endif```\)
+* dołącza do kompilowanego pliku zawartość innych plików \(```#include```\)
 * 
+
+asas 
 
 
 
