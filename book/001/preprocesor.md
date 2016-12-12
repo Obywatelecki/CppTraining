@@ -35,11 +35,27 @@ Preprocesor definiuje swój własny język, który:
 * operuje własnymi symbolami \(tworzonymi przez ```#define ```, usuwanymi przez ```#undef```\),
     * niektóre z symboli mają związek z procesem kompilacji \(np. _\_func__\),
     * zna wyrażenia operujące na tych symbolach,
-* wybiera, które fragmenty kodu kierowac do kompilacji, a które nie \(```#if``` \ ```#ifdef``` \ ```#ifndef```, ```#elif``` \ ```#else```, ```#endif```\)
-* dołącza do kompilowanego pliku zawartość innych plików \(```#include```\)
-* 
+* wybiera, które fragmenty kodu kierowac do kompilacji, a które nie \(```#if``` \ ```#ifdef``` \ ```#ifndef```, ```#elif``` \ ```#else```, ```#endif```\),
+* dołącza do kompilowanego pliku zawartość innych plików \(```#include```\),
+* potrafi przerwać proces kompilacji \(`#error`\),
+* potrafi wykonać inne, niestandardowe (zdefiniowane przez kompilator) akcje \(`#pragma`\).
 
-asas 
+### Składnia
+
+Dyrektywa preprocesora składa się z:  
+* znaku `#`
+* nazwy dyrektywy
+* argumentów \(zależnie od dyrektywy\)
+* znaku końca linii.
+
+#### Jedna linia
+
+Z powyższego wynika, że dyrektywy preprocesora są wyłącznie jednoliniowe - w odróżnieniu od całej reszty \(język C i C++ traktuje, poza bardzo nielicznymi wyjątkami, znak nowej linii jak spację, podział kodu prorgamu na linii służy wyłącznie zwiększeniu czytelności kodu\).
+
+A jeśli dyrektywa jest bardzo długa? Z pomoca przychodzi jedna (z nielicznych) faz kompilacji przed preprocesorem:  
+
+
+
 
 
 
