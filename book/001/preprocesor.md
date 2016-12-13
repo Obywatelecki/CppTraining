@@ -52,7 +52,7 @@ Dyrektywa preprocesora składa się z:
 
 Z powyższego wynika, że dyrektywy preprocesora są wyłącznie jednoliniowe - w odróżnieniu od całej reszty \(język C i C++ traktuje, poza bardzo nielicznymi wyjątkami, znak nowej linii jak spację, podział kodu programu na linie służy wyłącznie zwiększeniu czytelności kodu\).
 
-A jeśli dyrektywa jest bardzo długa? Z pomocą przychodzi jedna \(z nielicznych\) faz kompilacji przed preprocesorem:  
+A jeśli dyrektywa jest bardzo długa? Z pomocą przychodzi jedna z nielicznych faz kompilacji przed preprocesorem:  
 > Jeśli na końcu linii jest znak `\`, to znak `\` i znak przejścia do nowej linii są usuwane i kolejna linia jest dołączana do poprzedniej.
 
 Można tak "skleić" wiele kolejnych linii. Działanie to nie ma żadnego innego zastosowania.
