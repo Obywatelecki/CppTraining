@@ -1,4 +1,4 @@
-# Preprocesor
+a# Preprocesor
 
 Jedną z najwcześniejszych faz kompilacji jest wstępne przetwarzanie kodu źródłowego przez preprocesor \(ang: preprocessor\). Jest to bardzo silne narzędzie, o niewielkiej liczbie reguł, które nic nie wie o gramatyce języka C++.
 
