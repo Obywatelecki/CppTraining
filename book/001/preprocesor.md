@@ -83,3 +83,5 @@ Można tak "skleić" wiele kolejnych linii. Działanie to nie ma żadnego innego
 \#pragma  
 \#undef
 
+
+
