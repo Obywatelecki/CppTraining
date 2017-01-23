@@ -1,6 +1,10 @@
 # Deklaracje vs. definicje, pliki nagłówkowe (*.h)
 
-_Ten rozdział jest tylko wstępnym przybliżeniem tematów: nie było jeszcze mowy o klasach, typach danych, funkcjach. Treści tu zasygnalizowane będą wielokrotnie uściślone w dalszych rozdziałach. Tu zostały pokazane tylko po to, aby dało się pokazać przesłanki wprowadzenia preprocesora do języka._
+---
+
+_Ten rozdział jest tylko wstępnym przybliżeniem tematów: nie było jeszcze mowy o klasach, typach danych ani funkcjach. Treści tu zasygnalizowane będą wielokrotnie uściślone w dalszych rozdziałach. Tu zostały wspomniane tylko po to, aby dało się pokazać przesłanki wprowadzenia preprocesora do języka._
+
+---
 
 Kompilator języka C++ nie domyśla się co programista miał na myśli.
 
@@ -8,7 +12,7 @@ W przykładowym kodzie:
 ```
   int x = f(10);
 ```
-zdefioniowano symbol ```x``` oraz użyto symbolu ```f```. Symbol ```f``` musi być uprzednio wystarczająco dobrze określony.
+zdefiniowano symbol ```x``` oraz użyto symbolu ```f```. Symbol ```f``` musi być uprzednio wystarczająco dobrze określony.
 
 
 # Preprocesor
