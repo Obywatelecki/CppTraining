@@ -1,3 +1,16 @@
+# Deklaracje vs. definicje, pliki nagłówkowe (*.h)
+
+_Ten rozdział jest tylko wstępnym przybliżeniem tematów: nie było jeszcze mowy o klasach, typach danych, funkcjach. Treści tu zasygnalizowane będą wielokrotnie uściślone w dalszych rozdziałach. Tu zostały pokazane tylko po to, aby dało się pokazać przesłanki wprowadzenia preprocesora do języka._
+
+Kompilator języka C++ nie domyśla się co programista miał na myśli.
+
+W przykładowym kodzie:
+```
+  int x = f(10);
+```
+zdefioniowano symbol ```x``` oraz użyto symbolu ```f```. Symbol ```f``` musi być uprzednio wystarczająco dobrze określony.
+
+
 # Preprocesor
 
 Jedną z najwcześniejszych faz kompilacji jest wstępne przetwarzanie kodu źródłowego przez preprocesor \(ang: preprocessor\). Jest to bardzo silne narzędzie, o niewielkiej liczbie reguł, które nic nie wie o gramatyce języka C++.
@@ -28,7 +41,7 @@ auto z = N5;
 
 ## Ostrożnie
 
-Preprocesor nie sygnalizuje żadnych błędów składni, po prostu wykonuje proste operacje na kodzie źródłowym kierowanym do kompilacji. Kontrole poprawności realizuje kompilator, który operuje na wynikach działania preprocesora, których zazwyczaj nawet nie widzimy \(widzimy kod źródłowy przed przetworzeniem przez preprocesor\).
+Preprocesor nie sygnalizuje żadnych błędów składni C++, po prostu wykonuje proste operacje na kodzie źródłowym kierowanym do kompilacji. Kontrole poprawności realizuje kompilator. Kompilator operuje na wynikach działania preprocesora, których zazwyczaj nawet nie widzimy \(widzimy kod źródłowy przed przetworzeniem przez preprocesor\).
 
 ## Dyrektywy
 
