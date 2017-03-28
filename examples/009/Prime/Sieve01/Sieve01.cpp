@@ -20,11 +20,11 @@ public:
 
 template < typename T>
 class Sieve0 : public ISieve<T> {
-private:
+	// Sito bez sita. Generyczna, najprostsza impementacja interfejsu. next(n) zwraca n+1, iSPrime() zawsze zwraca ok==false, nie ma przesiewania liczb pierwszych.
 public:
 	Sieve0() {};
 
-	Sieve0(T n) : SieveA() {
+	Sieve0(T n) : Sieve0() {
 		resize(n);
 	};
 
@@ -56,12 +56,12 @@ template < typename T>
 class SieveA : public ISieve<T> {
 private:
 	T N;
-	std::vector<bool> arr1;
-	std::vector<T> arr2;
+	std::vector<bool> sieve;
+	std::vector<T> primes;
 public:
 	SieveA() : N(T{ 0 }) {
-		arr1.clear();
-		arr2.clear();
+		sieve.clear();
+		primes.clear();
 	};
 
 	SieveA(T n) : SieveA() {
@@ -69,13 +69,19 @@ public:
 	};
 
 	void resize(T m) override {
-		assert(false);
-
-		// na poczatek mozna zrobic to brute force:
 		if (m > N) {
-			arr1.clear();
-			arr2.clear();
-			// tutaj zwykle generowanie sita, takie jak pisaliscie w poprzednim zadaniu domowym
+			sieve.clear();
+			primes.clear();
+			sieve.resize(m);
+			std::fill(sieve.begin(), sieve.end(), true);
+			for (T i = T{ 2 }; i < m; ++i) {
+				if (sieve[i]) {
+					primes.push_back(i);
+					for (T j = i*i; j < m; j += i) {
+						sieve[j] = false;
+					}
+				}
+			}
 			N = m;
 		}
 	};
@@ -91,23 +97,37 @@ public:
 
 	bool isPrime(T n, bool& ok) const override {
 		ok = n >= 0 || n < N;
-		return ok ? arr1[n] : false;
+		return ok ? sieve[n] : false;
 	};
 
 	size_t Arr1Size() override {
-		return arr1.size();
+		return sieve.size();
 	};
 
 	size_t Arr2Size() override {
-		return arr2.size();
+		return primes.size();
 	};
 };
 
 int main()
 {
-	ISieve<int> *sito1 = new SieveA<int>{};
-	assert(sito1->getMax() == 0);
-	assert(sito1->Arr1Size() == 0);
-	assert(sito1->Arr2Size() == 0);
+	bool ok = false;
+
+	//	ISieve<int> *sito0 = new Sieve0<int>{1000};
+	//	assert(sito0->getMax() == 0);
+	//	assert(sito0->Arr1Size() == 0);
+	//	assert(sito0->Arr2Size() == 0);
+	//	assert(sito0->next(9) == 10);
+	//	ok = true;
+	//	sito0->isPrime(9, ok);
+	//	assert(!ok);
+
+
+
+	ISieve<int> *sito1 = new SieveA<int>{ 10 };
+
+	//	assert(sito1->getMax() == 0);
+	//	assert(sito1->Arr1Size() == 0);
+	//	assert(sito1->Arr2Size() == 0);
 	return 0;
 }
