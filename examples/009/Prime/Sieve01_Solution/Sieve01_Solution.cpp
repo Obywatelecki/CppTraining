@@ -19,40 +19,6 @@ public:
 };
 
 template < typename T>
-class Sieve0 : public ISieve<T> {
-private:
-public:
-	Sieve0() {};
-
-	Sieve0(T n) : SieveA() {
-		resize(n);
-	};
-
-	void resize(T m) override {	};
-
-	T getMax() const override {
-		return 0;
-	};
-
-	T next(T n) const override {
-		return n + 1;
-	};
-
-	bool isPrime(T n, bool& ok) const override {
-		ok = false;
-		return false;
-	};
-
-	size_t Arr1Size() override {
-		return 0;
-	};
-
-	size_t Arr2Size() override {
-		return 0;
-	};
-};
-
-template < typename T>
 class SieveA : public ISieve<T> {
 private:
 	T N;
