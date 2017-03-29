@@ -70,18 +70,13 @@ public:
 
 	void resize(T m) override {
 		if (m > N) {
+			assert(m / 2 <= std::numeric_limits<T>::max());
+
 			sieve.clear();
 			primes.clear();
-			sieve.resize(m);
-			std::fill(sieve.begin(), sieve.end(), true);
-			for (T i = T{ 2 }; i < m; ++i) {
-				if (sieve[i]) {
-					primes.push_back(i);
-					for (T j = i*i; j < m; j += i) {
-						sieve[j] = false;
-					}
-				}
-			}
+
+			// Kod z poprzedniego zadania domowego
+
 			N = m;
 		}
 	};
@@ -111,23 +106,19 @@ public:
 
 int main()
 {
-	bool ok = false;
 
-	//	ISieve<int> *sito0 = new Sieve0<int>{1000};
-	//	assert(sito0->getMax() == 0);
-	//	assert(sito0->Arr1Size() == 0);
-	//	assert(sito0->Arr2Size() == 0);
-	//	assert(sito0->next(9) == 10);
-	//	ok = true;
-	//	sito0->isPrime(9, ok);
-	//	assert(!ok);
+	ISieve<int> *sito0 = new Sieve0<int>{ 1000 };
+	assert(sito0->getMax() == 0);
+	assert(sito0->Arr1Size() == 0);
+	assert(sito0->Arr2Size() == 0);
+	assert(sito0->next(9) == 10);
+	bool ok = true;
+	sito0->isPrime(9, ok);
+	assert(!ok);
 
-
-
-	ISieve<int> *sito1 = new SieveA<int>{ 10 };
-
-	//	assert(sito1->getMax() == 0);
-	//	assert(sito1->Arr1Size() == 0);
-	//	assert(sito1->Arr2Size() == 0);
+	ISieve<int> *sito1 = new SieveA<int>{ };
+	assert(sito1->getMax() == 0);
+	assert(sito1->Arr1Size() == 0);
+	assert(sito1->Arr2Size() == 0);
 	return 0;
 }
